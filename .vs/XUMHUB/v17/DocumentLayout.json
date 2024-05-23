@@ -1,0 +1,283 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\artel\\source\\repos\\XUMHUB\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|C:\\Users\\artel\\source\\repos\\XUMHUB\\xumhub\\viewmodel\\returnsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|solutionrelative:xumhub\\viewmodel\\returnsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|c:\\users\\artel\\source\\repos\\xumhub\\xumhub\\classes\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|solutionrelative:xumhub\\classes\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|c:\\users\\artel\\source\\repos\\xumhub\\xumhub\\core\\dbmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|solutionrelative:xumhub\\core\\dbmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|c:\\users\\artel\\source\\repos\\xumhub\\xumhub\\core\\taskcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|solutionrelative:xumhub\\core\\taskcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|c:\\users\\artel\\source\\repos\\xumhub\\xumhub\\view\\returnsview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|solutionrelative:xumhub\\view\\returnsview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|c:\\users\\artel\\source\\repos\\xumhub\\xumhub\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|solutionrelative:xumhub\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|C:\\Users\\artel\\source\\repos\\XUMHUB\\xumhub\\view\\returnsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|solutionrelative:xumhub\\view\\returnsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|C:\\Users\\artel\\source\\repos\\XUMHUB\\xumhub\\viewmodel\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|solutionrelative:xumhub\\viewmodel\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|C:\\Users\\artel\\source\\repos\\XUMHUB\\xumhub\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|solutionrelative:xumhub\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|c:\\users\\artel\\source\\repos\\xumhub\\xumhub\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|solutionrelative:xumhub\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|c:\\users\\artel\\source\\repos\\xumhub\\xumhub\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|solutionrelative:xumhub\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|C:\\Users\\artel\\source\\repos\\XUMHUB\\xumhub\\core\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|solutionrelative:xumhub\\core\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|C:\\Users\\artel\\source\\repos\\XUMHUB\\xumhub\\view\\dashboardview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|solutionrelative:xumhub\\view\\dashboardview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|C:\\Users\\artel\\source\\repos\\XUMHUB\\xumhub\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|solutionrelative:xumhub\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|C:\\Users\\artel\\source\\repos\\XUMHUB\\xumhub\\viewmodel\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|solutionrelative:xumhub\\viewmodel\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|C:\\Users\\artel\\source\\repos\\XUMHUB\\xumhub\\view\\dashboardview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|solutionrelative:xumhub\\view\\dashboardview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 185,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Classes\\Customer.cs",
+              "RelativeDocumentMoniker": "XUMHUB\\Classes\\Customer.cs",
+              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Classes\\Customer.cs",
+              "RelativeToolTip": "XUMHUB\\Classes\\Customer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T18:21:29.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TaskCommand.cs",
+              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Core\\TaskCommand.cs",
+              "RelativeDocumentMoniker": "XUMHUB\\Core\\TaskCommand.cs",
+              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Core\\TaskCommand.cs",
+              "RelativeToolTip": "XUMHUB\\Core\\TaskCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T17:59:17.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DbManager.cs",
+              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Core\\DbManager.cs",
+              "RelativeDocumentMoniker": "XUMHUB\\Core\\DbManager.cs",
+              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Core\\DbManager.cs",
+              "RelativeToolTip": "XUMHUB\\Core\\DbManager.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAQwEsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T17:50:01.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "XUMHUB\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\MainWindow.xaml",
+              "RelativeToolTip": "XUMHUB\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-21T20:49:33.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Core\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "XUMHUB\\Core\\RelayCommand.cs",
+              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Core\\RelayCommand.cs",
+              "RelativeToolTip": "XUMHUB\\Core\\RelayCommand.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAEwCMAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T20:39:06.833Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\ViewModel\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "XUMHUB\\ViewModel\\MainViewModel.cs",
+              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\ViewModel\\MainViewModel.cs",
+              "RelativeToolTip": "XUMHUB\\ViewModel\\MainViewModel.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAqwCoAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T20:35:14.171Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DashboardView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\View\\DashboardView.xaml.cs",
+              "RelativeDocumentMoniker": "XUMHUB\\View\\DashboardView.xaml.cs",
+              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\View\\DashboardView.xaml.cs",
+              "RelativeToolTip": "XUMHUB\\View\\DashboardView.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T20:28:10.745Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\App.xaml",
+              "RelativeDocumentMoniker": "XUMHUB\\App.xaml",
+              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\App.xaml",
+              "RelativeToolTip": "XUMHUB\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-21T20:27:00.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DashboardViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\ViewModel\\DashboardViewModel.cs",
+              "RelativeDocumentMoniker": "XUMHUB\\ViewModel\\DashboardViewModel.cs",
+              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\ViewModel\\DashboardViewModel.cs",
+              "RelativeToolTip": "XUMHUB\\ViewModel\\DashboardViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T20:25:53.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ReturnsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\ViewModel\\ReturnsViewModel.cs",
+              "RelativeDocumentMoniker": "XUMHUB\\ViewModel\\ReturnsViewModel.cs",
+              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\ViewModel\\ReturnsViewModel.cs",
+              "RelativeToolTip": "XUMHUB\\ViewModel\\ReturnsViewModel.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAgwDYAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T20:25:32.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ReturnsView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\View\\ReturnsView.xaml.cs",
+              "RelativeDocumentMoniker": "XUMHUB\\View\\ReturnsView.xaml.cs",
+              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\View\\ReturnsView.xaml.cs",
+              "RelativeToolTip": "XUMHUB\\View\\ReturnsView.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T18:12:05.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "XUMHUB\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\MainWindow.xaml.cs",
+              "RelativeToolTip": "XUMHUB\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T18:12:00.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ReturnsView.xaml",
+              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\View\\ReturnsView.xaml",
+              "RelativeDocumentMoniker": "XUMHUB\\View\\ReturnsView.xaml",
+              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\View\\ReturnsView.xaml",
+              "RelativeToolTip": "XUMHUB\\View\\ReturnsView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-21T20:24:34.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\App.config",
+              "RelativeDocumentMoniker": "XUMHUB\\App.config",
+              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\App.config",
+              "RelativeToolTip": "XUMHUB\\App.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-05-22T18:06:52.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BaseViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\ViewModel\\BaseViewModel.cs",
+              "RelativeDocumentMoniker": "XUMHUB\\ViewModel\\BaseViewModel.cs",
+              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\ViewModel\\BaseViewModel.cs",
+              "RelativeToolTip": "XUMHUB\\ViewModel\\BaseViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T20:43:25.666Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DashboardView.xaml",
+              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\View\\DashboardView.xaml",
+              "RelativeDocumentMoniker": "XUMHUB\\View\\DashboardView.xaml",
+              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\View\\DashboardView.xaml",
+              "RelativeToolTip": "XUMHUB\\View\\DashboardView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-21T20:25:04.4Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
