@@ -1,11 +1,11 @@
-﻿using CommunityToolkit.Mvvm.Input;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Input;
+using XUMHUB.Core;
 using XUMHUB.View;
 
 namespace XUMHUB.ViewModel
@@ -33,14 +33,14 @@ namespace XUMHUB.ViewModel
 
         public MainViewModel()
         {
-            MinimizeCommand = new RelayCommand(OnMinimize);
-            MaximizeCommand = new RelayCommand(OnMaximize);
-            CloseCommand = new RelayCommand(OnClose);
+            MinimizeCommand = new RelayCommand(s => OnMinimize());
+            MaximizeCommand = new RelayCommand(s =>OnMaximize());
+            CloseCommand = new RelayCommand(s => OnClose());
 
 
             CurrentView=dashboardView;
-            DashboardViewCommand = new RelayCommand(ChangeToDashboard);
-            ReturnsViewCommand = new RelayCommand(ChangeToReturns);
+            DashboardViewCommand = new RelayCommand(s => ChangeToDashboard());
+            ReturnsViewCommand = new RelayCommand(s => ChangeToReturns());
 
         }
 

@@ -6,18 +6,23 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
+using XUMHUB.Classes;
 using XUMHUB.Core;
+using XUMHUB.DTOS;
 using XUMHUB.Model;
+using XUMHUB.Services;
+using XUMHUB.Services.ReturnsProvider;
 
 namespace XUMHUB.ViewModel
 {
     class ReturnsViewModel : BaseViewModel
     {
-        private readonly DbManager dbManager;
+        
 
-        private ObservableCollection<ReturnsInfo> _dataRows;
+        private ObservableCollection<ReturnsInfoModel> _dataRows;
+        private IReturnsProvider returnsProvider= new DatabaseReturnsInfoProvider();
 
-        public ObservableCollection<ReturnsInfo> DataRows 
+        public ObservableCollection<ReturnsInfoModel> DataRows 
         {
             get => _dataRows;
             set
@@ -30,32 +35,20 @@ namespace XUMHUB.ViewModel
         public ICommand LoadDataCommand { get; }
         public ReturnsViewModel() 
         {
-            dbManager = new DbManager();
+            
             LoadDataCommand = new TaskCommand(async () => await LoadData());
 
             LoadDataCommand.Execute(null);
+            
         }
         private async Task LoadData()
         {
-            var dataTable = await dbManager.SelectAsync("ReturnsInfo");
-            if (dataTable != null)
+            Return @return = new Return(returnsProvider);
+            IEnumerable<ReturnsInfoModel> returnsInfos=await @return.GetAllReturnsInfo();
+            DataRows = new ObservableCollection<ReturnsInfoModel>();
+            foreach(var returnsInfo in returnsInfos)
             {
-                DataRows = new ObservableCollection<ReturnsInfo>();
-
-                foreach(DataRow row in dataTable.Rows) 
-                {
-                    DataRows.Add(new ReturnsInfo
-                    {
-                        ReturnId = row["ReturnId"].ToString(),
-                        ReturnDate = row["ReturnDate"].ToString(),
-                        Status = row["Status"].ToString(),
-                        ReasonForReturn = row["ReasonForReturn"].ToString(),
-                        AdditionalReturnInfo = row["AdditionalReturnInfo"].ToString(),
-                        Diagnosis = row["Diagnosis"].ToString(),
-                        AditionalRepairInfo = row["AdditionalRepairInfo"].ToString()
-
-                    });
-                }
+                DataRows.Add(returnsInfo);
             }
         }
     }
