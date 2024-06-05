@@ -1,4 +1,5 @@
 ﻿using System.Windows.Controls;
+using XUMHUB.ViewModel;
 
 
 namespace XUMHUB.View
@@ -11,6 +12,8 @@ namespace XUMHUB.View
         public DashboardView()
         {
             InitializeComponent();
+            DashboardViewModel viewModel = new DashboardViewModel();
+            DataContext=viewModel;
         }
     }
 }

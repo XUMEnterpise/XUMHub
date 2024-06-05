@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace XUMHUB.ViewModel
 {
-    class BaseViewModel : INotifyPropertyChanged
+    public class BaseViewModel : INotifyPropertyChanged
     {
         public event PropertyChangedEventHandler? PropertyChanged;
 
@@ -16,5 +16,6 @@ namespace XUMHUB.ViewModel
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
+        public virtual void Dispose() { }
     }
 }

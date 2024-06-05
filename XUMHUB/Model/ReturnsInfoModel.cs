@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace XUMHUB.Classes
+namespace XUMHUB.Model
 {
     public class ReturnsInfoModel
     {

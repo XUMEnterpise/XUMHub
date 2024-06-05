@@ -5,7 +5,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Input;
+using System.Windows.Navigation;
+using XUMHUB.Commands;
 using XUMHUB.Core;
+using XUMHUB.Services;
+using XUMHUB.Stores;
 using XUMHUB.View;
 
 namespace XUMHUB.ViewModel
@@ -15,35 +19,26 @@ namespace XUMHUB.ViewModel
         public ICommand MinimizeCommand { get; }
         public ICommand MaximizeCommand { get; }
         public ICommand CloseCommand { get; }
-        private object _currentView;
-        DashboardView dashboardView = new DashboardView();
-        ReturnsView returnsView = new ReturnsView();
-        public RelayCommand ReturnsViewCommand { get; set; }
-        public RelayCommand DashboardViewCommand { get; set; }
+        private readonly NavigationStore navigationStore;
+        public ICommand DashboardViewCommnad { get; }
+        public ICommand ReturnsViewCommnad { get; }
 
-        public object CurrentView
+        public BaseViewModel CurrentViewModel => navigationStore.CurrentViewModel;
+        public MainViewModel(NavigationStore navigationStore,NavigationService<DashboardViewModel> dashboardNavigationSerivice,NavigationService<ReturnsListingViewModel> returnsNavigationSerive)
         {
-            get { return _currentView; }
-            set
-            {
-                _currentView = value;
-                OnPropertyChanged();
-            }
-        }
-
-        public MainViewModel()
-        {
+            this.navigationStore = navigationStore;
+            navigationStore.CurrentViewModelChanged += OnCurrentViewModelChanged;
             MinimizeCommand = new RelayCommand(s => OnMinimize());
             MaximizeCommand = new RelayCommand(s =>OnMaximize());
             CloseCommand = new RelayCommand(s => OnClose());
-
-
-            CurrentView=dashboardView;
-            DashboardViewCommand = new RelayCommand(s => ChangeToDashboard());
-            ReturnsViewCommand = new RelayCommand(s => ChangeToReturns());
+            DashboardViewCommnad = new NavigateCommand<DashboardViewModel>(dashboardNavigationSerivice);
+            ReturnsViewCommnad = new NavigateCommand<ReturnsListingViewModel>(returnsNavigationSerive);
 
         }
-
+        private void OnCurrentViewModelChanged()
+        {
+            OnPropertyChanged(nameof(CurrentViewModel));
+        }
         private void OnClose()
         {
             Application.Current.MainWindow.Close();
@@ -64,14 +59,6 @@ namespace XUMHUB.ViewModel
         private void OnMinimize()
         {
             Application.Current.MainWindow.WindowState = WindowState.Minimized;
-        }
-        private void ChangeToDashboard()
-        {
-            CurrentView = dashboardView;
-        }
-        private void ChangeToReturns()
-        {
-            CurrentView = returnsView;
         }
     }
 }

@@ -5,8 +5,100 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:XUMHUB.View"
              mc:Ignorable="d" 
-             d:DesignHeight="450" d:DesignWidth="800">
+             d:DesignHeight="450" d:DesignWidth="800" Background="Transparent">
     <Grid>
-        <Label>Dashboard</Label>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.1*"/>
+            <RowDefinition Height="0.95*"/>
+        </Grid.RowDefinitions>
+        <TextBlock Text="Dashboard" Style="{StaticResource Header}" Margin="15 0 0 0"/>
+        <Grid Grid.Row="1">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="0.65*"/>
+                    <RowDefinition Height="0.35*"/>
+                </Grid.RowDefinitions>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Border Margin="10" CornerRadius="10" Background="Gray" Grid.Column="0">
+                        <StackPanel>
+                            <TextBlock Text="Built today" 
+                                       Style="{StaticResource Header}"
+                                       Margin="25 25 0 30"/>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="Laptops:" 
+                                       Margin="25 0 0 15"
+                                       Style="{StaticResource Label}"/>
+                                <TextBlock Text="{Binding LaptopCountBuilt}" 
+                                         Margin="15 0 0 15"
+                                         Style="{StaticResource Label}"/>
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="Desktops:" 
+                                       Margin="25 0 0 15"
+                                       Style="{StaticResource Label}"/>
+                                <TextBlock Text="N/A" 
+                                         Margin="15 0 0 15"
+                                         Style="{StaticResource Label}"/>
+                            </StackPanel>
+
+                        </StackPanel>
+                    </Border>
+                    <Border Margin="10" CornerRadius="10" Background="Gray" Grid.Column="1">
+                        <StackPanel>
+                            <TextBlock Text="Tested today" 
+                                       Style="{StaticResource Header}"
+                                        Margin="25 25 0 30"/>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="Laptops:" 
+                                       Margin="25 0 0 15"
+                                       Style="{StaticResource Label}"/>
+                                <TextBlock Text="N/A" 
+                                         Margin="15 0 0 15"
+                                         Style="{StaticResource Label}"/>
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="Desktops:" 
+                                       Margin="25 0 0 15"
+                                       Style="{StaticResource Label}"/>
+                                <TextBlock Text="N/A" 
+                                         Margin="15 0 0 15"
+                                         Style="{StaticResource Label}"/>
+                            </StackPanel>
+                            
+                        </StackPanel>
+                    </Border>
+                    <Border Margin="10" CornerRadius="10" Background="Gray" Grid.Column="2">
+                        <StackPanel>
+                            <TextBlock Text="Packed today" 
+                                       Style="{StaticResource Header}"
+                                        Margin="25 25 0 30"/>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="Laptops:" 
+                                       Margin="25 0 0 15"
+                                       Style="{StaticResource Label}"/>
+                                <TextBlock Text="N/A" 
+                                         Margin="15 0 0 15"
+                                         Style="{StaticResource Label}"/>
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="Desktops:" 
+                                       Margin="25 0 0 15"
+                                       Style="{StaticResource Label}"/>
+                                <TextBlock Text="N/A" 
+                                         Margin="15 0 0 15"
+                                         Style="{StaticResource Label}"/>
+                            </StackPanel>
+
+                        </StackPanel>
+                    </Border>
+
+                </Grid>
+            </Grid>
+        </Grid>
     </Grid>
 </UserControl>

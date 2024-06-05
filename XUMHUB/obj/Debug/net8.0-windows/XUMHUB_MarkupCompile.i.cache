@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\repos\XUMHub\XUMHUB\obj\Debug\net8.0-windows\
+C:\Users\artel\source\repos\XUMHUB\XUMHUB\obj\Debug\net8.0-windows\
 XUMHUB
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-C:\repos\XUMHub\XUMHUB\App.xaml
+C:\Users\artel\source\repos\XUMHUB\XUMHUB\App.xaml
 5-1764467005
 
-32-71408078
+45-1113249200
 238-1076357921
 MainWindow.xaml;Resources\Styles.xaml;View\CustomerView.xaml;View\DashboardView.xaml;View\ReturnsView.xaml;
 
-False
+True
 

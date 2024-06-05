@@ -4,17 +4,20 @@
              xmlns:local="clr-namespace:XUMHUB"
              xmlns:viewmodel="clr-namespace:XUMHUB.ViewModel"
              xmlns:view="clr-namespace:XUMHUB.View"
-             StartupUri="MainWindow.xaml">
+             >
     <Application.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="Resources/Styles.xaml"/>
             </ResourceDictionary.MergedDictionaries>
-            <DataTemplate DataType="{x:Type viewmodel:ReturnsViewModel}">
+            <DataTemplate DataType="{x:Type viewmodel:ReturnsListingViewModel}">
                 <view:ReturnsView/>
             </DataTemplate>
             <DataTemplate DataType="{x:Type viewmodel:DashboardViewModel}">
                 <view:DashboardView/>
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type viewmodel:CustomerReturnViewModel}">
+                <view:CustomerView/>
             </DataTemplate>
         </ResourceDictionary>
 

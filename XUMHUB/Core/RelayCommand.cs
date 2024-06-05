@@ -7,7 +7,7 @@ using System.Windows.Input;
 
 namespace XUMHUB.Core
 {
-    class RelayCommand : ICommand
+    public class RelayCommand : ICommand
     {
         private readonly Action<object> _execute;
 

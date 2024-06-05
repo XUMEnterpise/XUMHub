@@ -8,9 +8,22 @@
         <Setter Property="Margin" Value="15"/>
     </Style>
     <Style TargetType="Button" x:Key="topBarButtons">
-        <Setter Property="Width" Value="40"/>
-        <Setter Property="Height" Value="40"/>
-        <Setter Property="Margin" Value="0"/>
+        <Setter Property="Width" Value="25"/>
+        <Setter Property="Height" Value="25"/>
+        <Setter Property="Margin" Value="2"/>
         <Setter Property="Background" Value="Gray"/>
+    </Style>
+    <Style TargetType="TextBlock">
+        <Setter Property="FontFamily" Value="segoe ui"/>
+        
+    </Style>
+    <Style TargetType="TextBlock" x:Key="Header">
+        <Setter Property="FontSize" Value="24"/>
+        <Setter Property="FontWeight" Value="Bold"/>
+        <Setter Property="Foreground" Value="#E9E9E9"/>
+    </Style>
+    <Style TargetType="TextBlock" x:Key="Label">
+        <Setter Property="FontSize" Value="15"/>
+        <Setter Property="Foreground" Value="#E9E9E9"/>
     </Style>
 </ResourceDictionary>

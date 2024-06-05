@@ -20,8 +20,6 @@ namespace XUMHUB
         public MainWindow()
         {
             InitializeComponent();
-            MainViewModel viewModel = new MainViewModel();
-            DataContext = viewModel;
         }
     }
 }

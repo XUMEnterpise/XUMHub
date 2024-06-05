@@ -7,7 +7,7 @@
         xmlns:core="clr-namespace:XUMHUB.Core"
         xmlns:viewmodel="clr-namespace:XUMHUB.ViewModel"
         mc:Ignorable="d" WindowStyle="None"
-        Title="Returns" Height="700" Width="1200">
+        Title="Returns" Height="700" Width="1200" Background="#2E302F">
     <WindowChrome.WindowChrome>
         <WindowChrome GlassFrameThickness="0" CornerRadius="0" CaptionHeight="0"/>
     </WindowChrome.WindowChrome>
@@ -17,7 +17,7 @@
             <RowDefinition/>
         </Grid.RowDefinitions>
         <Grid Background="LightGray" Grid.Row="0" core:DragBehavior.EnableDrag="True">
-            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,0,5,0" >
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="5" >
                 <Button x:Name="minimizeButton" Style="{StaticResource topBarButtons}" Command="{Binding MinimizeCommand}">
                     <Image Source="/minus.png"/>
                 </Button>
@@ -40,11 +40,11 @@
                     <RowDefinition/>
                 </Grid.RowDefinitions>
                 <StackPanel Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Top">
-                    <Button Content="Dashboard" Command="{Binding DashboardViewCommand}"/>
-                    <Button Content="Returns"  Command="{Binding ReturnsViewCommand}"/>
+                    <Button Content="Dashboard" Command="{Binding DashboardViewCommnad}"/>
+                    <Button Content="Returns"  Command="{Binding ReturnsViewCommnad}"/>
                 </StackPanel>
             </Grid>
-            <ContentControl  Grid.Column="1" Margin="10" Content="{Binding CurrentView}"/>
+            <ContentControl  Grid.Column="1" Margin="10" Content="{Binding CurrentViewModel}"/>
             
         </Grid>
     </Grid>
