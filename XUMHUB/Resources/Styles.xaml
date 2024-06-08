@@ -26,4 +26,10 @@
         <Setter Property="FontSize" Value="15"/>
         <Setter Property="Foreground" Value="#E9E9E9"/>
     </Style>
+    <Style TargetType="Border" x:Key="Tile">
+        <!--Margin="10" CornerRadius="10" Background="Gray"-->
+        <Setter Property="Margin" Value="10"/>
+        <Setter Property="CornerRadius" Value="10"/>
+        <Setter Property="Background" Value="Gray"/>
+    </Style>
 </ResourceDictionary>

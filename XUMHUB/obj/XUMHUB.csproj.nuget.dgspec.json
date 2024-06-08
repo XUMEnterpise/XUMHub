@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\XUMHUB.csproj": {}
+    "C:\\repos\\XUMHub\\XUMHUB\\XUMHUB.csproj": {}
   },
   "projects": {
-    "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\XUMHUB.csproj": {
+    "C:\\repos\\XUMHub\\XUMHUB\\XUMHUB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\XUMHUB.csproj",
+        "projectUniqueName": "C:\\repos\\XUMHub\\XUMHUB\\XUMHUB.csproj",
         "projectName": "XUMHUB",
-        "projectPath": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\XUMHUB.csproj",
+        "projectPath": "C:\\repos\\XUMHub\\XUMHUB\\XUMHUB.csproj",
         "packagesPath": "C:\\Users\\artel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\obj\\",
+        "outputPath": "C:\\repos\\XUMHub\\XUMHUB\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\Zebra Technologies\\link_os_sdk\\PC-.NET\\v2.15.2634\\lib": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },

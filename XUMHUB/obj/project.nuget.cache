@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RjGA+aEzo5gSjX1MrK0/Gmb+b6Wiwdh7HNZaOwVz0Tin8twJ9vHKTC+lNUS7pakqPgD6S5oFPQKtyqqLecF2Cw==",
+  "dgSpecHash": "OwB09WZK9mMd+dBbWB58zbu7isIizuoz9HQekGvEjGN7wMwXAobpwsNqH88y5dwIoVuC7BPD5grhPOPeAzM4sA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\XUMHUB.csproj",
+  "projectFilePath": "C:\\repos\\XUMHub\\XUMHUB\\XUMHUB.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\artel\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\artel\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

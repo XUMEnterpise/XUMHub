@@ -21,6 +21,10 @@ namespace XUMHUB.ViewModel
         public string Diagnosis => _returnsInfo?.Diagnosis ?? "Not provided";
         public string AditionalRepairInfo => _returnsInfo?.AdditionalReturnInfo ?? "Not provided";
 
+        public string Channel => orderHistory?.Channel ?? "Not provided";
+        public string ChannelRefference => customerInfoModel?.ChannelRefference ?? "Not provided";
+        
+
 
         public ReturnsInfoViewModel(ReturnsInfoModel returnsInfo, HistoryModel orderHistory, CustomerInfoModel customerInfoModel)
         {

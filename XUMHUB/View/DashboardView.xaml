@@ -24,7 +24,7 @@
                         <ColumnDefinition/>
                         <ColumnDefinition/>
                     </Grid.ColumnDefinitions>
-                    <Border Margin="10" CornerRadius="10" Background="Gray" Grid.Column="0">
+                    <Border Style="{StaticResource Tile}" Grid.Column="0">
                         <StackPanel>
                             <TextBlock Text="Built today" 
                                        Style="{StaticResource Header}"
@@ -48,7 +48,7 @@
 
                         </StackPanel>
                     </Border>
-                    <Border Margin="10" CornerRadius="10" Background="Gray" Grid.Column="1">
+                    <Border Style="{StaticResource Tile}" Grid.Column="1">
                         <StackPanel>
                             <TextBlock Text="Tested today" 
                                        Style="{StaticResource Header}"
@@ -72,7 +72,7 @@
                             
                         </StackPanel>
                     </Border>
-                    <Border Margin="10" CornerRadius="10" Background="Gray" Grid.Column="2">
+                    <Border Style="{StaticResource Tile}" Grid.Column="2">
                         <StackPanel>
                             <TextBlock Text="Packed today" 
                                        Style="{StaticResource Header}"

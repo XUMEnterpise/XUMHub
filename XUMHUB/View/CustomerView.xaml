@@ -7,19 +7,92 @@
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800" Background="Transparent">
     <Grid Margin="45 15">
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-        </Grid.ColumnDefinitions>
-        <StackPanel>
-            <StackPanel Orientation="Horizontal" Margin="0 5 0 0">
-                <TextBlock  Text="Order Number:" VerticalAlignment="Center" HorizontalAlignment="Center" Style="{StaticResource Label}"/>
-                <TextBlock x:Name="OrderNumberTextBox" Text="{Binding OrderNumber}"  Margin="15 0 0 0" Style="{StaticResource Label}"/>
-            </StackPanel>
-            <StackPanel Orientation="Horizontal" Margin="0 5 0 0" >
-                <TextBlock Text="SKU" VerticalAlignment="Center" HorizontalAlignment="Center" Style="{StaticResource Label}"/>
-                <TextBlock Text="{Binding SKU}" Margin="15 0 0 0" Style="{StaticResource Label}"/>
-            </StackPanel>
-        </StackPanel>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Border Style="{StaticResource Tile}">
+                <Grid Margin="15">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="1*" />
+                        <RowDefinition Height="1*" />
+                        <RowDefinition Height="1*" />
+                        <RowDefinition Height="1*" />
+                        <RowDefinition Height="1*" />
+                        <RowDefinition Height="1*" />
+                    </Grid.RowDefinitions>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="0.15*" />
+                            <ColumnDefinition Width="0.85*" />
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Text="Name: " Style="{StaticResource Label}" VerticalAlignment="Center"/>
+                        <TextBlock Text="{Binding CustomerName}" Style="{StaticResource Label}" VerticalAlignment="Center" Grid.Column="1"/>
+
+                    </Grid>
+                    <Grid Grid.Row="1">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="0.25*" />
+                            <ColumnDefinition Width="0.85*" />
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Text="Order ID: " Style="{StaticResource Label}" VerticalAlignment="Center" Grid.Row="1"/>
+                        <TextBlock Text="{Binding OrderNumber}" Style="{StaticResource Label}" VerticalAlignment="Center" Grid.Column="1"/>
+                    </Grid>
+                    <Grid Grid.Row="2">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="0.15*" />
+                            <ColumnDefinition Width="0.85*" />
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Text="SKU: " Style="{StaticResource Label}" VerticalAlignment="Center" Grid.Row="2"/>
+                        <TextBlock Text="{Binding SKU}" Style="{StaticResource Label}" VerticalAlignment="Center" Grid.Column="1"/>
+                    </Grid>
+                    <Grid Grid.Row="3">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="0.45*" />
+                            <ColumnDefinition Width="0.5*" />
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Text="Channel Refference : " Style="{StaticResource Label}" VerticalAlignment="Center" Grid.Row="3"/>
+                        <TextBlock Text="{Binding ChannelRefference}" Style="{StaticResource Label}" VerticalAlignment="Center" Grid.Column="1"/>
+                    </Grid>
+                    <Grid Grid.Row="4">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="0.25*" />
+                            <ColumnDefinition Width="0.65*" />
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Text="Order Date : " Style="{StaticResource Label}" VerticalAlignment="Center" Grid.Row="3"/>
+                        <TextBlock Text="{Binding OrderDate}" Style="{StaticResource Label}" VerticalAlignment="Center" Grid.Column="1"/>
+                    </Grid>
+                    <Grid Grid.Row="5">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="0.25*" />
+                            <ColumnDefinition Width="0.75*" />
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Text="Channel : " Style="{StaticResource Label}" VerticalAlignment="Center" Grid.Row="3"/>
+                        <TextBlock Text="{Binding Channel}" Style="{StaticResource Label}" VerticalAlignment="Center" Grid.Column="1"/>
+                    </Grid>
+                </Grid>
+            </Border>
+            <Border Style="{StaticResource Tile}" Grid.Column="1">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height=".25*" />
+                        <RowDefinition Height=".25*" />
+                        <RowDefinition Height=".5*" />
+                    </Grid.RowDefinitions>
+                    <StackPanel Margin="15 15 30 0">
+                        <TextBlock Text="Status: " Style="{StaticResource Label}" />
+                        <ComboBox SelectedItem="{Binding Status, Mode=TwoWay}"
+                                  ItemsSource="{Binding Options}">
+                        </ComboBox>
+                    </StackPanel>
+                </Grid>
+            </Border>
+        </Grid>
+        <Border Grid.Row="1" Style="{StaticResource Tile}"></Border>
     </Grid>
 </UserControl>
