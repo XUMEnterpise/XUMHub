@@ -11,6 +11,7 @@ namespace XUMHUB.ViewModel
     {
 		private int _laptopCountBuilt;
 		public DashboardModel dashboardModel;
+		
         public DashboardViewModel()
         {
 			dashboardModel = new DashboardModel();
@@ -28,9 +29,51 @@ namespace XUMHUB.ViewModel
 				OnPropertyChanged(nameof(LaptopCountBuilt));
 			}
 		}
-		public void LoadData()
+		private int _desktopBuiltToday;
+		public int DesktopBuiltToday
 		{
-			_laptopCountBuilt = 0;
+			get
+			{
+				return _desktopBuiltToday;
+			}
+			set
+			{
+				_desktopBuiltToday = value;
+				OnPropertyChanged(nameof(DesktopBuiltToday));
+			}
+		}
+		private int _desktopOrdersToday;
+		public int DesktopOrdersToday
+		{
+			get
+			{
+				return _desktopOrdersToday;
+			}
+			set
+			{
+				_desktopOrdersToday = value;
+				OnPropertyChanged(nameof(DesktopOrdersToday));
+			}
+		}
+		private int _laptopOrdersToday;
+		public int LaptopOrdersToday
+		{
+			get
+			{
+				return _laptopOrdersToday;
+			}
+			set
+			{
+				_laptopOrdersToday = value;
+				OnPropertyChanged(nameof(LaptopOrdersToday));
+			}
+		}
+		public async Task LoadData()
+		{
+			LaptopCountBuilt = await dashboardModel.LaptopBuiltToday();
+			DesktopBuiltToday = await dashboardModel.DesktopBuiltToday();
+			DesktopOrdersToday = await dashboardModel.DesktopOrdersToday();
+			LaptopOrdersToday= await dashboardModel.LaptopOrdersToday();
 		}
 	}
 }

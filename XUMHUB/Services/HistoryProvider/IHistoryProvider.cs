@@ -11,6 +11,9 @@ namespace XUMHUB.Services.HistoryProvider
     {
         public Task<IEnumerable<HistoryModel>> GetAllHistory();
         public Task<HistoryModel> GetOrderByOrderID(string orderID);
+        public Task<int> GetDesktopBuilpAmountToday();
         public Task<int> GetLaptopAmountToday();
+        public Task<int> GetDesktopOrdersToday();
+        public Task<int> GetLaptopOrdersToday();
     }
 }

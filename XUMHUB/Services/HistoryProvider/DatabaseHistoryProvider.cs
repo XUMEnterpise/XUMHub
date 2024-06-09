@@ -39,8 +39,37 @@ namespace XUMHUB.Services.HistoryProvider
             {
                 DateOnly date= DateOnly.FromDateTime(DateTime.Today);
 
-                return await dbContext.Histories.Where(r => r.Sku.StartsWith("L") && r.Date==date).CountAsync();
+                return await dbContext.Histories.Where(r => r.Channel.Equals("Laptop") && r.Date.Equals(date)).CountAsync();
             }
         }
+        public async Task<int> GetDesktopBuilpAmountToday()
+        {
+            using (XumdbContext dbContext = new XumdbContext())
+            {
+                DateOnly date = DateOnly.FromDateTime(DateTime.Today);
+
+                return await dbContext.Histories.Where(r => r.Channel.Equals("Prebuilt") && r.Date.Equals(date)).CountAsync();
+            }
+        }
+
+        public async Task<int> GetDesktopOrdersToday()
+        {
+            using (XumdbContext dbContext = new XumdbContext())
+            {
+                DateOnly date = DateOnly.FromDateTime(DateTime.Today);
+
+                return await dbContext.Histories.Where(r => !r.Channel.Equals("Prebuilt") && !r.Channel.Equals("Laptop") && r.Date.Equals(date) && r.Sku.StartsWith("C")).CountAsync();
+            }
+        }
+        public async Task<int> GetLaptopOrdersToday()
+        {
+            using (XumdbContext dbContext = new XumdbContext())
+            {
+                DateOnly date = DateOnly.FromDateTime(DateTime.Today);
+
+                return await dbContext.Histories.Where(r => !r.Channel.Equals("Prebuilt") && !r.Channel.Equals("Laptop") && r.Date.Equals(date) && r.Sku.StartsWith("L")).CountAsync();
+            }
+        }
+
     }
 }
