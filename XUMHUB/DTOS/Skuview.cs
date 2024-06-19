@@ -3,9 +3,9 @@ using System.Collections.Generic;
 
 namespace XUMHUB.DTOS;
 
-public partial class Sku
+public partial class Skuview
 {
-    public string? Sku1 { get; set; }
+    public string? Sku { get; set; }
 
     public string? Case { get; set; }
 
@@ -20,8 +20,4 @@ public partial class Sku
     public string? Hdd { get; set; }
 
     public string? Ssd { get; set; }
-
-    public int Id { get; set; }
-
-    public string Windows { get; set; } = null!;
 }

@@ -24,13 +24,13 @@ namespace XUMHUB.Services.HistoryProvider
         {
             using (XumdbContext dbContext = new XumdbContext())
             {
-                IEnumerable<History> histories = await dbContext.Histories.Where(r => r.OrderId == orderID).ToListAsync();
+                IEnumerable<History> histories = await dbContext.Histories.Where(r => r.Orderid == orderID).ToListAsync();
                 return histories.Select(r => ToOrderModel(r)).LastOrDefault();
             }
         }
         private static HistoryModel ToOrderModel(History r)
         {
-            return new HistoryModel(r.Id,r.OrderId,r.Sku,r.Qty,r.Channel,r.Date,r.IsTested,r.TestedBy,r.TestStatus);
+            return new HistoryModel(r.Id,r.Orderid,r.Sku,Int32.Parse(r.Qty),r.Channel,r.Date,r.IsTested,r.TestedBy,r.TestStatus);
         }
 
         public async Task<int> GetLaptopAmountToday()

@@ -55,7 +55,7 @@ public partial class XumdbContext : DbContext
 
             entity.Property(e => e.Date).HasDefaultValueSql("(getdate())");
             entity.Property(e => e.IsTested).HasDefaultValue(false);
-            entity.Property(e => e.OrderId).IsFixedLength();
+            entity.Property(e => e.Orderid).IsFixedLength();
             entity.Property(e => e.TestStatus).HasDefaultValue("N/A");
             entity.Property(e => e.TestedBy).HasDefaultValue("N/A");
         });

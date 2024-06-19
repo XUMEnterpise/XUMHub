@@ -1,42 +1,31 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-using Microsoft.EntityFrameworkCore;
 
 namespace XUMHUB.DTOS;
 
-[Table("History")]
 public partial class History
 {
-    [Key]
     public int Id { get; set; }
 
-    [StringLength(25)]
-    public string? OrderId { get; set; }
+    public string Orderid { get; set; } = null!;
 
-    [Column("SKU")]
-    [StringLength(255)]
-    [Unicode(false)]
-    public string? Sku { get; set; }
+    public string Sku { get; set; } = null!;
 
-    [Column("QTY")]
-    public int? Qty { get; set; }
+    public string Qty { get; set; } = null!;
 
-    [StringLength(255)]
-    [Unicode(false)]
     public string? Channel { get; set; }
 
-    public DateOnly? Date { get; set; }
+    public DateOnly Date { get; set; }
 
-    [Column("isTested")]
-    public bool? IsTested { get; set; }
+    public bool IsTested { get; set; }
 
-    [StringLength(255)]
-    [Unicode(false)]
-    public string? TestedBy { get; set; }
+    public string TestedBy { get; set; } = null!;
 
-    [StringLength(255)]
-    [Unicode(false)]
-    public string? TestStatus { get; set; }
+    public string TestStatus { get; set; } = null!;
+
+    public string? PackedBy { get; set; }
+
+    public DateTime? PackedDate { get; set; }
+
+    public string? AssignedNumber { get; set; }
 }
