@@ -1,0 +1,41 @@
+﻿<UserControl x:Class="XUMHUB.View.CSVUploadView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:XUMHUB.View"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <StackPanel Orientation="Horizontal" Margin="15 0 0 0">
+                <TextBlock Text="PO Number: " Style="{StaticResource Label}" VerticalAlignment="Center"/>
+                <TextBox  VerticalAlignment="Center" Width="150px" Text="{Binding PoNumber, UpdateSourceTrigger=PropertyChanged}"/>
+                
+            </StackPanel>
+        </Grid>
+        <Grid Grid.Row="1">
+            <StackPanel Orientation="Horizontal" Margin="15 0 0 0">
+                <TextBlock Text="PO Title: " Style="{StaticResource Label}" VerticalAlignment="Center"/>
+                <TextBox  VerticalAlignment="Center" Width="150px" Text="{Binding POTitle, UpdateSourceTrigger=PropertyChanged}"/>
+
+            </StackPanel>
+        </Grid>
+        <Grid Grid.Row="2">
+            <StackPanel Orientation="Horizontal" Margin="15 0 0 0">
+                <TextBlock Text="CSV Path: " Style="{StaticResource Label}" VerticalAlignment="Center"/>
+                <Button Content="Open CSV" Command="{Binding OpenFileCommand}"/>
+            </StackPanel>
+        </Grid>
+        <Grid Grid.Row="3">
+            <Button Content="Save" Command="{Binding Save}"/>
+            
+        </Grid>
+    </Grid>
+</UserControl>

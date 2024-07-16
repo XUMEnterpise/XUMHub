@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using XUMHUB.Model;
+using System.Timers;
 
 namespace XUMHUB.ViewModel
 {
@@ -11,12 +12,23 @@ namespace XUMHUB.ViewModel
     {
 		private int _laptopCountBuilt;
 		public DashboardModel dashboardModel;
-		
+        private System.Timers.Timer _timer;
+
         public DashboardViewModel()
         {
 			dashboardModel = new DashboardModel();
 			LoadData();
+            _timer = new System.Timers.Timer(1000); // 30 seconds interval
+            _timer.Elapsed += OnTimedEvent;
+            _timer.AutoReset = true;
+            _timer.Enabled = true;
         }
+
+        private void OnTimedEvent(object? sender, ElapsedEventArgs e)
+        {
+			LoadData();
+        }
+
         public int LaptopCountBuilt
 		{
 			get

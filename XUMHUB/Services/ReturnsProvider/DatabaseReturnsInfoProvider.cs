@@ -4,7 +4,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using XUMHUB.DBContext;
 using XUMHUB.DTOS;
 using XUMHUB.Model;
 
@@ -16,7 +15,7 @@ namespace XUMHUB.Services.ReturnsProvider
 
         public async Task<IEnumerable<ReturnsInfoModel>> GetReturnsInfo()
         {
-            using(XumdbContext dbContext = new XumdbContext())
+            using(DBContext dbContext = new DBContext())
             {
                 IEnumerable<ReturnsInfo> returnsInfoDTO = await dbContext.ReturnsInfos.ToListAsync();
                 return returnsInfoDTO.Select(r => ToReturnInfo(r));
@@ -24,7 +23,7 @@ namespace XUMHUB.Services.ReturnsProvider
         }
         public async Task<IEnumerable<ReturnsInfoModel>> GetReturnInfoByOrderID(string orderID)
         {
-            using (XumdbContext dbContext = new XumdbContext())
+            using (DBContext dbContext = new DBContext())
             {
                 IEnumerable<ReturnsInfo> returnsInfoDTO = await dbContext.ReturnsInfos.Where(r => r.OrderId == orderID).ToListAsync();
                 return returnsInfoDTO.Select(r => ToReturnInfo(r));

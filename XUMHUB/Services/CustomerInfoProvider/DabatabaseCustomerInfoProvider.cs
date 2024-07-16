@@ -4,7 +4,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using XUMHUB.DBContext;
 using XUMHUB.DTOS;
 using XUMHUB.Model;
 
@@ -14,7 +13,7 @@ namespace XUMHUB.Services.CustomerInfoProvider
     {
         public async Task<CustomerInfoModel> GetByOrderNumber(string orderID)
         {
-            using (XumdbContext dBContext = new XumdbContext())
+            using (DBContext dBContext = new DBContext())
             {
                 IEnumerable<CustomerInfo> customerInfoDTOS = await dBContext.CustomerInfos.Where(r => r.OrderId==orderID).ToListAsync();
                 return customerInfoDTOS.Select(r => ToCustomerInfo(r)).LastOrDefault();
@@ -23,7 +22,7 @@ namespace XUMHUB.Services.CustomerInfoProvider
 
         public async Task<IEnumerable<CustomerInfoModel>> GetCustomerInfo()
         {
-            using (XumdbContext dBContext = new XumdbContext())
+            using (DBContext dBContext = new DBContext())
             {
                 IEnumerable<CustomerInfo> customerInfoDTOS = await dBContext.CustomerInfos.ToListAsync();
                 return customerInfoDTOS.Select(r => ToCustomerInfo(r));

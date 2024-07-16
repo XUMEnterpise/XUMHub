@@ -20,19 +20,21 @@ namespace XUMHUB.ViewModel
         public ICommand MaximizeCommand { get; }
         public ICommand CloseCommand { get; }
         private readonly NavigationStore navigationStore;
-        public ICommand DashboardViewCommnad { get; }
-        public ICommand ReturnsViewCommnad { get; }
+        public ICommand DashboardViewCommand { get; }
+        public ICommand ReturnsViewCommand { get; }
+        public ICommand ToolsViewCommand { get; }
 
         public BaseViewModel CurrentViewModel => navigationStore.CurrentViewModel;
-        public MainViewModel(NavigationStore navigationStore,NavigationService<DashboardViewModel> dashboardNavigationSerivice,NavigationService<ReturnsListingViewModel> returnsNavigationSerive)
+        public MainViewModel(NavigationStore navigationStore,NavigationService<DashboardViewModel> dashboardNavigationSerivice,NavigationService<ReturnsListingViewModel> returnsNavigationSerive,NavigationService<ToolsViewModel> toolsViewNavigationService)
         {
             this.navigationStore = navigationStore;
             navigationStore.CurrentViewModelChanged += OnCurrentViewModelChanged;
             MinimizeCommand = new RelayCommand(s => OnMinimize());
             MaximizeCommand = new RelayCommand(s =>OnMaximize());
             CloseCommand = new RelayCommand(s => OnClose());
-            DashboardViewCommnad = new NavigateCommand<DashboardViewModel>(dashboardNavigationSerivice);
-            ReturnsViewCommnad = new NavigateCommand<ReturnsListingViewModel>(returnsNavigationSerive);
+            DashboardViewCommand = new NavigateCommand<DashboardViewModel>(dashboardNavigationSerivice);
+            ReturnsViewCommand = new NavigateCommand<ReturnsListingViewModel>(returnsNavigationSerive);
+            ToolsViewCommand = new NavigateCommand<ToolsViewModel>(toolsViewNavigationService);
 
         }
         private void OnCurrentViewModelChanged()

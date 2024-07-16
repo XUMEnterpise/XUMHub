@@ -40,8 +40,9 @@
                     <RowDefinition/>
                 </Grid.RowDefinitions>
                 <StackPanel Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Top">
-                    <Button Content="Dashboard" Command="{Binding DashboardViewCommnad}"/>
-                    <Button Content="Returns"  Command="{Binding ReturnsViewCommnad}"/>
+                    <Button Content="Dashboard" Command="{Binding DashboardViewCommand}"/>
+                    <Button Content="Returns"  Command="{Binding ReturnsViewCommand}"/>
+                    <Button Content="Tools"  Command="{Binding ToolsViewCommand}"/>
                 </StackPanel>
             </Grid>
             <ContentControl  Grid.Column="1" Margin="10" Content="{Binding CurrentViewModel}"/>

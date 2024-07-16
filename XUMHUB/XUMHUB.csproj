@@ -12,16 +12,23 @@
     <None Remove="close.png" />
     <None Remove="maximize.png" />
     <None Remove="minus.png" />
+    <None Remove="View\clipboard.png" />
+    <None Remove="View\csv.png" />
   </ItemGroup>
 
   <ItemGroup>
     <Resource Include="close.png" />
     <Resource Include="maximize.png" />
     <Resource Include="minus.png" />
+    <Resource Include="View\clipboard.png" />
+    <Resource Include="View\csv.png" />
   </ItemGroup>
 
   <ItemGroup>
     <None Update="Resources\close.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\csv.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="Resources\maximize.png">
@@ -34,7 +41,6 @@
 
   <ItemGroup>
     <Folder Include="DTOS\" />
-    <Folder Include="DBContext\" />
   </ItemGroup>
 
   <ItemGroup>

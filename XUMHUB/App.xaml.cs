@@ -24,12 +24,14 @@ namespace XUMHUB
             DashboardViewModel dashboardViewModel = new DashboardViewModel();
             _navigationStore.CurrentViewModel = dashboardViewModel;
             ReturnsListingViewModel returnsListingView = new ReturnsListingViewModel(_navigationStore);
+            ToolsViewModel toolsViewModel = new ToolsViewModel( _navigationStore);
             NavigationService<DashboardViewModel> dashNavServ = new NavigationService<DashboardViewModel>(_navigationStore,()=>dashboardViewModel);
             NavigationService<ReturnsListingViewModel> returnNavSer = new NavigationService<ReturnsListingViewModel>(_navigationStore,()=> returnsListingView);
+            NavigationService<ToolsViewModel> toolsNavSer = new NavigationService<ToolsViewModel>(_navigationStore,()=> toolsViewModel);
             
             MainWindow = new MainWindow()
             {
-                DataContext = new MainViewModel(_navigationStore, dashNavServ,returnNavSer)
+                DataContext = new MainViewModel(_navigationStore, dashNavServ,returnNavSer,toolsNavSer)
             };
             MainWindow.Show();
             base.OnStartup(e);

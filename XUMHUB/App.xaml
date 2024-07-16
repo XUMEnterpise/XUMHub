@@ -19,6 +19,12 @@
             <DataTemplate DataType="{x:Type viewmodel:CustomerReturnViewModel}">
                 <view:CustomerView/>
             </DataTemplate>
+            <DataTemplate DataType="{x:Type viewmodel:ToolsViewModel}">
+                <view:ToolsView/>
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type viewmodel:CSVUploadViewModel}">
+                <view:CSVUploadView/>
+            </DataTemplate>
         </ResourceDictionary>
 
     </Application.Resources>

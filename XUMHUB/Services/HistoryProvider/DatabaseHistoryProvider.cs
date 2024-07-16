@@ -4,7 +4,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using XUMHUB.DBContext;
 using XUMHUB.DTOS;
 using XUMHUB.Model;
 
@@ -14,7 +13,7 @@ namespace XUMHUB.Services.HistoryProvider
     {
         public async Task<IEnumerable<HistoryModel>> GetAllHistory()
         {
-            using (XumdbContext dbContext = new XumdbContext())
+            using (DBContext dbContext = new DBContext())
             {
                 IEnumerable<History> returnsInfoDTO = await dbContext.Histories.ToListAsync();
                 return returnsInfoDTO.Select(r => ToOrderModel(r));
@@ -22,7 +21,7 @@ namespace XUMHUB.Services.HistoryProvider
         }
         public async Task<HistoryModel> GetOrderByOrderID(string orderID)
         {
-            using (XumdbContext dbContext = new XumdbContext())
+            using (DBContext dbContext = new DBContext())
             {
                 IEnumerable<History> histories = await dbContext.Histories.Where(r => r.Orderid == orderID).ToListAsync();
                 return histories.Select(r => ToOrderModel(r)).LastOrDefault();
@@ -35,7 +34,7 @@ namespace XUMHUB.Services.HistoryProvider
 
         public async Task<int> GetLaptopAmountToday()
         {
-            using (XumdbContext dbContext = new XumdbContext())
+            using (DBContext dbContext = new DBContext())
             {
                 DateOnly date= DateOnly.FromDateTime(DateTime.Today);
 
@@ -44,7 +43,7 @@ namespace XUMHUB.Services.HistoryProvider
         }
         public async Task<int> GetDesktopBuilpAmountToday()
         {
-            using (XumdbContext dbContext = new XumdbContext())
+            using (DBContext dbContext = new DBContext())
             {
                 DateOnly date = DateOnly.FromDateTime(DateTime.Today);
 
@@ -54,7 +53,7 @@ namespace XUMHUB.Services.HistoryProvider
 
         public async Task<int> GetDesktopOrdersToday()
         {
-            using (XumdbContext dbContext = new XumdbContext())
+            using (DBContext dbContext = new DBContext())
             {
                 DateOnly date = DateOnly.FromDateTime(DateTime.Today);
 
@@ -63,7 +62,7 @@ namespace XUMHUB.Services.HistoryProvider
         }
         public async Task<int> GetLaptopOrdersToday()
         {
-            using (XumdbContext dbContext = new XumdbContext())
+            using (DBContext dbContext = new DBContext())
             {
                 DateOnly date = DateOnly.FromDateTime(DateTime.Today);
 

@@ -7,6 +7,9 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="View\CSVUploadView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="View\CustomerView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -14,6 +17,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="View\ReturnsView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\ToolsView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -24,6 +30,9 @@
     <Page Update="Resources\Styles.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="View\CSVUploadView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="View\CustomerView.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -31,6 +40,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="View\ReturnsView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\ToolsView.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
