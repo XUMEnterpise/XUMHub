@@ -299,3 +299,5 @@ C:\Users\artel\source\repos\XUMHUB\XUMHUB\obj\Debug\net8.0-windows\View\ToolsVie
 C:\Users\artel\source\repos\XUMHUB\XUMHUB\bin\Debug\net8.0-windows\Resources\csv.png
 C:\Users\artel\source\repos\XUMHUB\XUMHUB\obj\Debug\net8.0-windows\View\CSVUploadView.g.cs
 C:\Users\artel\source\repos\XUMHUB\XUMHUB\obj\Debug\net8.0-windows\View\CSVUploadView.baml
+C:\Users\artel\source\repos\XUMHUB\XUMHUB\obj\Debug\net8.0-windows\View\LaptopsLogPage.g.cs
+C:\Users\artel\source\repos\XUMHUB\XUMHUB\obj\Debug\net8.0-windows\View\LaptopsLogPage.baml

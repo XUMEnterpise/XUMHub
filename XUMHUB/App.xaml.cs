@@ -28,10 +28,11 @@ namespace XUMHUB
             NavigationService<DashboardViewModel> dashNavServ = new NavigationService<DashboardViewModel>(_navigationStore,()=>dashboardViewModel);
             NavigationService<ReturnsListingViewModel> returnNavSer = new NavigationService<ReturnsListingViewModel>(_navigationStore,()=> returnsListingView);
             NavigationService<ToolsViewModel> toolsNavSer = new NavigationService<ToolsViewModel>(_navigationStore,()=> toolsViewModel);
+            NavigationService<LaptopLoggingViewModel> laptopLogNavStore = new NavigationService<LaptopLoggingViewModel>(_navigationStore,()=> new LaptopLoggingViewModel());
             
             MainWindow = new MainWindow()
             {
-                DataContext = new MainViewModel(_navigationStore, dashNavServ,returnNavSer,toolsNavSer)
+                DataContext = new MainViewModel(_navigationStore, dashNavServ,returnNavSer,toolsNavSer,laptopLogNavStore)
             };
             MainWindow.Show();
             base.OnStartup(e);

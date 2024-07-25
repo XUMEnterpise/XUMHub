@@ -23,9 +23,10 @@ namespace XUMHUB.ViewModel
         public ICommand DashboardViewCommand { get; }
         public ICommand ReturnsViewCommand { get; }
         public ICommand ToolsViewCommand { get; }
+        public ICommand LaptopLogCommand { get; }
 
         public BaseViewModel CurrentViewModel => navigationStore.CurrentViewModel;
-        public MainViewModel(NavigationStore navigationStore,NavigationService<DashboardViewModel> dashboardNavigationSerivice,NavigationService<ReturnsListingViewModel> returnsNavigationSerive,NavigationService<ToolsViewModel> toolsViewNavigationService)
+        public MainViewModel(NavigationStore navigationStore,NavigationService<DashboardViewModel> dashboardNavigationSerivice,NavigationService<ReturnsListingViewModel> returnsNavigationSerive,NavigationService<ToolsViewModel> toolsViewNavigationService,NavigationService<LaptopLoggingViewModel> laptopLogNavStore)
         {
             this.navigationStore = navigationStore;
             navigationStore.CurrentViewModelChanged += OnCurrentViewModelChanged;
@@ -35,6 +36,7 @@ namespace XUMHUB.ViewModel
             DashboardViewCommand = new NavigateCommand<DashboardViewModel>(dashboardNavigationSerivice);
             ReturnsViewCommand = new NavigateCommand<ReturnsListingViewModel>(returnsNavigationSerive);
             ToolsViewCommand = new NavigateCommand<ToolsViewModel>(toolsViewNavigationService);
+            LaptopLogCommand = new NavigateCommand<LaptopLoggingViewModel>(laptopLogNavStore);
 
         }
         private void OnCurrentViewModelChanged()
