@@ -46,7 +46,7 @@
                     <Button Content="Tools"  Command="{Binding ToolsViewCommand}"/>
                 </StackPanel>
             </Grid>
-            <ContentControl  Grid.Column="1" Margin="10" Content="{Binding CurrentViewModel}"/>
+            <ContentControl  Grid.Column="1" Margin="10 10 10 50" Content="{Binding CurrentViewModel}"/>
             
         </Grid>
     </Grid>
