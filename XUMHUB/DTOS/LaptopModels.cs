@@ -19,6 +19,5 @@ namespace XUMHUB.DTOS
         public string Storage { get; set; }
         public string Display { get; set; }
         public string WindowsVersion { get; set; }
-
     }
 }
