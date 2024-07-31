@@ -4,15 +4,59 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:XUMHUB.View"
+             xmlns:behaviors="clr-namespace:XUMHUB.Behaviours"
              mc:Ignorable="d" 
              d:DesignHeight="400" d:DesignWidth="400">
     <Grid>
+        
         <Grid.RowDefinitions>
             <RowDefinition Height="0.9*"/>
             <RowDefinition Height="0.1*"/>
         </Grid.RowDefinitions>
+
+        <Grid>
+            <StackPanel>
+                <ItemsControl ItemsSource="{Binding FaultSelections}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <ContentControl Content="{Binding}">
+                                <ContentControl.Style>
+                                    <Style TargetType="ContentControl">
+                                        <Style.Triggers>
+                                            <DataTrigger Binding="{Binding IsFaultSelected}" Value="False">
+                                                <Setter Property="ContentTemplate">
+                                                    <Setter.Value>
+                                                        <DataTemplate>
+                                                            <StackPanel Orientation="Vertical">
+                                                                <TextBox Text="{Binding SearchQuery, UpdateSourceTrigger=PropertyChanged}"
+                                                                         Height="20"
+                                                                         Margin="10 0 0 0"/>
+                                                                <ListBox/>
+                                                            </StackPanel>
+                                                        </DataTemplate>
+                                                    </Setter.Value>
+                                                </Setter>
+                                            </DataTrigger>
+                                            <DataTrigger Binding="{Binding IsFaultSelected}" Value="True">
+                                                <Setter Property="ContentTemplate">
+                                                    <Setter.Value>
+                                                        <DataTemplate>
+                                                            <TextBlock Text="{Binding SelectedFault}" />
+                                                        </DataTemplate>
+                                                    </Setter.Value>
+                                                </Setter>
+                                            </DataTrigger>
+                                        </Style.Triggers>
+                                    </Style>
+                                </ContentControl.Style>
+                            </ContentControl>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </StackPanel>
+        </Grid>
         <Border Grid.Row="1" >
-            <Button Style="{StaticResource ButtonSmall}"> Add a fault</Button>
+            <Button Style="{StaticResource ButtonSmall}" Command="{Binding AddFaultCommand}"> Add a fault</Button>
         </Border>
     </Grid>
 </UserControl>
