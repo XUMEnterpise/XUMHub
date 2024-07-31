@@ -456,3 +456,5 @@ E:\repos\XUMHub\XUMHUB\obj\Debug\net8.0-windows\refint\XUMHUB.dll
 E:\repos\XUMHub\XUMHUB\obj\Debug\net8.0-windows\XUMHUB.pdb
 E:\repos\XUMHub\XUMHUB\obj\Debug\net8.0-windows\XUMHUB.genruntimeconfig.cache
 E:\repos\XUMHub\XUMHUB\obj\Debug\net8.0-windows\ref\XUMHUB.dll
+E:\repos\XUMHub\XUMHUB\obj\Debug\net8.0-windows\View\FaultsView.g.cs
+E:\repos\XUMHub\XUMHUB\obj\Debug\net8.0-windows\View\FaultsView.baml

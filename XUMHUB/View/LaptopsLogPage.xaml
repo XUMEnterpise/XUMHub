@@ -130,7 +130,7 @@
             </Grid.RowDefinitions>
             <TextBlock Grid.Row="0" Text="Faults" Style="{StaticResource Header}" VerticalAlignment="Center" HorizontalAlignment="Center"/>
             <Border Grid.Row="1" Style="{StaticResource Tile2}">
-                <ContentControl Content="{Binding Faults}"/>
+                <ContentControl Content="{Binding FaultsViewmodel}"/>
             </Border>
         </Grid>
     </Grid>

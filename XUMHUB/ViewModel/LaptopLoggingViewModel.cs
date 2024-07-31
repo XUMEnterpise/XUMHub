@@ -21,7 +21,7 @@ namespace XUMHUB.ViewModel
         public string Storage => Laptop?.Storage;
         public string ScreenSize => Laptop?.Display;
         public string OS => Laptop?.Os;
-        
+        public FaultsViewmodel FaultsViewmodel => new FaultsViewmodel();
 
         private LaptopInfoModel laptop;
         public LaptopInfoModel Laptop

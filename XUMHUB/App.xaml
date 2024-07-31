@@ -28,6 +28,9 @@
             <DataTemplate DataType="{x:Type viewmodel:LaptopLoggingViewModel}">
                 <view:LaptopsLogPage/>
             </DataTemplate>
+            <DataTemplate DataType="{x:Type viewmodel:FaultsViewmodel}">
+                <view:FaultsView/>
+            </DataTemplate>
         </ResourceDictionary>
 
     </Application.Resources>

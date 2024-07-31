@@ -16,6 +16,9 @@
     <Compile Update="View\DashboardView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="View\FaultsView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="View\LaptopsLogPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -40,6 +43,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="View\DashboardView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\FaultsView.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="View\LaptopsLogPage.xaml">
