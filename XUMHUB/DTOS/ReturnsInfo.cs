@@ -14,7 +14,7 @@ public partial class ReturnsInfo
 
     [Column("OrderID")]
     [StringLength(25)]
-    public string? OrderId { get; set; }
+    public string OrderId { get; set; } = null!;
 
     public DateOnly? ReturnDate { get; set; }
 

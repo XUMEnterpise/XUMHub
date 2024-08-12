@@ -7,6 +7,9 @@
              xmlns:behaviors="clr-namespace:XUMHUB.Behaviours"
              mc:Ignorable="d" 
              d:DesignHeight="400" d:DesignWidth="400">
+    <UserControl.Resources>
+            <behaviors:BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter"/>
+        </UserControl.Resources>
     <Grid>
         
         <Grid.RowDefinitions>
@@ -19,37 +22,27 @@
                 <ItemsControl ItemsSource="{Binding FaultSelections}">
                     <ItemsControl.ItemTemplate>
                         <DataTemplate>
-                            <ContentControl Content="{Binding}">
-                                <ContentControl.Style>
-                                    <Style TargetType="ContentControl">
-                                        <Style.Triggers>
-                                            <DataTrigger Binding="{Binding IsFaultSelected}" Value="False">
-                                                <Setter Property="ContentTemplate">
-                                                    <Setter.Value>
-                                                        <DataTemplate>
-                                                            <StackPanel Orientation="Vertical">
-                                                                <TextBox Text="{Binding SearchQuery, UpdateSourceTrigger=PropertyChanged}"
-                                                                         Height="20"
-                                                                         Margin="10 0 0 0"/>
-                                                                <ListBox/>
-                                                            </StackPanel>
-                                                        </DataTemplate>
-                                                    </Setter.Value>
-                                                </Setter>
-                                            </DataTrigger>
-                                            <DataTrigger Binding="{Binding IsFaultSelected}" Value="True">
-                                                <Setter Property="ContentTemplate">
-                                                    <Setter.Value>
-                                                        <DataTemplate>
-                                                            <TextBlock Text="{Binding SelectedFault}" />
-                                                        </DataTemplate>
-                                                    </Setter.Value>
-                                                </Setter>
-                                            </DataTrigger>
-                                        </Style.Triggers>
-                                    </Style>
-                                </ContentControl.Style>
-                            </ContentControl>
+                            <StackPanel Orientation="Horizontal" Margin="0,5">
+                                <!-- ComboBox -->
+                                <ComboBox Width="200"
+                                      ItemsSource="{Binding FaultList}"
+                                      IsEditable="True"
+                                      IsTextSearchEnabled="True"
+                                      SelectedItem="{Binding SelectedFault}" 
+                                      Visibility="{Binding IsComboBoxVisible, Converter={StaticResource BooleanToVisibilityConverter}}"/>
+
+                                <!-- Label -->
+                                <Label Width="200"
+                                   Content="{Binding SelectedFault}" 
+                                   Visibility="{Binding IsComboBoxVisible, Converter={StaticResource BooleanToVisibilityConverter}, ConverterParameter=Invert}"/>
+
+                                <!-- Add Fault Button -->
+                                <Button Content="Add Fault"
+                                    Command="{Binding ConvertToLabelCommand}" 
+                                    Width="100" 
+                                    Margin="10,0,0,0"
+                                    Visibility="{Binding IsComboBoxVisible, Converter={StaticResource BooleanToVisibilityConverter}}"/>
+                            </StackPanel>
                         </DataTemplate>
                     </ItemsControl.ItemTemplate>
                 </ItemsControl>

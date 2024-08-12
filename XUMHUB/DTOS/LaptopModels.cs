@@ -1,23 +1,35 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using Microsoft.EntityFrameworkCore;
 
-namespace XUMHUB.DTOS
+namespace XUMHUB.DTOS;
+
+public partial class LaptopModels
 {
+    [StringLength(255)]
+    public string? Sku { get; set; }
 
-    public partial class LaptopModels
-    {
-        [Key]
-        public int Id { get; set; }
-        public string Sku { get; set; }
-        public string LaptopModel { get; set; }
-        public string Cpu { get; set; }
-        public string Ram { get; set; }
-        public string Storage { get; set; }
-        public string Display { get; set; }
-        public string WindowsVersion { get; set; }
-    }
+    [Column("LaptopModel")]
+    [StringLength(255)]
+    public string? LaptopModel { get; set; }
+
+    [StringLength(255)]
+    public string? Cpu { get; set; }
+
+    [StringLength(255)]
+    public string? Ram { get; set; }
+
+    [StringLength(255)]
+    public string? Storage { get; set; }
+
+    [StringLength(255)]
+    public string? Display { get; set; }
+
+    [StringLength(255)]
+    public string? WindowsVersion { get; set; }
+
+    [Key]
+    public int Id { get; set; }
 }

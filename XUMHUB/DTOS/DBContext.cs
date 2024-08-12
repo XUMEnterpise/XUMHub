@@ -21,21 +21,39 @@ public partial class DBContext : DbContext
 
     public virtual DbSet<CustomerInfo> CustomerInfos { get; set; }
 
+    public virtual DbSet<Fault> Faults { get; set; }
+
     public virtual DbSet<Gpu> Gpus { get; set; }
 
     public virtual DbSet<Hdd> Hdds { get; set; }
 
     public virtual DbSet<History> Histories { get; set; }
 
+    public virtual DbSet<InventoryBin> InventoryBins { get; set; }
+
+    public virtual DbSet<IssueLog> IssueLogs { get; set; }
+
+    public virtual DbSet<LaptopModels> LaptopModels { get; set; }
+
+    public virtual DbSet<Lot> Lots { get; set; }
+
     public virtual DbSet<ManifestTable> ManifestTables { get; set; }
+
+    public virtual DbSet<ModelToBin> ModelToBins { get; set; }
 
     public virtual DbSet<Motherboard> Motherboards { get; set; }
 
-    public virtual DbSet<PurchaseOrder> PurchaseOrders { get; set; }
+    public virtual DbSet<Qccheck> Qcchecks { get; set; }
+
+    public virtual DbSet<Qcdatum> Qcdata { get; set; }
+
+    public virtual DbSet<Qcentry> Qcentries { get; set; }
 
     public virtual DbSet<Qcresult> Qcresults { get; set; }
 
     public virtual DbSet<Ramsize> Ramsizes { get; set; }
+
+    public virtual DbSet<RepairDatum> RepairData { get; set; }
 
     public virtual DbSet<ReplacedPart> ReplacedParts { get; set; }
 
@@ -56,13 +74,11 @@ public partial class DBContext : DbContext
     public virtual DbSet<Window> Windows { get; set; }
 
     public virtual DbSet<WindowsKeyDatum> WindowsKeyData { get; set; }
-    public virtual DbSet<LaptopModels> LaptopModels { get; set; }
-    public virtual DbSet<IssueLog> IssueLogs { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
         => optionsBuilder.UseSqlServer("Data Source=DESKTOP-V7HB0MU\\MSSQLSERVER01;Initial Catalog=xumlocal;Persist Security Info=True;Integrated Security=True;TrustServerCertificate=True");
-        //=> optionsBuilder.UseSqlServer("Data Source=WIN-K1TRUVHT0PC\\XUMGPC;Initial Catalog=xumlocal;Persist Security Info=True;User ID=XumAdmin;Password=Lolipopchainsaw3;TrustServerCertificate=True;");
+
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<CustomerInfo>(entity =>
@@ -72,6 +88,13 @@ public partial class DBContext : DbContext
             entity.Property(e => e.OrderId).IsFixedLength();
         });
 
+        modelBuilder.Entity<Fault>(entity =>
+        {
+            entity.HasKey(e => e.Id).HasName("PK__Faults__3214EC07EBEDAC4C");
+
+            entity.HasOne(d => d.Repair).WithMany(p => p.Faults).HasConstraintName("FK_Faults_RepairData");
+        });
+
         modelBuilder.Entity<History>(entity =>
         {
             entity.HasKey(e => e.Id).HasName("PK__History__3214EC07F5038045");
@@ -79,6 +102,7 @@ public partial class DBContext : DbContext
             entity.Property(e => e.AssignedNumber).HasDefaultValue("Unknown");
             entity.Property(e => e.Channel).IsFixedLength();
             entity.Property(e => e.Date).HasDefaultValueSql("(getdate())");
+            entity.Property(e => e.IsRecovered).HasDefaultValue(false);
             entity.Property(e => e.Orderid).IsFixedLength();
             entity.Property(e => e.PackedBy).HasDefaultValue("Unknown");
             entity.Property(e => e.Qty).IsFixedLength();
@@ -90,14 +114,48 @@ public partial class DBContext : DbContext
                 .IsFixedLength();
         });
 
+        modelBuilder.Entity<InventoryBin>(entity =>
+        {
+            entity.HasKey(e => e.Id).HasName("PK__Inventor__3214EC0752904E24");
+        });
+
+        modelBuilder.Entity<IssueLog>(entity =>
+        {
+            entity.HasKey(e => e.Id).HasName("PK__IssueLog__3214EC2734A96D96");
+        });
+
+        modelBuilder.Entity<LaptopModels>(entity =>
+        {
+            entity.HasKey(e => e.Id).HasName("PK__LaptopMo__3214EC07285D7582");
+        });
+
         modelBuilder.Entity<ManifestTable>(entity =>
         {
             entity.Property(e => e.PackedDate).HasDefaultValueSql("(getdate())");
         });
 
-        modelBuilder.Entity<PurchaseOrder>(entity =>
+        modelBuilder.Entity<ModelToBin>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Purchase__3214EC0798DA2276");
+            entity.HasKey(e => e.Id).HasName("PK__ModelToB__3214EC071B2B5799");
+        });
+
+        modelBuilder.Entity<Qccheck>(entity =>
+        {
+            entity.HasKey(e => e.CheckId).HasName("PK__QCChecks__868157665B6BB8A1");
+        });
+
+        modelBuilder.Entity<Qcdatum>(entity =>
+        {
+            entity.HasKey(e => e.Qcid).HasName("PK__QCData__DC29BFB24B868AC6");
+
+            entity.HasOne(d => d.Db).WithMany(p => p.Qcdata)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_QCData_History");
+        });
+
+        modelBuilder.Entity<Qcentry>(entity =>
+        {
+            entity.HasKey(e => e.Qcid).HasName("PK__QCEntry__DC29BFB2B2F194FA");
         });
 
         modelBuilder.Entity<Qcresult>(entity =>
@@ -108,6 +166,15 @@ public partial class DBContext : DbContext
             entity.Property(e => e.PixelTest).HasDefaultValueSql("(NULL)");
             entity.Property(e => e.QctestDate).HasDefaultValueSql("(getdate())");
             entity.Property(e => e.WifiTest).HasDefaultValueSql("(NULL)");
+        });
+
+        modelBuilder.Entity<RepairDatum>(entity =>
+        {
+            entity.HasKey(e => e.RepairId).HasName("PK__RepairDa__07D0BC2D39218AEE");
+
+            entity.HasOne(d => d.Db).WithMany(p => p.RepairData)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_RepairData_History");
         });
 
         modelBuilder.Entity<ReplacedPart>(entity =>
@@ -162,16 +229,11 @@ public partial class DBContext : DbContext
             entity.HasKey(e => e.TestResultId).HasName("PK__TestResu__E24635876C73A7A8");
 
             entity.Property(e => e.BatteryLife).IsFixedLength();
-            entity.Property(e => e.DbId).IsFixedLength();
         });
 
         modelBuilder.Entity<WindowsKeyDatum>(entity =>
         {
-            entity.HasKey(e => e.ServiceTag).HasName("PK__WindowsK__71080053B0244076");
-        });
-        modelBuilder.Entity<IssueLog>(entity =>
-        {
-            entity.HasKey(e => e.ID).HasName("PK__IssueLog__3214EC278DC514C2");
+            entity.HasKey(e => e.ServiceTag).HasName("PK__WindowsK__710800538A1A145B");
         });
 
         OnModelCreatingPartial(modelBuilder);

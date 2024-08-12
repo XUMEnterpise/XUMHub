@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Users\artel\source\repos\XUMHUB\XUMHUB\App.xaml
-91059674814
+10-911005024
 
-771946612891
+881822225627
 238-1076357921
-MainWindow.xaml;Resources\Styles.xaml;View\CSVUploadView.xaml;View\CustomerView.xaml;View\DashboardView.xaml;View\FaultsView.xaml;View\LaptopsLogPage.xaml;View\ReturnsView.xaml;View\ToolsView.xaml;
+MainWindow.xaml;Resources\Styles.xaml;View\CSVUploadView.xaml;View\CustomerView.xaml;View\DashboardView.xaml;View\FaultsView.xaml;View\LaptopsLogPage.xaml;View\RepairView.xaml;View\ReturnsView.xaml;View\ToolsView.xaml;
 
 False
 

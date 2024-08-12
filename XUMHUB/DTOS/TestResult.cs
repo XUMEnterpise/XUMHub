@@ -11,8 +11,7 @@ public partial class TestResult
     [Key]
     public int TestResultId { get; set; }
 
-    [StringLength(25)]
-    public string? DbId { get; set; }
+    public int DbId { get; set; }
 
     [StringLength(255)]
     [Unicode(false)]

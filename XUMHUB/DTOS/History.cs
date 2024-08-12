@@ -12,7 +12,7 @@ public partial class History
     [Key]
     public int Id { get; set; }
 
-    [StringLength(10)]
+    [StringLength(25)]
     public string Orderid { get; set; } = null!;
 
     [Column("SKU")]
@@ -46,4 +46,15 @@ public partial class History
     [StringLength(255)]
     [Unicode(false)]
     public string? AssignedNumber { get; set; }
+
+    [Column("isRecovered")]
+    public bool? IsRecovered { get; set; }
+
+    public int IsPrinted { get; set; }
+
+    [InverseProperty("Db")]
+    public virtual ICollection<Qcdatum> Qcdata { get; set; } = new List<Qcdatum>();
+
+    [InverseProperty("Db")]
+    public virtual ICollection<RepairDatum> RepairData { get; set; } = new List<RepairDatum>();
 }

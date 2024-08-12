@@ -38,16 +38,16 @@ namespace XUMHUB.Services
 
         private void SavePOModeToDatabase(POModel poModel)
         {
-            var poEntries = poModel.pOEntries.Select(entry => new PurchaseOrder
-            {
-                Ponumber = poModel.PONumber,
-                Potitle= poModel.POTitle,
-                Sku = entry.SKU,
-                Quantity = entry.QTY
-            });
+            //var poEntries = poModel.pOEntries.Select(entry => new PurchaseOrder
+            //{
+            //    Ponumber = poModel.PONumber,
+            //    Potitle= poModel.POTitle,
+            //    Sku = entry.SKU,
+            //    Quantity = entry.QTY
+            //});
 
-            _context.PurchaseOrders.AddRange(poEntries);
-            _context.SaveChanges();
+            //_context.PurchaseOrders.AddRange(poEntries);
+            //_context.SaveChanges();
         }
     }
 }

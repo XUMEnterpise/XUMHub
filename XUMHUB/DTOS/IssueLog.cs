@@ -2,17 +2,17 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 
-namespace XUMHUB.DTOS
+namespace XUMHUB.DTOS;
+
+[Table("IssueLog")]
+public partial class IssueLog
 {
-    [Table ("IssueLog")]
-    public partial class IssueLog
-    {
-        [Key]
-        public int ID { get; set; }
-        public string Issue { get; set; }
-    }
+    [Key]
+    [Column("ID")]
+    public int Id { get; set; }
+
+    [Column(TypeName = "text")]
+    public string Issue { get; set; } = null!;
 }

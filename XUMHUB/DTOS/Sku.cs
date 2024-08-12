@@ -22,7 +22,7 @@ public partial class Sku
     public string? Mobo { get; set; }
 
     [Column("CPU")]
-    [StringLength(10)]
+    [StringLength(20)]
     public string? Cpu { get; set; }
 
     [Column("RAM")]

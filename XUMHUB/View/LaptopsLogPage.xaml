@@ -34,7 +34,7 @@
                     </Grid.ColumnDefinitions>
                     
                     <TextBlock Grid.Column="0" Text="Service Tag: " Style="{StaticResource Label Smaller}" Margin="10 0 0 0" VerticalAlignment="Center" HorizontalAlignment="Stretch"/>
-                    <TextBox Grid.Column="1" Text="{Binding ServiceTag}"  Margin="10 0 0 0" Width="100"/>
+                    <TextBox Grid.Column="1" Text="{Binding ServiceTag}"  Margin="10 0 0 0" Width="100" Height="18"/>
                 </Grid>
             </Border>
             <Border Grid.Row="2" Style="{StaticResource Tile2}">

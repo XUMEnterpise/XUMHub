@@ -20,7 +20,7 @@ namespace XUMHUB.ViewModel
             LoadData();
             FaultSelections = new ObservableCollection<FaultSelectionViewModel>();
 
-            AddFaultCommand = new RelayCommand(_ => AddFault());
+            AddFaultCommand = new RelayCommand(_ => OnAddNewFault());
         }
 
         public ObservableCollection<string> Faults { get; }
@@ -28,8 +28,7 @@ namespace XUMHUB.ViewModel
         public ObservableCollection<FaultSelectionViewModel> FaultSelections { get; }
 
         public ICommand AddFaultCommand { get; }
-
-        private void AddFault()
+        private void OnAddNewFault()
         {
             FaultSelections.Add(new FaultSelectionViewModel(Faults));
         }
