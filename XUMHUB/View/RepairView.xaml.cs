@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using XUMHUB.ViewModel;
 
 namespace XUMHUB.View
 {
@@ -23,6 +24,13 @@ namespace XUMHUB.View
         public RepairView()
         {
             InitializeComponent();
+        }
+        private void ListViewItem_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        {
+            if (sender is ListViewItem item && item.DataContext is RepairEntryViewModel returnsInfo)
+            {
+                ((RepairViewModel)this.DataContext).HandleDoubleClick(returnsInfo);
+            }
         }
     }
 }

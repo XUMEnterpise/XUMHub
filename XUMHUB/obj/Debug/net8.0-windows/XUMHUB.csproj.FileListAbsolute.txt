@@ -462,3 +462,5 @@ C:\Users\artel\source\repos\XUMHUB\XUMHUB\obj\Debug\net8.0-windows\View\FaultsVi
 C:\Users\artel\source\repos\XUMHUB\XUMHUB\obj\Debug\net8.0-windows\View\FaultsView.baml
 C:\Users\artel\source\repos\XUMHUB\XUMHUB\obj\Debug\net8.0-windows\View\RepairView.g.cs
 C:\Users\artel\source\repos\XUMHUB\XUMHUB\obj\Debug\net8.0-windows\View\RepairView.baml
+C:\Users\artel\source\repos\XUMHUB\XUMHUB\obj\Debug\net8.0-windows\View\RepairEditView.g.cs
+C:\Users\artel\source\repos\XUMHUB\XUMHUB\obj\Debug\net8.0-windows\View\RepairEditView.baml

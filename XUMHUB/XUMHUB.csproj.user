@@ -22,6 +22,9 @@
     <Compile Update="View\LaptopsLogPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="View\RepairEditView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="View\RepairView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -52,6 +55,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="View\LaptopsLogPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\RepairEditView.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="View\RepairView.xaml">

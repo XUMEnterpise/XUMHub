@@ -7,11 +7,11 @@ using XUMHUB.Model;
 
 namespace XUMHUB.ViewModel
 {
-    class FaultViewModel: BaseViewModel
+    public class FaultViewModel: BaseViewModel
     {
         public readonly FaultModel _faultModel;
         public string FaultName => _faultModel.FaultName;
-        public bool IsRepaired => _faultModel.IsRepaired;
+        public bool? IsRepaired => _faultModel.IsRepaired;
         public FaultViewModel(FaultModel faultModel)
         {
             _faultModel = faultModel;

@@ -6,9 +6,15 @@ using System.Threading.Tasks;
 
 namespace XUMHUB.Model
 {
-    class AgentModel
+    public class AgentModel
     {
-        public int AgentId { get; private set; }
+        public AgentModel(int? agentId, string agentName)
+        {
+            AgentId = agentId;
+            AgentName = agentName;
+        }
+
+        public int? AgentId { get; private set; }
         public string AgentName { get; private set; }
     }
 }

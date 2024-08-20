@@ -29,7 +29,7 @@ namespace XUMHUB
             NavigationService<ReturnsListingViewModel> returnNavSer = new NavigationService<ReturnsListingViewModel>(_navigationStore,()=> returnsListingView);
             NavigationService<ToolsViewModel> toolsNavSer = new NavigationService<ToolsViewModel>(_navigationStore,()=> toolsViewModel);
             NavigationService<LaptopLoggingViewModel> laptopLogNavStore = new NavigationService<LaptopLoggingViewModel>(_navigationStore,()=> new LaptopLoggingViewModel());
-            NavigationService<RepairViewModel> repairViewService = new NavigationService<RepairViewModel>(_navigationStore,()=> new RepairViewModel());
+            NavigationService<RepairViewModel> repairViewService = new NavigationService<RepairViewModel>(_navigationStore,()=> new RepairViewModel(_navigationStore));
             
             MainWindow = new MainWindow()
             {

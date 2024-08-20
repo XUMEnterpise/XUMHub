@@ -7,15 +7,15 @@ using XUMHUB.Model;
 
 namespace XUMHUB.ViewModel
 {
-    class RepairEntryViewModel
+    public class RepairEntryViewModel
     {
         public readonly RepairDataModel _repairData;
         public string ServiceTag => _repairData.ServiceTag;
         public string Agent => _repairData.AgentLogged.AgentName;
-        public DateTime LoggedDate => _repairData.DateLogged;
+        public DateTime? LoggedDate => _repairData.DateLogged;
         public string RepairStatus => _repairData.RepairStatus;
         public DateTime? RepairDate => _repairData.RepairedDate;
-        public string RepairAgent => _repairData.AgentRepaired.AgentName;
+        public string? RepairAgent => _repairData.AgentRepaired.AgentName ?? "Not Repaired";
         public List<FaultViewModel> Faults;
 
 
