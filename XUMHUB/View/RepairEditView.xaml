@@ -53,7 +53,9 @@
             </Border>
         </Grid>
         <Grid Grid.Column="1">
-            
+            <Border Style="{StaticResource Tile}">
+                <ContentControl Content="{Binding FaultsViewmodel}"/>
+            </Border>
         </Grid>
     </Grid>
 </UserControl>

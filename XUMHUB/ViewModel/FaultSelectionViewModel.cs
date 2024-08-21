@@ -11,8 +11,8 @@ namespace XUMHUB.ViewModel
 {
     public class FaultSelectionViewModel : BaseViewModel
     {
-        public ObservableCollection<string> FaultList { get; private set; }
-        public FaultSelectionViewModel(ObservableCollection<string> faults)
+        public ObservableCollection<FaultViewModel> FaultList { get; private set; }
+        public FaultSelectionViewModel(ObservableCollection<FaultViewModel> faults)
         {
             IsComboBoxVisible = true;
             FaultList = faults;
@@ -31,20 +31,33 @@ namespace XUMHUB.ViewModel
 				OnPropertyChanged(nameof(IsComboBoxVisible));
 			}
 		}
-		private string _selectedFault;
-		public string SelectedFault
-		{
-			get
-			{
-				return _selectedFault;
-			}
-			set
-			{
-				_selectedFault = value;
-				OnPropertyChanged(nameof(SelectedFault));
-			}
-		}
-		public ICommand ConvertToLabelCommand { get; }
+        private FaultViewModel _selectedFault;
+        public FaultViewModel SelectedFault
+        {
+            get => _selectedFault;
+            set
+            {
+                _selectedFault = value;
+                OnPropertyChanged(nameof(SelectedFault));
+                OnPropertyChanged(nameof(FaultName));
+                OnPropertyChanged(nameof(IsRepaired));
+            }
+        }
+
+        public string FaultName => SelectedFault?.FaultName;
+        public bool? IsRepaired
+        {
+            get => SelectedFault?.IsRepaired;
+            set
+            {
+                if (SelectedFault != null && SelectedFault.IsRepaired != value)
+                {
+                    SelectedFault.IsRepaired = value;
+                    OnPropertyChanged(nameof(IsRepaired));
+                }
+            }
+        }
+        public ICommand ConvertToLabelCommand { get; }
 
         private void OnConverToLabel()
         {

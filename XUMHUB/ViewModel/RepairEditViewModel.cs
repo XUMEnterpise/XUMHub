@@ -18,6 +18,7 @@ namespace XUMHUB.ViewModel
         public string? RepairAgent => repairEntryViemodel.RepairAgent;
         public List<FaultViewModel> Faults => repairEntryViemodel.Faults;
         public ObservableCollection<string> Options { get; }
+        public FaultsViewmodel FaultsViewmodel => new FaultsViewmodel(Faults);
         public RepairEditViewModel(RepairEntryViewModel repairEntryViemodel)
         {
             this.repairEntryViemodel = repairEntryViemodel;

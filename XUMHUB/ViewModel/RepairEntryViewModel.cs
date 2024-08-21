@@ -21,13 +21,16 @@ namespace XUMHUB.ViewModel
 
         public RepairEntryViewModel(RepairDataModel repairData)
         {
+            Faults = new List<FaultViewModel>();
             _repairData = repairData;
+            LoadData();
         }
-        public void LoadData()
+        public async void LoadData()
         {
             foreach (var fault in _repairData.Faults)
             {
-                Faults.Add(new FaultViewModel(fault));
+                FaultViewModel viewmodel = new FaultViewModel(fault);
+                Faults.Add(viewmodel);
             }
         }
 

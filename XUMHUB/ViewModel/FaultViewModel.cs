@@ -11,7 +11,18 @@ namespace XUMHUB.ViewModel
     {
         public readonly FaultModel _faultModel;
         public string FaultName => _faultModel.FaultName;
-        public bool? IsRepaired => _faultModel.IsRepaired;
+        public bool? IsRepaired
+        {
+            get => _faultModel.IsRepaired;
+            set
+            {
+                if (_faultModel.IsRepaired != value)
+                {
+                    _faultModel.IsRepaired = value;
+                    OnPropertyChanged(nameof(IsRepaired));
+                }
+            }
+        }
         public FaultViewModel(FaultModel faultModel)
         {
             _faultModel = faultModel;

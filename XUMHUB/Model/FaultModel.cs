@@ -15,7 +15,7 @@ namespace XUMHUB.Model
         }
 
         public string FaultName { get; private set; }
-        public bool? IsRepaired { get; private set; }
+        public bool? IsRepaired { get; set; }
 
     }
 }

@@ -29,12 +29,17 @@
                                       IsEditable="True"
                                       IsTextSearchEnabled="True"
                                       SelectedItem="{Binding SelectedFault}" 
-                                      Visibility="{Binding IsComboBoxVisible, Converter={StaticResource BooleanToVisibilityConverter}}"/>
+                                      Visibility="{Binding IsComboBoxVisible, Converter={StaticResource BooleanToVisibilityConverter}}"
+                                      DisplayMemberPath="FaultName"    
+                                          />
 
                                 <!-- Label -->
                                 <Label Width="200"
-                                   Content="{Binding SelectedFault}" 
+                                   Content="{Binding FaultName}" 
                                    Visibility="{Binding IsComboBoxVisible, Converter={StaticResource BooleanToVisibilityConverter}, ConverterParameter=Invert}"/>
+                                <CheckBox 
+                                      IsChecked="{Binding IsRepaired}" 
+                                      Visibility="{Binding IsComboBoxVisible, Converter={StaticResource BooleanToVisibilityConverter}, ConverterParameter=Invert}"/>
 
                                 <!-- Add Fault Button -->
                                 <Button Content="Add Fault"
