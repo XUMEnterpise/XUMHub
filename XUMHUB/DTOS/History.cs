@@ -54,7 +54,4 @@ public partial class History
 
     [InverseProperty("Db")]
     public virtual ICollection<Qcdatum> Qcdata { get; set; } = new List<Qcdatum>();
-
-    [InverseProperty("Db")]
-    public virtual ICollection<RepairDatum> RepairData { get; set; } = new List<RepairDatum>();
 }

@@ -15,6 +15,8 @@ public partial class DBContext : DbContext
     {
     }
 
+    public virtual DbSet<AutoPilotTest> AutoPilotTests { get; set; }
+
     public virtual DbSet<Case> Cases { get; set; }
 
     public virtual DbSet<Cpu> Cpus { get; set; }
@@ -77,8 +79,7 @@ public partial class DBContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-        //=> optionsBuilder.UseSqlServer("Data Source=DESKTOP-V7HB0MU\\MSSQLSERVER01;Initial Catalog=xumlocal;Persist Security Info=True;Integrated Security=True;TrustServerCertificate=True");
-        => optionsBuilder.UseSqlServer("Data Source=WIN-K1TRUVHT0PC\\XUMGPC;Initial Catalog=xumlocal;Persist Security Info=True;User ID=XumAdmin;Password=Lolipopchainsaw3;TrustServerCertificate=True;");
+        => optionsBuilder.UseSqlServer("Data Source=DESKTOP-V7HB0MU\\MSSQLSERVER01;Initial Catalog=xumlocal;Persist Security Info=True;Integrated Security=True;TrustServerCertificate=True");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -172,10 +173,6 @@ public partial class DBContext : DbContext
         modelBuilder.Entity<RepairDatum>(entity =>
         {
             entity.HasKey(e => e.RepairId).HasName("PK__RepairDa__07D0BC2D39218AEE");
-
-            entity.HasOne(d => d.Db).WithMany(p => p.RepairData)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK_RepairData_History");
         });
 
         modelBuilder.Entity<ReplacedPart>(entity =>

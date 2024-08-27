@@ -41,7 +41,6 @@
                 </Grid.RowDefinitions>
                 <StackPanel Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Top">
                     <Button Content="Dashboard" Command="{Binding DashboardViewCommand}"/>
-                    <Button Content="Laptop log"  Command="{Binding LaptopLogCommand}"/>
                     <Button Content="Returns"  Command="{Binding ReturnsViewCommand}"/>
                     <Button Content="Repairs"  Command="{Binding RepairsViewCommand}"/>
                     <Button Content="Tools"  Command="{Binding ToolsViewCommand}"/>

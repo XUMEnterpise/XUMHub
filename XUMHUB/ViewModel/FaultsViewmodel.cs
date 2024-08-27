@@ -15,7 +15,8 @@ namespace XUMHUB.ViewModel
     public class FaultsViewmodel: BaseViewModel
     {
         IIssueLogToDB _issueLogToDB=new IssuesToDb();
-        public FaultsViewmodel(List<FaultViewModel> FaultsFromRepairData=null)
+        private int? repairId;
+        public FaultsViewmodel(List<FaultViewModel> FaultsFromRepairData=null,int? RepairID=null)
         {
             Faults =new ObservableCollection<FaultViewModel>();
             LoadData();
@@ -26,6 +27,7 @@ namespace XUMHUB.ViewModel
             {
                 LoadDataForExisting(FaultsFromRepairData);
             }
+            repairId = RepairID;
         }
 
         public ObservableCollection<FaultViewModel> Faults { get; }
@@ -54,8 +56,9 @@ namespace XUMHUB.ViewModel
             IList<string> faults =await _issueLogToDB.GetAllIssues();
             foreach (var fault in faults)
             {
-                Faults.Add(new FaultViewModel(fault,false));
+                Faults.Add(new FaultViewModel(0,repairId??0,fault,false));
             }
         }
+
     }
 }

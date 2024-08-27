@@ -4,87 +4,96 @@ using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Input;
+using XUMHUB.Commands;
+using XUMHUB.Core;
 using XUMHUB.DTOS;
 using XUMHUB.Model;
+using XUMHUB.Services;
+using XUMHUB.Services.AgentService;
 using XUMHUB.Services.LaptopModelsService;
+using XUMHUB.Stores;
 
 namespace XUMHUB.ViewModel
 {
     public class LaptopLoggingViewModel : BaseViewModel
     {
-        public ObservableCollection<LaptopInfoModel> LaptopInfo { get; set; }
-        public ObservableCollection<LaptopInfoModel> FilteredLaptopInfo { get; set; }
-        private IDatabaseToLaptopInfoModel _databaseToLaptopInfoModel;
-        public string SKU => Laptop?.Sku;
-        public string CPU => Laptop?.Cpu;
-        public string RAM => Laptop?.Ram;
-        public string Storage => Laptop?.Storage;
-        public string ScreenSize => Laptop?.Display;
-        public string OS => Laptop?.Os;
-        public FaultsViewmodel FaultsViewmodel => new FaultsViewmodel();
 
-        private LaptopInfoModel laptop;
-        public LaptopInfoModel Laptop
+		IDatabaseToAgent databaseToAgent = new DatabaseToAgent();
+        public ICommand SubmitCommand => new RelayCommand(Submit);
+        AgentModel agent;
+		NavigationStore _store { get; }
+		private FaultsViewmodel faultsViewmodel;
+		public FaultsViewmodel FaultsViewmodel
+		{
+			get
+			{
+				return faultsViewmodel;
+			}
+			set
+			{
+                faultsViewmodel = value;
+				OnPropertyChanged(nameof(faultsViewmodel));
+			}
+		}
+		private void Submit(object obj)
         {
-            get
+            if (string.IsNullOrEmpty(ServiceCode))
             {
-                return laptop;
+                return;
             }
-            set
-            {
-                laptop = value;
-                OnPropertyChanged(nameof(Laptop));
-                UpdateLaptopDetails();
+			agent = databaseToAgent.GetAgent(AgentId);
+			List<FaultModel> faults= new List<FaultModel>();
+			foreach(var fault in FaultsViewmodel.FaultSelections)
+			{
+				FaultModel faultModel=new FaultModel(fault.SelectedFault.faultId, fault.SelectedFault.repairId, fault.FaultName, fault.IsRepaired);
+                faults.Add(faultModel);
             }
+            RepairEntryViewModel repairEntryViewModel = new RepairEntryViewModel(null,serviceCode,agent.AgentName,DateTime.Now,"PENDING",null,null,faults);
+            ICommand CreateRepairCommand = new CreateRepairEntryCommand(repairEntryViewModel);
+            CreateRepairCommand.Execute(null);
+			NavigateToRepairs();
         }
-        public LaptopLoggingViewModel()
+
+        private void NavigateToRepairs()
         {
-            _databaseToLaptopInfoModel = new DatabaseToLaptopInfoModel();
-            LaptopInfo = new ObservableCollection<LaptopInfoModel>();
-            FilteredLaptopInfo = new ObservableCollection<LaptopInfoModel>();
-            LoadData();
-            
+            RepairViewModel repairViewModel = new RepairViewModel(_store);
+			NavigationService<RepairViewModel> repairSerivice=new NavigationService<RepairViewModel>(_store, () => repairViewModel);
+            ICommand Navigate=new NavigateCommand<RepairViewModel>(repairSerivice);
+            Navigate.Execute(null);
         }
-        private string searchQuery;
-        public string SearchQuery
-        {
-            get
-            {
-                return searchQuery;
+
+        private string agentId;
+		public string AgentId
+		{
+			get
+			{
+				return agentId;
+			}
+			set
+			{
+                agentId = value;
+				OnPropertyChanged(nameof(agentId));
             }
-            set
-            {
-                searchQuery = value;
-                OnPropertyChanged(nameof(SearchQuery));
-                FilterLaptops();
-            }
-        }
-        private void FilterLaptops()
+		}
+		private string serviceCode;
+		public string ServiceCode
+		{
+			get
+			{
+				return serviceCode;
+			}
+			set
+			{
+                serviceCode = value;
+				OnPropertyChanged(nameof(serviceCode));
+			}
+		}
+
+        public LaptopLoggingViewModel(NavigationStore store)
         {
-            FilteredLaptopInfo.Clear();
-            foreach (var laptop in LaptopInfo.Where(l => l.Model.Contains(SearchQuery, StringComparison.OrdinalIgnoreCase)))
-            {
-                FilteredLaptopInfo.Add(laptop);
-            }
-        }
-        private void UpdateLaptopDetails()
-        {
-            // Notify that all dependent properties have changed
-            OnPropertyChanged(nameof(SKU));
-            OnPropertyChanged(nameof(CPU));
-            OnPropertyChanged(nameof(RAM));
-            OnPropertyChanged(nameof(Storage));
-            OnPropertyChanged(nameof(OS));
-            OnPropertyChanged(nameof(ScreenSize));
-        }
-        public async void LoadData()
-        {
-            IEnumerable<LaptopInfoModel> laptopInfo = await _databaseToLaptopInfoModel.GetAllLaptopModels();
-            foreach (var item in laptopInfo)
-            {
-                LaptopInfo.Add(item);
-                FilteredLaptopInfo.Add(item);
-            }
+            _store = store;
+            FaultsViewmodel = new FaultsViewmodel();
         }
     }
 }

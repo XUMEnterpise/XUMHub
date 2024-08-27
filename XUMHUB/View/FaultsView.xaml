@@ -17,7 +17,7 @@
             <RowDefinition Height="0.1*"/>
         </Grid.RowDefinitions>
 
-        <Grid>
+        <Grid Margin="25">
             <StackPanel>
                 <ItemsControl ItemsSource="{Binding FaultSelections}">
                     <ItemsControl.ItemTemplate>
@@ -34,12 +34,18 @@
                                           />
 
                                 <!-- Label -->
-                                <Label Width="200"
-                                   Content="{Binding FaultName}" 
-                                   Visibility="{Binding IsComboBoxVisible, Converter={StaticResource BooleanToVisibilityConverter}, ConverterParameter=Invert}"/>
+                                <TextBlock Width="200"
+                                   Text="{Binding FaultName}" 
+                                   Visibility="{Binding IsComboBoxVisible,
+                                    Converter={StaticResource BooleanToVisibilityConverter}, 
+                                    ConverterParameter=Invert}"
+                                   Style="{StaticResource Label}"
+                                       />
                                 <CheckBox 
                                       IsChecked="{Binding IsRepaired}" 
-                                      Visibility="{Binding IsComboBoxVisible, Converter={StaticResource BooleanToVisibilityConverter}, ConverterParameter=Invert}"/>
+                                      Visibility="{Binding IsComboBoxVisible, Converter={StaticResource BooleanToVisibilityConverter}, ConverterParameter=Invert}"
+                                    behaviors:CheckBoxBehaviour.CheckChangedCommand="{Binding CheckCommand}">
+                                </CheckBox>
 
                                 <!-- Add Fault Button -->
                                 <Button Content="Add Fault"

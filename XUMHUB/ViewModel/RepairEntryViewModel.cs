@@ -3,33 +3,42 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using XUMHUB.DTOS;
 using XUMHUB.Model;
 
 namespace XUMHUB.ViewModel
 {
     public class RepairEntryViewModel
     {
-        public readonly RepairDataModel _repairData;
-        public string ServiceTag => _repairData.ServiceTag;
-        public string Agent => _repairData.AgentLogged.AgentName;
-        public DateTime? LoggedDate => _repairData.DateLogged;
-        public string RepairStatus => _repairData.RepairStatus;
-        public DateTime? RepairDate => _repairData.RepairedDate;
-        public string? RepairAgent => _repairData.AgentRepaired.AgentName ?? "Not Repaired";
+        public int? RepairId { get; }
+        public string ServiceTag { get; }
+        public string Agent { get; }
+        public DateTime? LoggedDate { get; }
+        public string RepairStatus { get; }
+        public DateTime? RepairDate { get; }
+        public string? RepairAgent { get; }
         public List<FaultViewModel> Faults;
+        List<FaultModel> faultsModel;
 
-
-        public RepairEntryViewModel(RepairDataModel repairData)
+        public RepairEntryViewModel(int? repairId,string serviceTag, string agent, DateTime? loggedDate, string repairStatus, DateTime? repairDate, string? repairAgent, List<FaultModel> faultsModel)
         {
+            RepairId = repairId;
+            ServiceTag = serviceTag;
+            Agent = agent;
+            LoggedDate = loggedDate;
+            RepairStatus = repairStatus;
+            RepairDate = repairDate;
+            RepairAgent = repairAgent;
+            this.faultsModel = faultsModel;
             Faults = new List<FaultViewModel>();
-            _repairData = repairData;
             LoadData();
         }
+
         public async void LoadData()
         {
-            foreach (var fault in _repairData.Faults)
+            foreach (var fault in faultsModel)
             {
-                FaultViewModel viewmodel = new FaultViewModel(fault.FaultName,fault.IsRepaired??false);
+                FaultViewModel viewmodel = new FaultViewModel(fault.FaultId??0,fault.RepairId,fault.FaultName,fault.IsRepaired??false);
                 Faults.Add(viewmodel);
             }
         }

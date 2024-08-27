@@ -29,11 +29,7 @@ public partial class RepairDatum
     public int? AgentRepaired { get; set; }
 
     [Column("DbID")]
-    public int DbId { get; set; }
-
-    [ForeignKey("DbId")]
-    [InverseProperty("RepairData")]
-    public virtual History Db { get; set; } = null!;
+    public int? DbId { get; set; }
 
     [InverseProperty("Repair")]
     public virtual ICollection<Fault> Faults { get; set; } = new List<Fault>();

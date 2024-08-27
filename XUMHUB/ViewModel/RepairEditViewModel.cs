@@ -17,8 +17,9 @@ namespace XUMHUB.ViewModel
         public DateTime? RepairDate => repairEntryViemodel.RepairDate;
         public string? RepairAgent => repairEntryViemodel.RepairAgent;
         public List<FaultViewModel> Faults => repairEntryViemodel.Faults;
+        public int repairId => repairEntryViemodel.RepairId ?? 0;
         public ObservableCollection<string> Options { get; }
-        public FaultsViewmodel FaultsViewmodel => new FaultsViewmodel(Faults);
+        public FaultsViewmodel FaultsViewmodel => new FaultsViewmodel(Faults,repairId);
         public string Status => repairEntryViemodel.RepairStatus;
         public RepairEditViewModel(RepairEntryViewModel repairEntryViemodel)
         {

@@ -19,23 +19,39 @@ namespace XUMHUB.ViewModel
         IDatabaseToRepairDataModel _databaseToRepairDataModel=new DatabaseToRepairDataModel();
         public NavigationStore _store { get; }
 		public ICommand LoadDataCommand { get; }
+        public ICommand LaptopLogCommand { get; }
+        IEnumerable<RepairDataModel> repairDataModels;
         public RepairViewModel(NavigationStore store)
         {
             _store = store;
 			LoadDataCommand = new TaskCommand(async () => await LoadData());
             LoadDataCommand.Execute(null);
+            LaptopLogCommand = new RelayCommand(_ => OnLaptopLog());
+        }
+
+        private void OnLaptopLog()
+        {
+            LaptopLoggingViewModel laptopLoggingViewModel = new LaptopLoggingViewModel(_store);
+            NavigationService<LaptopLoggingViewModel> laptopLogNavStore = new NavigationService<LaptopLoggingViewModel>(_store, () => laptopLoggingViewModel);
+            ICommand ChangeToLaptopViewCommand = new NavigateCommand<LaptopLoggingViewModel>(laptopLogNavStore);
+            ChangeToLaptopViewCommand.Execute(null);
         }
 
         private async Task LoadData()
         {
-            IEnumerable<RepairDataModel> repairDataModels = await _databaseToRepairDataModel.GetAllRepairs();
+            repairDataModels = await _databaseToRepairDataModel.GetAllRepairs();
 			DataRows = new ObservableCollection<RepairEntryViewModel>();
+            repairEditViewModels = new ObservableCollection<RepairEntryViewModel>();
             foreach (var repairDataModel in repairDataModels)
 			{
-				DataRows.Add(new RepairEntryViewModel(repairDataModel));
+                RepairEntryViewModel repairEntry = new RepairEntryViewModel(repairDataModel.RepairId, repairDataModel.ServiceTag, repairDataModel.AgentLogged==null?null:repairDataModel.AgentLogged.AgentName, repairDataModel.DateLogged, repairDataModel.RepairStatus
+                    , repairDataModel.RepairedDate, repairDataModel.AgentRepaired==null?null:repairDataModel.AgentRepaired.AgentName, repairDataModel.Faults);
+
+                DataRows.Add(repairEntry);
+                repairEditViewModels.Add(repairEntry);
             }
         }
-
+        private ObservableCollection<RepairEntryViewModel> repairEditViewModels;
 		private ObservableCollection<RepairEntryViewModel> _datarows;
 		public ObservableCollection<RepairEntryViewModel> DataRows
 		{
@@ -56,6 +72,29 @@ namespace XUMHUB.ViewModel
 
                 ChangeToRepairEdit(item);
 
+            }
+        }
+        private string searchQuery;
+        public string SearchQuery
+        {
+            get
+            {
+                return searchQuery;
+            }
+            set
+            {
+                searchQuery = value;
+                OnPropertyChanged(nameof(SearchQuery));
+                FilterRepairs();
+            }
+        }
+
+        private void FilterRepairs()
+        {
+            _datarows.Clear();
+            foreach (var repair in repairEditViewModels.Where(l => l.ServiceTag.ToString().Contains(SearchQuery, StringComparison.OrdinalIgnoreCase)))
+            {
+                _datarows.Add(repair);
             }
         }
 
