@@ -54,8 +54,7 @@ namespace XUMHUB.ViewModel
             IList<string> faults =await _issueLogToDB.GetAllIssues();
             foreach (var fault in faults)
             {
-                FaultModel faultModel= new FaultModel(fault,false);
-                Faults.Add(new FaultViewModel(faultModel));
+                Faults.Add(new FaultViewModel(fault,false));
             }
         }
     }

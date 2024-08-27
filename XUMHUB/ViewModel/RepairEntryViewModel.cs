@@ -29,7 +29,7 @@ namespace XUMHUB.ViewModel
         {
             foreach (var fault in _repairData.Faults)
             {
-                FaultViewModel viewmodel = new FaultViewModel(fault);
+                FaultViewModel viewmodel = new FaultViewModel(fault.FaultName,fault.IsRepaired??false);
                 Faults.Add(viewmodel);
             }
         }

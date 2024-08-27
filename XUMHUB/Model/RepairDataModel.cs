@@ -8,8 +8,9 @@ namespace XUMHUB.Model
 {
     public class RepairDataModel
     {
-        public RepairDataModel(string serviceTag, AgentModel agentLogged, DateTime? dateLogged, string repairStatus, DateTime? repairedDate, AgentModel agentRepaired, List<FaultModel> faults)
+        public RepairDataModel(int repairId,string serviceTag, AgentModel agentLogged, DateTime? dateLogged, string repairStatus, DateTime? repairedDate, AgentModel agentRepaired, List<FaultModel> faults, int dbID)
         {
+            RepairId = repairId;
             ServiceTag = serviceTag;
             AgentLogged = agentLogged;
             DateLogged = dateLogged;
@@ -17,8 +18,9 @@ namespace XUMHUB.Model
             RepairedDate = repairedDate;
             AgentRepaired = agentRepaired;
             Faults = faults;
+            DbID = dbID;
         }
-
+        public int RepairId { get; private set; }
         public string ServiceTag { get; private set; }
         public AgentModel AgentLogged { get; private set; }
         public DateTime? DateLogged { get; private set; }
@@ -26,6 +28,7 @@ namespace XUMHUB.Model
         public DateTime? RepairedDate { get; private set; }
         public AgentModel AgentRepaired { get; private set; }
         public List<FaultModel> Faults { get; private set; }
+        public int DbID { get; private set; }
 
     }
 }

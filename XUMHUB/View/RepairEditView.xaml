@@ -37,9 +37,7 @@
                     </StackPanel>
                     <StackPanel Grid.Row="3" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Stretch">
                         <TextBlock Style="{StaticResource Label}" Text="Repair Status: " Margin="10 0 10 0"/>
-                        <ComboBox SelectedItem="{Binding Status, Mode=TwoWay}"
-                                    ItemsSource="{Binding Options}">
-                        </ComboBox>
+                        <TextBlock Style="{StaticResource Label}" Text="{Binding Status}" Margin="10 0 10 0"/>
                     </StackPanel>
                     <StackPanel Grid.Row="4" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Stretch">
                         <TextBlock Style="{StaticResource Label}" Text="Repaired Date: " Margin="10 0 10 0"/>

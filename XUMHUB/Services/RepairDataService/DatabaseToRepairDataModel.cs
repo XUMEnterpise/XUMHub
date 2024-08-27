@@ -21,25 +21,29 @@ namespace XUMHUB.Services.RepairDataService
                         join c in context.Faults on o.RepairId equals c.RepairId into faultsGroup
                         select new
                         {
+                            o.RepairId,
                             o.ServiceTag,
                             o.AgentLogged,
                             o.LoggedDate,
                             o.RepairStatus,
                             o.RepairedDate,
                             o.AgentRepaired,
-                            Faults = faultsGroup.ToList()
+                            Faults = faultsGroup.ToList(),
+                            o.DbId
                         };
 
             var results = query.ToList();
 
             var repairsData = results.Select(x => new RepairDataModel(
+                 x.RepairId,
                  x.ServiceTag,
                  databaseToAgent.GetAgent(x.AgentLogged),
                  x.LoggedDate,
                  x.RepairStatus,
                  x.RepairedDate,
                  databaseToAgent.GetAgent(x.AgentRepaired.ToString()),
-                 x.Faults.Select(f => new FaultModel(f.Fault1, f.IsRepaired)).ToList()
+                 x.Faults.Select(f => new FaultModel(f.Id,f.RepairId??0,f.Fault1, f.IsRepaired)).ToList(),
+                 x.DbId
             )).ToList();
             return repairsData;
         }

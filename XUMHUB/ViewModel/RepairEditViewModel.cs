@@ -19,31 +19,12 @@ namespace XUMHUB.ViewModel
         public List<FaultViewModel> Faults => repairEntryViemodel.Faults;
         public ObservableCollection<string> Options { get; }
         public FaultsViewmodel FaultsViewmodel => new FaultsViewmodel(Faults);
+        public string Status => repairEntryViemodel.RepairStatus;
         public RepairEditViewModel(RepairEntryViewModel repairEntryViemodel)
         {
             this.repairEntryViemodel = repairEntryViemodel;
-            Options = new ObservableCollection<string>()
-            {
-                "REPAIRED",
-                "PENDING",
-                "UNREPAIRABLE"
-            };
-            Status = Options[Options.IndexOf(repairEntryViemodel.RepairStatus.ToUpper())];
         }
 
         public RepairEntryViewModel repairEntryViemodel { get; }
-        private string _status;
-        public string Status
-        {
-            get
-            {
-                return _status;
-            }
-            set
-            {
-                _status = value;
-                OnPropertyChanged(nameof(Status));
-            }
-        }
     }
 }
