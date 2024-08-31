@@ -10,6 +10,7 @@ namespace XUMHUB.Services.FaultsService
     public interface IDatabaseToFaults
     {
         Task UpdateFaults(FaultModel fault);
-        Task UpdateSpecificFault(int fauId, bool isRepaired);
+        Task UpdateSpecificFault(int fauId, bool isRepaired,string repairedId);
+        Task<string> GetFaultId(int repairId, string faultName);
     }
 }

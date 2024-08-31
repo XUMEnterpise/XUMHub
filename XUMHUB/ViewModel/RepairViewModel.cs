@@ -18,20 +18,22 @@ namespace XUMHUB.ViewModel
     {
         IDatabaseToRepairDataModel _databaseToRepairDataModel=new DatabaseToRepairDataModel();
         public NavigationStore _store { get; }
-		public ICommand LoadDataCommand { get; }
+        public AgentStore AgentStore { get; }
+        public ICommand LoadDataCommand { get; }
         public ICommand LaptopLogCommand { get; }
         IEnumerable<RepairDataModel> repairDataModels;
-        public RepairViewModel(NavigationStore store)
+        public RepairViewModel(NavigationStore store,AgentStore agentStore)
         {
             _store = store;
-			LoadDataCommand = new TaskCommand(async () => await LoadData());
+            AgentStore = agentStore;
+            LoadDataCommand = new TaskCommand(async () => await LoadData());
             LoadDataCommand.Execute(null);
             LaptopLogCommand = new RelayCommand(_ => OnLaptopLog());
         }
 
         private void OnLaptopLog()
         {
-            LaptopLoggingViewModel laptopLoggingViewModel = new LaptopLoggingViewModel(_store);
+            LaptopLoggingViewModel laptopLoggingViewModel = new LaptopLoggingViewModel(_store, AgentStore);
             NavigationService<LaptopLoggingViewModel> laptopLogNavStore = new NavigationService<LaptopLoggingViewModel>(_store, () => laptopLoggingViewModel);
             ICommand ChangeToLaptopViewCommand = new NavigateCommand<LaptopLoggingViewModel>(laptopLogNavStore);
             ChangeToLaptopViewCommand.Execute(null);
@@ -100,7 +102,7 @@ namespace XUMHUB.ViewModel
 
         private void ChangeToRepairEdit(RepairEntryViewModel item)
         {
-            RepairEditViewModel repairEditViewModel = new RepairEditViewModel(item);
+            RepairEditViewModel repairEditViewModel = new RepairEditViewModel(item, AgentStore);
             NavigationService<RepairEditViewModel> navService = new NavigationService<RepairEditViewModel>(_store, () => repairEditViewModel);
             ICommand LoadRepairEdit = new NavigateCommand<RepairEditViewModel>(navService);
             LoadRepairEdit.Execute(null);

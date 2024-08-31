@@ -4,6 +4,7 @@ using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using XUMHUB.Stores;
 
 namespace XUMHUB.ViewModel
 {
@@ -19,13 +20,15 @@ namespace XUMHUB.ViewModel
         public List<FaultViewModel> Faults => repairEntryViemodel.Faults;
         public int repairId => repairEntryViemodel.RepairId ?? 0;
         public ObservableCollection<string> Options { get; }
-        public FaultsViewmodel FaultsViewmodel => new FaultsViewmodel(Faults,repairId);
+        public FaultsViewmodel FaultsViewmodel => new FaultsViewmodel(agentStore,Faults,repairId);
         public string Status => repairEntryViemodel.RepairStatus;
-        public RepairEditViewModel(RepairEntryViewModel repairEntryViemodel)
+        public RepairEditViewModel(RepairEntryViewModel repairEntryViemodel,AgentStore agentStore)
         {
             this.repairEntryViemodel = repairEntryViemodel;
+            this.agentStore = agentStore;
         }
 
         public RepairEntryViewModel repairEntryViemodel { get; }
+        public AgentStore agentStore { get; private set; }
     }
 }

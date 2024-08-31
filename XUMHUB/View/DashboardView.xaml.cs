@@ -12,8 +12,6 @@ namespace XUMHUB.View
         public DashboardView()
         {
             InitializeComponent();
-            DashboardViewModel viewModel = new DashboardViewModel();
-            DataContext=viewModel;
         }
     }
 }

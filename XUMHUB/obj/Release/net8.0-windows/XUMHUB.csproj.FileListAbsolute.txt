@@ -159,3 +159,5 @@ E:\repos\XUMHub\XUMHUB\obj\Release\net8.0-windows\refint\XUMHUB.dll
 E:\repos\XUMHub\XUMHUB\obj\Release\net8.0-windows\XUMHUB.pdb
 E:\repos\XUMHub\XUMHUB\obj\Release\net8.0-windows\XUMHUB.genruntimeconfig.cache
 E:\repos\XUMHub\XUMHUB\obj\Release\net8.0-windows\ref\XUMHUB.dll
+E:\repos\XUMHub\XUMHUB\obj\Release\net8.0-windows\View\LoginView.g.cs
+E:\repos\XUMHub\XUMHUB\obj\Release\net8.0-windows\View\LoginView.baml

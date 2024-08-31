@@ -8,19 +8,24 @@ using System.Windows.Input;
 using XUMHUB.Commands;
 using XUMHUB.Core;
 using XUMHUB.DTOS;
+using XUMHUB.Services.FaultsService;
+using XUMHUB.Stores;
 
 namespace XUMHUB.ViewModel
 {
     public class FaultSelectionViewModel : BaseViewModel
     {
         public ObservableCollection<FaultViewModel> FaultList { get; private set; }
+        public AgentStore AgentStore { get; }
+
         public UpdateFaultCheckBoxCommand _UpdateFaultCheckBoxCommand;
         ICommand _addFaultCommand;
         public ICommand CheckCommand { get; }
-        public FaultSelectionViewModel(ObservableCollection<FaultViewModel> faults)
+        public FaultSelectionViewModel(ObservableCollection<FaultViewModel> faults,AgentStore agentStore)
         {
             IsComboBoxVisible = true;
             FaultList = faults;
+            AgentStore = agentStore;
             ConvertToLabelCommand = new RelayCommand(_ => OnConverToLabel());
             CheckCommand = new RelayCommand(_ => OnCheckBoxChanged());
         }
@@ -29,7 +34,7 @@ namespace XUMHUB.ViewModel
         {
             if (SelectedFault.faultId != 0)
             {
-                _UpdateFaultCheckBoxCommand = new UpdateFaultCheckBoxCommand(SelectedFault.faultId??0, IsRepaired ?? false);
+                _UpdateFaultCheckBoxCommand = new UpdateFaultCheckBoxCommand(SelectedFault.faultId??0, IsRepaired ?? false,AgentStore==null?"":AgentStore.AgentModel.AgentId.ToString());
                 _UpdateFaultCheckBoxCommand.Execute(null);
             }
         }
@@ -75,14 +80,19 @@ namespace XUMHUB.ViewModel
         }
         public ICommand ConvertToLabelCommand { get; }
 
-        private void OnConverToLabel()
+        private async void OnConverToLabel()
         {
+            IDatabaseToFaults faultsService = new DatabaseToFaults();
             IsComboBoxVisible = false;
-            if (_selectedFault.faultId != 0)
+             _addFaultCommand = new CreateFaultCommand(_selectedFault);
+             _addFaultCommand.Execute(null);
+            string repairIDFromDB = await faultsService.GetFaultId(_selectedFault.repairId, _selectedFault.FaultName);
+            int repairId=0;
+            if(Int32.TryParse(repairIDFromDB,out repairId))
             {
-                _addFaultCommand = new CreateFaultCommand(_selectedFault);
-                _addFaultCommand.Execute(null);
+                _selectedFault.faultId = repairId;
             }
+            
 
         }
 

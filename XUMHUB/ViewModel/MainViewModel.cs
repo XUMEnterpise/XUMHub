@@ -38,6 +38,7 @@ namespace XUMHUB.ViewModel
             ReturnsViewCommand = new NavigateCommand<ReturnsListingViewModel>(returnsNavigationSerive);
             ToolsViewCommand = new NavigateCommand<ToolsViewModel>(toolsViewNavigationService);
             RepairsViewCommand = new NavigateCommand<RepairViewModel>(repairViewService);
+            isButtonEnabled = false;
 
         }
         private void OnCurrentViewModelChanged()
@@ -47,6 +48,17 @@ namespace XUMHUB.ViewModel
         private void OnClose()
         {
             Application.Current.MainWindow.Close();
+        }
+        private bool isButtonEnabled;
+
+        public bool IsButtonEnabled
+        {
+            get { return isButtonEnabled; }
+            set 
+            { 
+                isButtonEnabled = value;
+                OnPropertyChanged();
+            }
         }
 
         private void OnMaximize()

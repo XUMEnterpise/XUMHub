@@ -51,7 +51,7 @@ namespace XUMHUB.Services.RepairDataService
                             o.DbId
                         };
 
-            var results = query.ToList();
+            var results =await query.ToListAsync();
 
             var repairsData = results.Select(x => new RepairDataModel(
                  x.RepairId,

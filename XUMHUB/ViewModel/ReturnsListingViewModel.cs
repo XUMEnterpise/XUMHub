@@ -31,6 +31,7 @@ namespace XUMHUB.ViewModel
         private ICustomerInforProvider customerInforProvider= new DabatabaseCustomerInfoProvider();
         
         public NavigationStore navigationStore { get; }
+        public AgentStore AgentStore { get; }
 
         public ObservableCollection<ReturnsInfoViewModel> DataRows
         {
@@ -43,9 +44,10 @@ namespace XUMHUB.ViewModel
 
         }
         public ICommand LoadDataCommand { get; }
-        public ReturnsListingViewModel(NavigationStore navigationStore) 
+        public ReturnsListingViewModel(NavigationStore navigationStore,AgentStore agentStore) 
         {
             this.navigationStore = navigationStore;
+            AgentStore = agentStore;
             LoadDataCommand = new TaskCommand(async () => await LoadData());
             LoadDataCommand.Execute(null);
             

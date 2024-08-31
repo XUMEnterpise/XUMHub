@@ -1,0 +1,15 @@
+F:\XUMHUB\XUMHUB.pdb
+F:\XUMHUB\Resources\close.png
+F:\XUMHUB\Resources\csv.png
+F:\XUMHUB\Resources\maximize.png
+F:\XUMHUB\Resources\minus.png
+F:\XUMHUB\XUMHUB.dll.config
+F:\XUMHUB\D3DCompiler_47_cor3.dll
+F:\XUMHUB\PenImc_cor3.dll
+F:\XUMHUB\PresentationNative_cor3.dll
+F:\XUMHUB\vcruntime140_cor3.dll
+F:\XUMHUB\wpfgfx_cor3.dll
+F:\XUMHUB\Microsoft.Data.SqlClient.SNI.dll
+F:\XUMHUB\msalruntime_x86.dll
+F:\XUMHUB\WebView2Loader.dll
+F:\XUMHUB\XUMHUB.exe

@@ -13,15 +13,16 @@ namespace XUMHUB.ViewModel
     public class ToolsViewModel : BaseViewModel
     {
         public ICommand LoadCSV { get; }
-        public ToolsViewModel(NavigationStore navigationStore)
+        public ToolsViewModel(NavigationStore navigationStore,AgentStore agentStore)
         {
             this.navigationStore = navigationStore;
+            AgentStore = agentStore;
             CSVUploadViewModel customerReturnViewModel = new CSVUploadViewModel();
             NavigationService<CSVUploadViewModel> navService = new NavigationService<CSVUploadViewModel>(navigationStore, () => customerReturnViewModel);
             LoadCSV = new NavigateCommand<CSVUploadViewModel>(navService);
         }
 
         public NavigationStore navigationStore { get; }
-
+        public AgentStore AgentStore { get; }
     }
 }

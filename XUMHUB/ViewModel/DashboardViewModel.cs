@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using XUMHUB.Model;
 using System.Timers;
+using XUMHUB.Stores;
 
 namespace XUMHUB.ViewModel
 {
@@ -14,7 +15,8 @@ namespace XUMHUB.ViewModel
 		public DashboardModel dashboardModel;
         private System.Timers.Timer _timer;
 
-        public DashboardViewModel()
+
+        public DashboardViewModel(AgentStore agentStore)
         {
 			dashboardModel = new DashboardModel();
 			LoadData();
@@ -22,6 +24,7 @@ namespace XUMHUB.ViewModel
             _timer.Elapsed += OnTimedEvent;
             _timer.AutoReset = true;
             _timer.Enabled = true;
+            AgentStore = agentStore;
         }
 
         private void OnTimedEvent(object? sender, ElapsedEventArgs e)
@@ -80,7 +83,10 @@ namespace XUMHUB.ViewModel
 				OnPropertyChanged(nameof(LaptopOrdersToday));
 			}
 		}
-		public async Task LoadData()
+
+        public AgentStore AgentStore { get; }
+
+        public async Task LoadData()
 		{
 			LaptopCountBuilt = await dashboardModel.LaptopBuiltToday();
 			DesktopBuiltToday = await dashboardModel.DesktopBuiltToday();

@@ -40,10 +40,10 @@
                     <RowDefinition/>
                 </Grid.RowDefinitions>
                 <StackPanel Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Top">
-                    <Button Content="Dashboard" Command="{Binding DashboardViewCommand}"/>
-                    <Button Content="Returns"  Command="{Binding ReturnsViewCommand}"/>
-                    <Button Content="Repairs"  Command="{Binding RepairsViewCommand}"/>
-                    <Button Content="Tools"  Command="{Binding ToolsViewCommand}"/>
+                    <Button Content="Dashboard" Command="{Binding DashboardViewCommand}" IsEnabled="False"/>
+                    <Button Content="Returns"  Command="{Binding ReturnsViewCommand}" IsEnabled="False"/>
+                    <Button Content="Repairs"  Command="{Binding RepairsViewCommand}" IsEnabled="{Binding IsButtonEnabled}"/>
+                    <Button Content="Tools"  Command="{Binding ToolsViewCommand}" IsEnabled="False"/>
                 </StackPanel>
             </Grid>
             <ContentControl  Grid.Column="1" Margin="10 10 10 50" Content="{Binding CurrentViewModel}"/>

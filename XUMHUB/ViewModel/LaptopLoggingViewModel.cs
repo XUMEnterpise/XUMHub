@@ -23,7 +23,9 @@ namespace XUMHUB.ViewModel
         public ICommand SubmitCommand => new RelayCommand(Submit);
         AgentModel agent;
 		NavigationStore _store { get; }
-		private FaultsViewmodel faultsViewmodel;
+        public AgentStore AgentStore { get; }
+
+        private FaultsViewmodel faultsViewmodel;
 		public FaultsViewmodel FaultsViewmodel
 		{
 			get
@@ -42,7 +44,11 @@ namespace XUMHUB.ViewModel
             {
                 return;
             }
-			agent = databaseToAgent.GetAgent(AgentId);
+			agent = AgentStore.AgentModel;
+			if(agent==null)
+            {
+                return;
+            }
 			List<FaultModel> faults= new List<FaultModel>();
 			foreach(var fault in FaultsViewmodel.FaultSelections)
 			{
@@ -57,23 +63,23 @@ namespace XUMHUB.ViewModel
 
         private void NavigateToRepairs()
         {
-            RepairViewModel repairViewModel = new RepairViewModel(_store);
+            RepairViewModel repairViewModel = new RepairViewModel(_store, AgentStore);
 			NavigationService<RepairViewModel> repairSerivice=new NavigationService<RepairViewModel>(_store, () => repairViewModel);
             ICommand Navigate=new NavigateCommand<RepairViewModel>(repairSerivice);
             Navigate.Execute(null);
         }
 
-        private string agentId;
-		public string AgentId
-		{
+        private string agentName;
+		public string AgentName
+        {
 			get
 			{
-				return agentId;
+				return agentName;
 			}
 			set
 			{
-                agentId = value;
-				OnPropertyChanged(nameof(agentId));
+                agentName = value;
+				OnPropertyChanged(nameof(agentName));
             }
 		}
 		private string serviceCode;
@@ -90,10 +96,12 @@ namespace XUMHUB.ViewModel
 			}
 		}
 
-        public LaptopLoggingViewModel(NavigationStore store)
+        public LaptopLoggingViewModel(NavigationStore store,AgentStore agentStore)
         {
             _store = store;
-            FaultsViewmodel = new FaultsViewmodel();
+            AgentStore = agentStore;
+            FaultsViewmodel = new FaultsViewmodel(AgentStore);
+			agentName= AgentStore.AgentModel.AgentName;
         }
     }
 }

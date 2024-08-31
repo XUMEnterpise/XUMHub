@@ -18,6 +18,9 @@ public partial class Fault
     public string? Fault1 { get; set; }
 
     public bool? IsRepaired { get; set; }
+    [Column("RepairedAgent")]
+    [StringLength(10)]
+    public string? RepairedAgent { get; set; }
 
     [ForeignKey("RepairId")]
     [InverseProperty("Faults")]

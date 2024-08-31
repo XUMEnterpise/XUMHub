@@ -1,6 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <PropertyGroup />
+  <PropertyGroup>
+    <_LastSelectedProfileId>E:\repos\XUMHub\XUMHUB\Properties\PublishProfiles\FolderProfile.pubxml</_LastSelectedProfileId>
+  </PropertyGroup>
   <ItemGroup>
     <ApplicationDefinition Update="App.xaml">
       <SubType>Designer</SubType>
@@ -20,6 +22,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="View\LaptopsLogPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\LoginView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="View\RepairEditView.xaml.cs">
@@ -55,6 +60,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="View\LaptopsLogPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\LoginView.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="View\RepairEditView.xaml">

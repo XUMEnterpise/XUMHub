@@ -41,13 +41,13 @@
                         </Grid.ColumnDefinitions>
 
                         <TextBlock Grid.Column="0" 
-                                   Text="Service Tag: " 
+                                   Text="Agend Id: " 
                                    Style="{StaticResource Label Smaller}" 
                                    Margin="10 10 0 0" 
                                    VerticalAlignment="Top" 
                                    HorizontalAlignment="Stretch"/>
-                        <TextBox Grid.Column="1"
-                                 Text="{Binding AgentId}"  
+                        <TextBlock Grid.Column="1"
+                                 Text="{Binding AgentName}"  
                                  Margin="10 10 0 0" 
                                  Width="100" 
                                  Height="18" 
