@@ -470,3 +470,5 @@ E:\repos\XUMHub\XUMHUB\obj\Debug\net8.0-windows\View\RepairEditView.baml
 E:\repos\XUMHub\XUMHUB\obj\Debug\net8.0-windows\View\RepairView.baml
 E:\repos\XUMHub\XUMHUB\obj\Debug\net8.0-windows\View\LoginView.g.cs
 E:\repos\XUMHub\XUMHUB\obj\Debug\net8.0-windows\View\LoginView.baml
+C:\Users\artel\source\repos\XUMHUB\XUMHUB\obj\Debug\net8.0-windows\View\LoginView.g.cs
+C:\Users\artel\source\repos\XUMHUB\XUMHUB\obj\Debug\net8.0-windows\View\LoginView.baml
