@@ -29,6 +29,7 @@
                                       IsEditable="True"
                                       IsTextSearchEnabled="True"
                                       SelectedItem="{Binding SelectedFault}" 
+                                      Text="{Binding TextBoxText}"
                                       Visibility="{Binding IsComboBoxVisible, Converter={StaticResource BooleanToVisibilityConverter}}"
                                       DisplayMemberPath="FaultName"    
                                           />

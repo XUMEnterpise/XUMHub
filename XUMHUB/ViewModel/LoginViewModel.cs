@@ -29,9 +29,9 @@ namespace XUMHUB.ViewModel
             AgentStore = agentStore;
         }
 
-        private void OnLogin()
+        private async void OnLogin()
         {
-			AgentModel = agentService.GetAgent(staffCode);
+			AgentModel = await agentService.GetAgent(staffCode);
             if(AgentModel == null)
             {
                 return;

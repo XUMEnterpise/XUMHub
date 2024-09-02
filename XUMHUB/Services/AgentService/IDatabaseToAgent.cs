@@ -9,7 +9,7 @@ namespace XUMHUB.Services.AgentService
 {
     public interface IDatabaseToAgent
     {
-        AgentModel GetAgent(string agentId);
+       Task<AgentModel> GetAgent(string agentId);
         AgentModel GetAgentByName(string agentName );
     }
 }

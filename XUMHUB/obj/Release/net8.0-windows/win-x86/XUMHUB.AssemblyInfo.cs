@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("XUMHUB")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c2b8cd2eaff8eae6cc405a46d945d5f3fc16fe36")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c1760d5908054120d0de3b225fe8d3c1cddd55dc")]
 [assembly: System.Reflection.AssemblyProductAttribute("XUMHUB")]
 [assembly: System.Reflection.AssemblyTitleAttribute("XUMHUB")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

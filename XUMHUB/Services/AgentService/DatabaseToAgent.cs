@@ -12,11 +12,11 @@ namespace XUMHUB.Services.AgentService
 {
     public class DatabaseToAgent : IDatabaseToAgent
     {
-        public AgentModel GetAgent(string agentId)
+        public async Task<AgentModel> GetAgent(string agentId)
         {
             using(var db = new DBContext())
             {
-                var agent = db.StaffTables.FirstOrDefault(a => a.StaffNumber.ToString() == agentId);
+                var agent = await db.StaffTables.FirstOrDefaultAsync(a => a.StaffNumber.ToString() == agentId);
                 if (agent == null)
                 {
                     return null;

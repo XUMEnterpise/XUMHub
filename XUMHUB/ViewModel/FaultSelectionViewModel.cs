@@ -9,6 +9,7 @@ using XUMHUB.Commands;
 using XUMHUB.Core;
 using XUMHUB.DTOS;
 using XUMHUB.Services.FaultsService;
+using XUMHUB.Services.IssuesService;
 using XUMHUB.Stores;
 
 namespace XUMHUB.ViewModel
@@ -78,11 +79,31 @@ namespace XUMHUB.ViewModel
                 }
             }
         }
+        private string _textBoxText;
+
+        public string TextBoxText
+        {
+            get {
+                return _textBoxText; 
+            }
+            set { 
+                _textBoxText = value; 
+                OnPropertyChanged(nameof(TextBoxText));
+            }
+        }
+
         public ICommand ConvertToLabelCommand { get; }
 
         private async void OnConverToLabel()
         {
             IDatabaseToFaults faultsService = new DatabaseToFaults();
+            if (_selectedFault == null)
+            {
+                SelectedFault = new FaultViewModel(0, 0, _textBoxText, false);
+                FaultList.Add(SelectedFault);
+                ICommand command = new UpdateIssueCommand(_textBoxText);
+                command.Execute(null);
+            }
             IsComboBoxVisible = false;
              _addFaultCommand = new CreateFaultCommand(_selectedFault);
              _addFaultCommand.Execute(null);
