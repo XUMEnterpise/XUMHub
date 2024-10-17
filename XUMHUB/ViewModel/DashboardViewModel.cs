@@ -83,8 +83,21 @@ namespace XUMHUB.ViewModel
 				OnPropertyChanged(nameof(LaptopOrdersToday));
 			}
 		}
+		private int _laptopTestedToday;
+		public int LaptopTestedToday
+		{
+			get
+			{
+				return _laptopTestedToday;
+			}
+			set
+			{
+				_laptopTestedToday = value;
+				OnPropertyChanged(nameof(LaptopTestedToday));
+			}
+		}
 
-        public AgentStore AgentStore { get; }
+		public AgentStore AgentStore { get; }
 
         public async Task LoadData()
 		{
@@ -92,6 +105,7 @@ namespace XUMHUB.ViewModel
 			DesktopBuiltToday = await dashboardModel.DesktopBuiltToday();
 			DesktopOrdersToday = await dashboardModel.DesktopOrdersToday();
 			LaptopOrdersToday= await dashboardModel.LaptopOrdersToday();
-		}
+            LaptopTestedToday = await dashboardModel.LaptopTestedToday();
+        }
 	}
 }

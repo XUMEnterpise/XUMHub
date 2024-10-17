@@ -40,7 +40,7 @@
                     <RowDefinition/>
                 </Grid.RowDefinitions>
                 <StackPanel Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Top">
-                    <Button Content="Dashboard" Command="{Binding DashboardViewCommand}" IsEnabled="False"/>
+                    <Button Content="Dashboard" Command="{Binding DashboardViewCommand}" IsEnabled="{Binding IsButtonEnabled}"/>
                     <Button Content="Returns"  Command="{Binding ReturnsViewCommand}" IsEnabled="False"/>
                     <Button Content="Repairs"  Command="{Binding RepairsViewCommand}" IsEnabled="{Binding IsButtonEnabled}"/>
                     <Button Content="Tools"  Command="{Binding ToolsViewCommand}" IsEnabled="False"/>

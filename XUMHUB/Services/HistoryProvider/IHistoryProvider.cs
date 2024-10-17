@@ -15,5 +15,7 @@ namespace XUMHUB.Services.HistoryProvider
         public Task<int> GetLaptopAmountToday();
         public Task<int> GetDesktopOrdersToday();
         public Task<int> GetLaptopOrdersToday();
+        public Task<int> GetTestedLaptopAmountToday();
+        public Task<int> GetTestedDesktopsToday();
     }
 }

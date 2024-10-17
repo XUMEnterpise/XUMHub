@@ -15,8 +15,8 @@
         <Grid Grid.Row="1">
             <Grid>
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="0.65*"/>
-                    <RowDefinition Height="0.35*"/>
+                    <RowDefinition Height="0.50*"/>
+                    <RowDefinition Height="0.50*"/>
                 </Grid.RowDefinitions>
                 <Grid>
                     <Grid.ColumnDefinitions>
@@ -26,11 +26,11 @@
                     </Grid.ColumnDefinitions>
                     <Border Style="{StaticResource Tile}" Grid.Column="0">
                         <StackPanel>
-                            <TextBlock Text="Today for:" 
+                            <TextBlock Text="Printed:" 
                                        Style="{StaticResource Header}"
                                        Margin="25 25 0 30"/>
                             <StackPanel Orientation="Horizontal">
-                                <TextBlock Text="Logged laptops:" 
+                                <TextBlock Text="Laptops:" 
                                        Margin="25 0 0 15"
                                        Style="{StaticResource Label}"/>
                                 <TextBlock Text="{Binding LaptopCountBuilt}" 
@@ -38,7 +38,7 @@
                                          Style="{StaticResource Label}"/>
                             </StackPanel>
                             <StackPanel Orientation="Horizontal">
-                                <TextBlock Text="Prebuilds built:" 
+                                <TextBlock Text="Desktops:" 
                                        Margin="25 0 0 15"
                                        Style="{StaticResource Label}"/>
                                 <TextBlock Text="{Binding DesktopBuiltToday}" 
@@ -50,14 +50,14 @@
                     </Border>
                     <Border Style="{StaticResource Tile}" Grid.Column="1">
                         <StackPanel>
-                            <TextBlock Text="Tested today" 
+                            <TextBlock Text="Passed" 
                                        Style="{StaticResource Header}"
                                         Margin="25 25 0 30"/>
                             <StackPanel Orientation="Horizontal">
                                 <TextBlock Text="Laptops:" 
                                        Margin="25 0 0 15"
                                        Style="{StaticResource Label}"/>
-                                <TextBlock Text="N/A" 
+                                <TextBlock Text="{Binding LaptopTestedToday}" 
                                          Margin="15 0 0 15"
                                          Style="{StaticResource Label}"/>
                             </StackPanel>
@@ -119,7 +119,7 @@
                         </StackPanel>
                     </Border>
                     <Border Style="{StaticResource Tile}" Grid.Column="1">
-
+                        
                     </Border>
                     <Border Style="{StaticResource Tile}" Grid.Column="2">
 

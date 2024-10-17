@@ -38,7 +38,16 @@ namespace XUMHUB.Services.HistoryProvider
             {
                 DateOnly date= DateOnly.FromDateTime(DateTime.Today);
 
-                return await dbContext.Histories.Where(r => r.Channel.Equals("Laptop") && r.Date.Equals(date)).CountAsync();
+                return await dbContext.Histories.Where(r => r.Channel.Contains("Laptop") && r.Date.Equals(date)).CountAsync();
+            }
+        }
+        public async Task<int> GetTestedLaptopAmountToday()
+        {
+            using (DBContext dbContext = new DBContext())
+            {
+                DateOnly date = DateOnly.FromDateTime(DateTime.Today);
+
+                return await dbContext.Histories.Where(r => r.Channel.Contains("Laptop") && r.Date.Equals(date) && r.IsTested==true).CountAsync();
             }
         }
         public async Task<int> GetDesktopBuilpAmountToday()
@@ -57,7 +66,7 @@ namespace XUMHUB.Services.HistoryProvider
             {
                 DateOnly date = DateOnly.FromDateTime(DateTime.Today);
 
-                return await dbContext.Histories.Where(r => !r.Channel.Equals("Prebuilt") && !r.Channel.Equals("Laptop") && r.Date.Equals(date) && r.Sku.StartsWith("C")).CountAsync();
+                return await dbContext.Histories.Where(r => !r.Channel.Equals("Prebuilt") && !r.Channel.Contains("Laptop") && r.Date.Equals(date) && r.Sku.StartsWith("C")).CountAsync();
             }
         }
         public async Task<int> GetLaptopOrdersToday()
@@ -66,7 +75,7 @@ namespace XUMHUB.Services.HistoryProvider
             {
                 DateOnly date = DateOnly.FromDateTime(DateTime.Today);
 
-                return await dbContext.Histories.Where(r => !r.Channel.Equals("Prebuilt") && !r.Channel.Equals("Laptop") && r.Date.Equals(date) && r.Sku.StartsWith("L")).CountAsync();
+                return await dbContext.Histories.Where(r => !r.Channel.Equals("Prebuilt") && !r.Channel.Contains("Laptop") && r.Date.Equals(date) && r.Sku.StartsWith("L") && !r.Sku.StartsWith("LX")).CountAsync();
             }
         }
 

@@ -29,5 +29,10 @@ namespace XUMHUB.Model
         {
             return await historyProvider.GetLaptopOrdersToday();
         }
+
+        internal async Task<int> LaptopTestedToday()
+        {
+            return await historyProvider.GetTestedLaptopAmountToday();
+        }
     }
 }

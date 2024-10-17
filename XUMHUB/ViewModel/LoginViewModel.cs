@@ -38,6 +38,7 @@ namespace XUMHUB.ViewModel
             }
             AgentStore.AgentModel = AgentModel;
             MainViewModel.IsButtonEnabled = true;
+
             repairNavService.Navigate();
             
         }
