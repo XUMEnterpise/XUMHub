@@ -68,7 +68,6 @@ namespace XUMHUB.Services.RepairDataService
             var returnRepairsData = await Task.WhenAll(repairsData);
             return returnRepairsData;
         }
-
         public async Task<RepairDataModel> GetRepair(int repairId)
         {
             using(var context = new DBContext())

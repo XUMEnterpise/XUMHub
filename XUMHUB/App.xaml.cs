@@ -31,7 +31,7 @@ namespace XUMHUB
             NavigationService<ToolsViewModel> toolsNavSer = new NavigationService<ToolsViewModel>(_navigationStore,()=> toolsViewModel);
             NavigationService<LaptopLoggingViewModel> laptopLogNavStore = new NavigationService<LaptopLoggingViewModel>(_navigationStore,()=> new LaptopLoggingViewModel(_navigationStore,_agentStore));
             NavigationService<RepairViewModel> repairViewService = new NavigationService<RepairViewModel>(_navigationStore,()=> new RepairViewModel(_navigationStore,_agentStore));
-            LoginViewModel loginViewModel = new LoginViewModel(repairViewService, _agentStore);
+            LoginViewModel loginViewModel = new LoginViewModel(dashNavServ, _agentStore);
             _navigationStore.CurrentViewModel = loginViewModel;
 
             MainWindow = new MainWindow()

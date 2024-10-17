@@ -11,11 +11,11 @@ namespace XUMHUB.Services.HistoryProvider
     {
         public Task<IEnumerable<HistoryModel>> GetAllHistory();
         public Task<HistoryModel> GetOrderByOrderID(string orderID);
-        public Task<int> GetDesktopBuilpAmountToday();
-        public Task<int> GetLaptopAmountToday();
-        public Task<int> GetDesktopOrdersToday();
-        public Task<int> GetLaptopOrdersToday();
-        public Task<int> GetTestedLaptopAmountToday();
-        public Task<int> GetTestedDesktopsToday();
+        public Task<int> GetDesktopBuilpAmount(DateTime date);
+        public Task<int> GetLaptopAmount(DateTime date);
+        public Task<int> GetDesktopOrders(DateTime date);
+        public Task<int> GetLaptopOrders(DateTime date);
+        public Task<int> GetTestedLaptopAmount(DateTime date);
+        public Task<int> GetTestedDesktops(DateTime date);
     }
 }

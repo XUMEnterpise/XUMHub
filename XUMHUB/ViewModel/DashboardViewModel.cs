@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 using XUMHUB.Model;
 using System.Timers;
 using XUMHUB.Stores;
+using System.Windows.Input;
+using XUMHUB.Core;
+using XUMHUB.Helpers;
 
 namespace XUMHUB.ViewModel
 {
@@ -14,6 +17,8 @@ namespace XUMHUB.ViewModel
 		private int _laptopCountBuilt;
 		public DashboardModel dashboardModel;
         private System.Timers.Timer _timer;
+		public ICommand SendLaptopsReport { get; }
+		public ICommand SendDesktopsReport { get; }
 
 
         public DashboardViewModel(AgentStore agentStore)
@@ -25,6 +30,21 @@ namespace XUMHUB.ViewModel
             _timer.AutoReset = true;
             _timer.Enabled = true;
             AgentStore = agentStore;
+			Date=DateTime.Now;
+			SendLaptopsReport = new RelayCommand(s => SendLaptopsReportMethod());
+            SendDesktopsReport = new RelayCommand(s => SendDesktopsReportMethod());
+        }
+
+        private async void SendDesktopsReportMethod()
+        {
+            string message = $"Date {Date}\nPCs Printed: {DesktopBuiltToday}\nPCs Tested:{DesktopsTestedToday}\nPC Orders:{DesktopOrdersToday}";
+            await dashboardModel.SendChatMessage(message,ChatHook.GPCWebhook);
+        }
+
+        private async void SendLaptopsReportMethod()
+        {
+			string message = $"Date {Date}\nLaptops Printed: {LaptopCountBuilt}\nLaptops Tested:{LaptopTestedToday}\nLaptop Orders:{LaptopOrdersToday}";
+			await dashboardModel.SendChatMessage(message,ChatHook.LaptopWebhook);
         }
 
         private void OnTimedEvent(object? sender, ElapsedEventArgs e)
@@ -96,16 +116,43 @@ namespace XUMHUB.ViewModel
 				OnPropertyChanged(nameof(LaptopTestedToday));
 			}
 		}
-
+		private int _desktopsTestedToday;
+		public int DesktopsTestedToday
+		{
+			get
+			{
+				return _desktopsTestedToday;
+			}
+			set
+			{
+				_desktopsTestedToday = value;
+				OnPropertyChanged(nameof(DesktopsTestedToday));
+			}
+		}
+		private DateTime? _date;
+		public DateTime? Date
+		{
+			get
+			{
+				return _date;
+			}
+			set
+			{
+				_date = value;
+				OnPropertyChanged(nameof(Date));
+			}
+		}
 		public AgentStore AgentStore { get; }
 
         public async Task LoadData()
 		{
-			LaptopCountBuilt = await dashboardModel.LaptopBuiltToday();
-			DesktopBuiltToday = await dashboardModel.DesktopBuiltToday();
-			DesktopOrdersToday = await dashboardModel.DesktopOrdersToday();
-			LaptopOrdersToday= await dashboardModel.LaptopOrdersToday();
-            LaptopTestedToday = await dashboardModel.LaptopTestedToday();
+			LaptopCountBuilt = await dashboardModel.LaptopBuilt(Date??DateTime.Now);
+			DesktopBuiltToday = await dashboardModel.DesktopBuilt(Date ?? DateTime.Now);
+			DesktopOrdersToday = await dashboardModel.DesktopOrders(Date ?? DateTime.Now);
+			LaptopOrdersToday= await dashboardModel.LaptopOrders(Date ?? DateTime.Now);
+            LaptopTestedToday = await dashboardModel.LaptopTested(Date ?? DateTime.Now);
+            DesktopsTestedToday = await dashboardModel.DesktopsTested(Date ?? DateTime.Now);
+
         }
 	}
 }

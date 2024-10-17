@@ -8,14 +8,20 @@ using Newtonsoft.Json;
 
 namespace XUMHUB.Helpers
 {
+    public static class ChatHook
+    {
+        public static string GPCWebhook { get { return "Hook here"; } }
+        public static string LaptopWebhook { get { return "Hook here"; } }
+    }
     internal class GoogleChatWebhook
     {
-        private async void SendWebhook(string message)
+        public async void SendWebhook(string message, string chatHook)
         {
             // Your Google Chat webhook URL
-            string webhookUrl = "https://chat.googleapis.com/v1/spaces/AAAAR68v7q0/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=We8ujTSOnWwTFhxjvLZLkbuvJtxwebxmz7Z837jQRek";
+            string webhookUrl =chatHook;
             // Convert the message to JSON
-            string jsonMessage = JsonConvert.SerializeObject(message);
+            var chatMessage = new { text = message };
+            string jsonMessage = JsonConvert.SerializeObject(chatMessage);
 
             using (HttpClient client = new HttpClient())
             {

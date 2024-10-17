@@ -18,14 +18,14 @@ namespace XUMHUB.ViewModel
 		private string staffCode;
 		public ICommand LoginCommand { get; }
 		IDatabaseToAgent agentService = new DatabaseToAgent();
-        NavigationService<RepairViewModel> repairNavService;
+        NavigationService<DashboardViewModel> dahsboardNavService;
         public MainViewModel MainViewModel { get; set; }
 
         public AgentModel AgentModel { get; set; }
-        public LoginViewModel(NavigationService<RepairViewModel> repairNavService, AgentStore agentStore)
+        public LoginViewModel(NavigationService<DashboardViewModel> dahsboardNavService, AgentStore agentStore)
         {
 			LoginCommand = new RelayCommand(s => OnLogin());
-			this.repairNavService = repairNavService;
+			this.dahsboardNavService = dahsboardNavService;
             AgentStore = agentStore;
         }
 
@@ -39,7 +39,7 @@ namespace XUMHUB.ViewModel
             AgentStore.AgentModel = AgentModel;
             MainViewModel.IsButtonEnabled = true;
 
-            repairNavService.Navigate();
+            dahsboardNavService.Navigate();
             
         }
 

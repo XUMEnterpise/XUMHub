@@ -3,48 +3,88 @@
   "WorkspaceRootPath": "C:\\Users\\artel\\source\\repos\\XUMHUB\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|C:\\Users\\artel\\source\\repos\\XUMHUB\\xumhub\\viewmodel\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|C:\\Users\\artel\\source\\repos\\XUMHUB\\xumhub\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|solutionrelative:xumhub\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|C:\\Users\\artel\\source\\repos\\XUMHUB\\xumhub\\helpers\\googlechatwebhook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|solutionrelative:xumhub\\helpers\\googlechatwebhook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|c:\\users\\artel\\source\\repos\\xumhub\\xumhub\\viewmodel\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|solutionrelative:xumhub\\viewmodel\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|c:\\users\\artel\\source\\repos\\xumhub\\xumhub\\helpers\\googlechatwebhook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|solutionrelative:xumhub\\helpers\\googlechatwebhook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|C:\\Users\\artel\\source\\repos\\XUMHUB\\xumhub\\model\\dashboardmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|solutionrelative:xumhub\\model\\dashboardmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|C:\\Users\\artel\\source\\repos\\XUMHUB\\xumhub\\view\\dashboardview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|solutionrelative:xumhub\\view\\dashboardview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|C:\\Users\\artel\\source\\repos\\XUMHUB\\xumhub\\services\\historyprovider\\ihistoryprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|solutionrelative:xumhub\\services\\historyprovider\\ihistoryprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|c:\\users\\artel\\source\\repos\\xumhub\\xumhub\\model\\dashboardmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|solutionrelative:xumhub\\model\\dashboardmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|C:\\Users\\artel\\source\\repos\\XUMHUB\\xumhub\\services\\historyprovider\\databasehistoryprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|solutionrelative:xumhub\\services\\historyprovider\\databasehistoryprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|C:\\Users\\artel\\source\\repos\\XUMHUB\\xumhub\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|solutionrelative:xumhub\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|C:\\Users\\artel\\source\\repos\\XUMHUB\\xumhub\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|solutionrelative:xumhub\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|C:\\Users\\artel\\source\\repos\\XUMHUB\\xumhub\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|solutionrelative:xumhub\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|C:\\Users\\artel\\source\\repos\\XUMHUB\\xumhub\\viewmodel\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|solutionrelative:xumhub\\viewmodel\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|c:\\users\\artel\\source\\repos\\xumhub\\xumhub\\dtos\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|solutionrelative:xumhub\\dtos\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|c:\\users\\artel\\source\\repos\\xumhub\\xumhub\\view\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|solutionrelative:xumhub\\view\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|c:\\users\\artel\\source\\repos\\xumhub\\xumhub\\services\\repairdataservice\\databasetorepairdatamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|C:\\Users\\artel\\source\\repos\\XUMHUB\\xumhub\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|solutionrelative:xumhub\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|C:\\Users\\artel\\source\\repos\\XUMHUB\\xumhub\\services\\historyprovider\\databasehistoryprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|solutionrelative:xumhub\\services\\historyprovider\\databasehistoryprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|C:\\Users\\artel\\source\\repos\\XUMHUB\\xumhub\\viewmodel\\repairentryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|solutionrelative:xumhub\\viewmodel\\repairentryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|C:\\Users\\artel\\source\\repos\\XUMHUB\\xumhub\\viewmodel\\repaireditviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|solutionrelative:xumhub\\viewmodel\\repaireditviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|C:\\Users\\artel\\source\\repos\\XUMHUB\\xumhub\\view\\returnsview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|solutionrelative:xumhub\\view\\returnsview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|C:\\Users\\artel\\source\\repos\\XUMHUB\\xumhub\\services\\laptopmodelsservice\\databasetolaptopinfomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|solutionrelative:xumhub\\services\\laptopmodelsservice\\databasetolaptopinfomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|C:\\Users\\artel\\source\\repos\\XUMHUB\\xumhub\\services\\repairdataservice\\databasetorepairdatamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|solutionrelative:xumhub\\services\\repairdataservice\\databasetorepairdatamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|C:\\Users\\artel\\source\\repos\\XUMHUB\\xumhub\\services\\historyprovider\\ihistoryprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|solutionrelative:xumhub\\services\\historyprovider\\ihistoryprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|C:\\Users\\artel\\source\\repos\\XUMHUB\\xumhub\\view\\repaireditview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|solutionrelative:xumhub\\view\\repaireditview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|C:\\Users\\artel\\source\\repos\\XUMHUB\\xumhub\\view\\repairview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|solutionrelative:xumhub\\view\\repairview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|C:\\Users\\artel\\source\\repos\\XUMHUB\\xumhub\\view\\returnsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|solutionrelative:xumhub\\view\\returnsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|C:\\Users\\artel\\source\\repos\\XUMHUB\\xumhub\\view\\faultsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|solutionrelative:xumhub\\view\\faultsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|C:\\Users\\artel\\source\\repos\\XUMHUB\\xumhub\\dtos\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|solutionrelative:xumhub\\dtos\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|C:\\Users\\artel\\source\\repos\\XUMHUB\\xumhub\\services\\agentservice\\databasetoagent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -65,10 +105,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|C:\\Users\\artel\\source\\repos\\XUMHUB\\xumhub\\viewmodel\\faultviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|solutionrelative:xumhub\\viewmodel\\faultviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|C:\\Users\\artel\\source\\repos\\XUMHUB\\xumhub\\view\\faultsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|solutionrelative:xumhub\\view\\faultsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|C:\\Users\\artel\\source\\repos\\XUMHUB\\xumhub\\viewmodel\\faultselectionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -115,10 +151,6 @@
       "RelativeMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|solutionrelative:xumhub\\view\\toolsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|C:\\Users\\artel\\source\\repos\\XUMHUB\\xumhub\\view\\returnsview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|solutionrelative:xumhub\\view\\returnsview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|C:\\Users\\artel\\source\\repos\\XUMHUB\\xumhub\\stores\\agentstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|solutionrelative:xumhub\\stores\\agentstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -137,10 +169,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|C:\\Users\\artel\\source\\repos\\XUMHUB\\xumhub\\services\\faultsservice\\idatabasetofaults.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|solutionrelative:xumhub\\services\\faultsservice\\idatabasetofaults.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|C:\\Users\\artel\\source\\repos\\XUMHUB\\xumhub\\services\\laptopmodelsservice\\databasetolaptopinfomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|solutionrelative:xumhub\\services\\laptopmodelsservice\\databasetolaptopinfomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|C:\\Users\\artel\\source\\repos\\XUMHUB\\xumhub\\viewmodel\\repairviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -163,10 +191,6 @@
       "RelativeMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|solutionrelative:xumhub\\services\\repairdataservice\\idatabasetorepairdatamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|C:\\Users\\artel\\source\\repos\\XUMHUB\\xumhub\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|solutionrelative:xumhub\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|C:\\Users\\artel\\source\\repos\\XUMHUB\\xumhub\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|solutionrelative:xumhub\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -177,14 +201,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|C:\\Users\\artel\\source\\repos\\XUMHUB\\xumhub\\commands\\updatefaultcheckboxcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|solutionrelative:xumhub\\commands\\updatefaultcheckboxcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|C:\\Users\\artel\\source\\repos\\XUMHUB\\xumhub\\viewmodel\\repaireditviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|solutionrelative:xumhub\\viewmodel\\repaireditviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|C:\\Users\\artel\\source\\repos\\XUMHUB\\xumhub\\viewmodel\\repairentryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|solutionrelative:xumhub\\viewmodel\\repairentryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|C:\\Users\\artel\\source\\repos\\XUMHUB\\xumhub\\behaviours\\loggedintoenabledconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -205,10 +221,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|C:\\Users\\artel\\source\\repos\\XUMHUB\\xumhub\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|solutionrelative:xumhub\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|C:\\Users\\artel\\source\\repos\\XUMHUB\\xumhub\\view\\repaireditview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|solutionrelative:xumhub\\view\\repaireditview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|C:\\Users\\artel\\source\\repos\\XUMHUB\\xumhub\\dtos\\laptopmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -233,14 +245,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|C:\\Users\\artel\\source\\repos\\XUMHUB\\xumhub\\model\\repairdatamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|solutionrelative:xumhub\\model\\repairdatamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|C:\\Users\\artel\\source\\repos\\XUMHUB\\xumhub\\view\\repairview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|solutionrelative:xumhub\\view\\repairview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|C:\\Users\\artel\\source\\repos\\XUMHUB\\xumhub\\view\\returnsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|solutionrelative:xumhub\\view\\returnsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F702DF7C-E2A3-42E4-B9C7-C68F4C359769}|XUMHUB\\XUMHUB.csproj|C:\\Users\\artel\\source\\repos\\XUMHUB\\xumhub\\commands\\navigatecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -330,11 +334,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 12,
               "Title": "ReturnsView.xaml.cs",
               "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\View\\ReturnsView.xaml.cs",
               "RelativeDocumentMoniker": "XUMHUB\\View\\ReturnsView.xaml.cs",
@@ -343,62 +347,24 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-20T19:01:29.343Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GoogleChatWebhook.cs",
-              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Helpers\\GoogleChatWebhook.cs",
-              "RelativeDocumentMoniker": "XUMHUB\\Helpers\\GoogleChatWebhook.cs",
-              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Helpers\\GoogleChatWebhook.cs",
-              "RelativeToolTip": "XUMHUB\\Helpers\\GoogleChatWebhook.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAC7AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T17:52:23.581Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DashboardModel.cs",
-              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Model\\DashboardModel.cs",
-              "RelativeDocumentMoniker": "XUMHUB\\Model\\DashboardModel.cs",
-              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Model\\DashboardModel.cs",
-              "RelativeToolTip": "XUMHUB\\Model\\DashboardModel.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAkwCIAAABGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T17:27:59.653Z",
+              "DocumentIndex": 7,
+              "Title": "LoginView.xaml",
+              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\View\\LoginView.xaml",
+              "RelativeDocumentMoniker": "XUMHUB\\View\\LoginView.xaml",
+              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\View\\LoginView.xaml",
+              "RelativeToolTip": "XUMHUB\\View\\LoginView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-17T19:17:24.227Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "FaultViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\ViewModel\\FaultViewModel.cs",
-              "RelativeDocumentMoniker": "XUMHUB\\ViewModel\\FaultViewModel.cs",
-              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\ViewModel\\FaultViewModel.cs",
-              "RelativeToolTip": "XUMHUB\\ViewModel\\FaultViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T17:46:25.011Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "LoginViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\ViewModel\\LoginViewModel.cs",
-              "RelativeDocumentMoniker": "XUMHUB\\ViewModel\\LoginViewModel.cs",
-              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\ViewModel\\LoginViewModel.cs",
-              "RelativeToolTip": "XUMHUB\\ViewModel\\LoginViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-30T11:48:10.793Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\MainWindow.xaml",
               "RelativeDocumentMoniker": "XUMHUB\\MainWindow.xaml",
@@ -410,539 +376,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MainViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\ViewModel\\MainViewModel.cs",
-              "RelativeDocumentMoniker": "XUMHUB\\ViewModel\\MainViewModel.cs",
-              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\ViewModel\\MainViewModel.cs",
-              "RelativeToolTip": "XUMHUB\\ViewModel\\MainViewModel.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAADsAAAAhAAAA",
+              "DocumentIndex": 5,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\App.xaml.cs",
+              "RelativeDocumentMoniker": "XUMHUB\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\App.xaml.cs",
+              "RelativeToolTip": "XUMHUB\\App.xaml.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAWwCEAAABKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-30T11:49:27.053Z",
+              "WhenOpened": "2024-08-27T21:49:56.987Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "GoogleChatWebhook.cs",
+              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Helpers\\GoogleChatWebhook.cs",
+              "RelativeDocumentMoniker": "XUMHUB\\Helpers\\GoogleChatWebhook.cs",
+              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Helpers\\GoogleChatWebhook.cs",
+              "RelativeToolTip": "XUMHUB\\Helpers\\GoogleChatWebhook.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAABgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T17:52:23.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "DashboardViewModel.cs",
               "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\ViewModel\\DashboardViewModel.cs",
               "RelativeDocumentMoniker": "XUMHUB\\ViewModel\\DashboardViewModel.cs",
               "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\ViewModel\\DashboardViewModel.cs",
               "RelativeToolTip": "XUMHUB\\ViewModel\\DashboardViewModel.cs",
-              "ViewState": "AQIAAEIAAAAAAAAAAAAAAGIAAAAAAAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAAAkwC4AAABIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-31T19:42:19.501Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IHistoryProvider.cs",
-              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Services\\HistoryProvider\\IHistoryProvider.cs",
-              "RelativeDocumentMoniker": "XUMHUB\\Services\\HistoryProvider\\IHistoryProvider.cs",
-              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Services\\HistoryProvider\\IHistoryProvider.cs",
-              "RelativeToolTip": "XUMHUB\\Services\\HistoryProvider\\IHistoryProvider.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAyAAAA",
+              "DocumentIndex": 8,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\ViewModel\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "XUMHUB\\ViewModel\\MainViewModel.cs",
+              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\ViewModel\\MainViewModel.cs",
+              "RelativeToolTip": "XUMHUB\\ViewModel\\MainViewModel.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACAAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T18:32:22.833Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DashboardView.xaml",
-              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\View\\DashboardView.xaml",
-              "RelativeDocumentMoniker": "XUMHUB\\View\\DashboardView.xaml",
-              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\View\\DashboardView.xaml",
-              "RelativeToolTip": "XUMHUB\\View\\DashboardView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-31T20:50:19.386Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "IDatabaseToAgent.cs",
-              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Services\\AgentService\\IDatabaseToAgent.cs",
-              "RelativeDocumentMoniker": "XUMHUB\\Services\\AgentService\\IDatabaseToAgent.cs",
-              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Services\\AgentService\\IDatabaseToAgent.cs",
-              "RelativeToolTip": "XUMHUB\\Services\\AgentService\\IDatabaseToAgent.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T17:36:15.305Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 60,
-              "Title": "NavigateCommand.cs",
-              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Commands\\NavigateCommand.cs",
-              "RelativeDocumentMoniker": "XUMHUB\\Commands\\NavigateCommand.cs",
-              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Commands\\NavigateCommand.cs",
-              "RelativeToolTip": "XUMHUB\\Commands\\NavigateCommand.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T18:11:04.481Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 64,
-              "Title": "IIssueLogToDB.cs",
-              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Services\\IssueLogService\\IIssueLogToDB.cs",
-              "RelativeDocumentMoniker": "XUMHUB\\Services\\IssueLogService\\IIssueLogToDB.cs",
-              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Services\\IssueLogService\\IIssueLogToDB.cs",
-              "RelativeToolTip": "XUMHUB\\Services\\IssueLogService\\IIssueLogToDB.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T19:57:28.224Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 61,
-              "Title": "CommandBase.cs",
-              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Commands\\CommandBase.cs",
-              "RelativeDocumentMoniker": "XUMHUB\\Commands\\CommandBase.cs",
-              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Commands\\CommandBase.cs",
-              "RelativeToolTip": "XUMHUB\\Commands\\CommandBase.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T17:18:17.445Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 63,
-              "Title": "DabatabaseCustomerInfoProvider.cs",
-              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Services\\CustomerInfoProvider\\DabatabaseCustomerInfoProvider.cs",
-              "RelativeDocumentMoniker": "XUMHUB\\Services\\CustomerInfoProvider\\DabatabaseCustomerInfoProvider.cs",
-              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Services\\CustomerInfoProvider\\DabatabaseCustomerInfoProvider.cs",
-              "RelativeToolTip": "XUMHUB\\Services\\CustomerInfoProvider\\DabatabaseCustomerInfoProvider.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T13:58:18.831Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 62,
-              "Title": "IssuesToDb.cs",
-              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Services\\IssueLogService\\IssuesToDb.cs",
-              "RelativeDocumentMoniker": "XUMHUB\\Services\\IssueLogService\\IssuesToDb.cs",
-              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Services\\IssueLogService\\IssuesToDb.cs",
-              "RelativeToolTip": "XUMHUB\\Services\\IssueLogService\\IssuesToDb.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T19:58:24.285Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DatabaseHistoryProvider.cs",
-              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Services\\HistoryProvider\\DatabaseHistoryProvider.cs",
-              "RelativeDocumentMoniker": "XUMHUB\\Services\\HistoryProvider\\DatabaseHistoryProvider.cs",
-              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Services\\HistoryProvider\\DatabaseHistoryProvider.cs",
-              "RelativeToolTip": "XUMHUB\\Services\\HistoryProvider\\DatabaseHistoryProvider.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAACsAAAA5AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T18:33:41.026Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "DatabaseToAgent.cs",
-              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Services\\AgentService\\DatabaseToAgent.cs",
-              "RelativeDocumentMoniker": "XUMHUB\\Services\\AgentService\\DatabaseToAgent.cs",
-              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Services\\AgentService\\DatabaseToAgent.cs",
-              "RelativeToolTip": "XUMHUB\\Services\\AgentService\\DatabaseToAgent.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T13:58:26.766Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "AsyncCommandBase.cs",
-              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Commands\\AsyncCommandBase.cs",
-              "RelativeDocumentMoniker": "XUMHUB\\Commands\\AsyncCommandBase.cs",
-              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Commands\\AsyncCommandBase.cs",
-              "RelativeToolTip": "XUMHUB\\Commands\\AsyncCommandBase.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-02T08:41:54.11Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "IDatabaseToIssueFault.cs",
-              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Services\\IssuesService\\IDatabaseToIssueFault.cs",
-              "RelativeDocumentMoniker": "XUMHUB\\Services\\IssuesService\\IDatabaseToIssueFault.cs",
-              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Services\\IssuesService\\IDatabaseToIssueFault.cs",
-              "RelativeToolTip": "XUMHUB\\Services\\IssuesService\\IDatabaseToIssueFault.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-02T08:55:15.651Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "DBContext.cs",
-              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\DTOS\\DBContext.cs",
-              "RelativeDocumentMoniker": "XUMHUB\\DTOS\\DBContext.cs",
-              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\DTOS\\DBContext.cs",
-              "RelativeToolTip": "XUMHUB\\DTOS\\DBContext.cs",
-              "ViewState": "AQIAADAAAAAAAAAAAAAAAFIAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T17:13:01.717Z",
+              "WhenOpened": "2024-08-30T11:49:27.053Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "DatabaseToRepairDataModel.cs",
-              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Services\\RepairDataService\\DatabaseToRepairDataModel.cs",
-              "RelativeDocumentMoniker": "XUMHUB\\Services\\RepairDataService\\DatabaseToRepairDataModel.cs",
-              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Services\\RepairDataService\\DatabaseToRepairDataModel.cs",
-              "RelativeToolTip": "XUMHUB\\Services\\RepairDataService\\DatabaseToRepairDataModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHsAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-12T19:43:17.009Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "DatabaseReturnsInfoProvider.cs",
-              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Services\\ReturnsProvider\\DatabaseReturnsInfoProvider.cs",
-              "RelativeDocumentMoniker": "XUMHUB\\Services\\ReturnsProvider\\DatabaseReturnsInfoProvider.cs",
-              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Services\\ReturnsProvider\\DatabaseReturnsInfoProvider.cs",
-              "RelativeToolTip": "XUMHUB\\Services\\ReturnsProvider\\DatabaseReturnsInfoProvider.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T13:57:54.163Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "IDatabaseToRepairDataModel.cs",
-              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Services\\RepairDataService\\IDatabaseToRepairDataModel.cs",
-              "RelativeDocumentMoniker": "XUMHUB\\Services\\RepairDataService\\IDatabaseToRepairDataModel.cs",
-              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Services\\RepairDataService\\IDatabaseToRepairDataModel.cs",
-              "RelativeToolTip": "XUMHUB\\Services\\RepairDataService\\IDatabaseToRepairDataModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-12T19:42:29.73Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "ReturnsListingViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\ViewModel\\ReturnsListingViewModel.cs",
-              "RelativeDocumentMoniker": "XUMHUB\\ViewModel\\ReturnsListingViewModel.cs",
-              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\ViewModel\\ReturnsListingViewModel.cs",
-              "RelativeToolTip": "XUMHUB\\ViewModel\\ReturnsListingViewModel.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAswEMAAABVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T20:05:38.686Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\App.xaml.cs",
-              "RelativeDocumentMoniker": "XUMHUB\\App.xaml.cs",
-              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\App.xaml.cs",
-              "RelativeToolTip": "XUMHUB\\App.xaml.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAWwCAAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T21:49:56.987Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "XUMHUB\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\MainWindow.xaml.cs",
-              "RelativeToolTip": "XUMHUB\\MainWindow.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-30T12:01:42.133Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "CreateFaultCommand.cs",
-              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Commands\\CreateFaultCommand.cs",
-              "RelativeDocumentMoniker": "XUMHUB\\Commands\\CreateFaultCommand.cs",
-              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Commands\\CreateFaultCommand.cs",
-              "RelativeToolTip": "XUMHUB\\Commands\\CreateFaultCommand.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T17:18:50.896Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "FaultsView.xaml",
-              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\View\\FaultsView.xaml",
-              "RelativeDocumentMoniker": "XUMHUB\\View\\FaultsView.xaml",
-              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\View\\FaultsView.xaml",
-              "RelativeToolTip": "XUMHUB\\View\\FaultsView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-08-28T09:32:43.964Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Fault.cs",
-              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\DTOS\\Fault.cs",
-              "RelativeDocumentMoniker": "XUMHUB\\DTOS\\Fault.cs",
-              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\DTOS\\Fault.cs",
-              "RelativeToolTip": "XUMHUB\\DTOS\\Fault.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-30T12:42:32.5Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "FaultSelectionViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\ViewModel\\FaultSelectionViewModel.cs",
-              "RelativeDocumentMoniker": "XUMHUB\\ViewModel\\FaultSelectionViewModel.cs",
-              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\ViewModel\\FaultSelectionViewModel.cs",
-              "RelativeToolTip": "XUMHUB\\ViewModel\\FaultSelectionViewModel.cs",
-              "ViewState": "AQIAAEMAAAAAAAAAAAAcwGgAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-02T08:37:50.952Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "UpdateIssueCommand.cs",
-              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Commands\\UpdateIssueCommand.cs",
-              "RelativeDocumentMoniker": "XUMHUB\\Commands\\UpdateIssueCommand.cs",
-              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Commands\\UpdateIssueCommand.cs",
-              "RelativeToolTip": "XUMHUB\\Commands\\UpdateIssueCommand.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABBAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-02T08:53:26.532Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "DatabaseToIssueLog.cs",
-              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Services\\IssuesService\\DatabaseToIssueLog.cs",
-              "RelativeDocumentMoniker": "XUMHUB\\Services\\IssuesService\\DatabaseToIssueLog.cs",
-              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Services\\IssuesService\\DatabaseToIssueLog.cs",
-              "RelativeToolTip": "XUMHUB\\Services\\IssuesService\\DatabaseToIssueLog.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-02T08:55:41.019Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "BaseViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\ViewModel\\BaseViewModel.cs",
-              "RelativeDocumentMoniker": "XUMHUB\\ViewModel\\BaseViewModel.cs",
-              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\ViewModel\\BaseViewModel.cs",
-              "RelativeToolTip": "XUMHUB\\ViewModel\\BaseViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T19:31:44.998Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "BooleanToVisibilityConverter.cs",
-              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Behaviours\\BooleanToVisibilityConverter.cs",
-              "RelativeDocumentMoniker": "XUMHUB\\Behaviours\\BooleanToVisibilityConverter.cs",
-              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Behaviours\\BooleanToVisibilityConverter.cs",
-              "RelativeToolTip": "XUMHUB\\Behaviours\\BooleanToVisibilityConverter.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T20:33:06.959Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "FaultModel.cs",
-              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Model\\FaultModel.cs",
-              "RelativeDocumentMoniker": "XUMHUB\\Model\\FaultModel.cs",
-              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Model\\FaultModel.cs",
-              "RelativeToolTip": "XUMHUB\\Model\\FaultModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T18:16:53.404Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "DatabaseToFaults.cs",
-              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Services\\FaultsService\\DatabaseToFaults.cs",
-              "RelativeDocumentMoniker": "XUMHUB\\Services\\FaultsService\\DatabaseToFaults.cs",
-              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Services\\FaultsService\\DatabaseToFaults.cs",
-              "RelativeToolTip": "XUMHUB\\Services\\FaultsService\\DatabaseToFaults.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAcwBwAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T17:13:56.389Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "ToolsView.xaml",
-              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\View\\ToolsView.xaml",
-              "RelativeDocumentMoniker": "XUMHUB\\View\\ToolsView.xaml",
-              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\View\\ToolsView.xaml",
-              "RelativeToolTip": "XUMHUB\\View\\ToolsView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-08-20T18:53:03.305Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "FaultsViewmodel.cs",
-              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\ViewModel\\FaultsViewmodel.cs",
-              "RelativeDocumentMoniker": "XUMHUB\\ViewModel\\FaultsViewmodel.cs",
-              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\ViewModel\\FaultsViewmodel.cs",
-              "RelativeToolTip": "XUMHUB\\ViewModel\\FaultsViewmodel.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAACwAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T14:45:29.178Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "AgentStore.cs",
-              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Stores\\AgentStore.cs",
-              "RelativeDocumentMoniker": "XUMHUB\\Stores\\AgentStore.cs",
-              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Stores\\AgentStore.cs",
-              "RelativeToolTip": "XUMHUB\\Stores\\AgentStore.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-30T12:09:10.655Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "CreateRepairEntryCommand.cs",
-              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Commands\\CreateRepairEntryCommand.cs",
-              "RelativeDocumentMoniker": "XUMHUB\\Commands\\CreateRepairEntryCommand.cs",
-              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Commands\\CreateRepairEntryCommand.cs",
-              "RelativeToolTip": "XUMHUB\\Commands\\CreateRepairEntryCommand.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAkwBUAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T20:22:24.993Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "LaptopLoggingViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\ViewModel\\LaptopLoggingViewModel.cs",
-              "RelativeDocumentMoniker": "XUMHUB\\ViewModel\\LaptopLoggingViewModel.cs",
-              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\ViewModel\\LaptopLoggingViewModel.cs",
-              "RelativeToolTip": "XUMHUB\\ViewModel\\LaptopLoggingViewModel.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAcwCoAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-30T12:27:52.373Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "RelayCommand.cs",
-              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Core\\RelayCommand.cs",
-              "RelativeDocumentMoniker": "XUMHUB\\Core\\RelayCommand.cs",
-              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Core\\RelayCommand.cs",
-              "RelativeToolTip": "XUMHUB\\Core\\RelayCommand.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAcwBkAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T17:53:07.081Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "DatabaseToLaptopInfoModel.cs",
-              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Services\\LaptopModelsService\\DatabaseToLaptopInfoModel.cs",
-              "RelativeDocumentMoniker": "XUMHUB\\Services\\LaptopModelsService\\DatabaseToLaptopInfoModel.cs",
-              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Services\\LaptopModelsService\\DatabaseToLaptopInfoModel.cs",
-              "RelativeToolTip": "XUMHUB\\Services\\LaptopModelsService\\DatabaseToLaptopInfoModel.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAkwBoAAAA/AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T18:29:30.784Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "IDatabaseToFaults.cs",
-              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Services\\FaultsService\\IDatabaseToFaults.cs",
-              "RelativeDocumentMoniker": "XUMHUB\\Services\\FaultsService\\IDatabaseToFaults.cs",
-              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Services\\FaultsService\\IDatabaseToFaults.cs",
-              "RelativeToolTip": "XUMHUB\\Services\\FaultsService\\IDatabaseToFaults.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T17:13:41.511Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "RepairViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\ViewModel\\RepairViewModel.cs",
-              "RelativeDocumentMoniker": "XUMHUB\\ViewModel\\RepairViewModel.cs",
-              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\ViewModel\\RepairViewModel.cs",
-              "RelativeToolTip": "XUMHUB\\ViewModel\\RepairViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAABNAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-12T19:06:59.252Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "ReturnsInfoViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\ViewModel\\ReturnsInfoViewModel.cs",
-              "RelativeDocumentMoniker": "XUMHUB\\ViewModel\\ReturnsInfoViewModel.cs",
-              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\ViewModel\\ReturnsInfoViewModel.cs",
-              "RelativeToolTip": "XUMHUB\\ViewModel\\ReturnsInfoViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T20:05:36.69Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "RepairEditViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\ViewModel\\RepairEditViewModel.cs",
-              "RelativeDocumentMoniker": "XUMHUB\\ViewModel\\RepairEditViewModel.cs",
-              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\ViewModel\\RepairEditViewModel.cs",
-              "RelativeToolTip": "XUMHUB\\ViewModel\\RepairEditViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T20:04:44.102Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "CheckBoxBehaviour.cs",
-              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Behaviours\\CheckBoxBehaviour.cs",
-              "RelativeDocumentMoniker": "XUMHUB\\Behaviours\\CheckBoxBehaviour.cs",
-              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Behaviours\\CheckBoxBehaviour.cs",
-              "RelativeToolTip": "XUMHUB\\Behaviours\\CheckBoxBehaviour.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAAC4AAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T18:28:35.998Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "UpdateFaultCheckBoxCommand.cs",
-              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Commands\\UpdateFaultCheckBoxCommand.cs",
-              "RelativeDocumentMoniker": "XUMHUB\\Commands\\UpdateFaultCheckBoxCommand.cs",
-              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Commands\\UpdateFaultCheckBoxCommand.cs",
-              "RelativeToolTip": "XUMHUB\\Commands\\UpdateFaultCheckBoxCommand.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAA3AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-30T12:40:59.81Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
               "Title": "RepairEntryViewModel.cs",
               "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\ViewModel\\RepairEntryViewModel.cs",
               "RelativeDocumentMoniker": "XUMHUB\\ViewModel\\RepairEntryViewModel.cs",
@@ -950,70 +436,151 @@
               "RelativeToolTip": "XUMHUB\\ViewModel\\RepairEntryViewModel.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAkwCIAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T13:41:55.95Z"
+              "WhenOpened": "2024-08-27T13:41:55.95Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "LoggedInToEnabledConverter.cs",
-              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Behaviours\\LoggedInToEnabledConverter.cs",
-              "RelativeDocumentMoniker": "XUMHUB\\Behaviours\\LoggedInToEnabledConverter.cs",
-              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Behaviours\\LoggedInToEnabledConverter.cs",
-              "RelativeToolTip": "XUMHUB\\Behaviours\\LoggedInToEnabledConverter.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAFAAAA",
+              "DocumentIndex": 6,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\ViewModel\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "XUMHUB\\ViewModel\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\ViewModel\\LoginViewModel.cs",
+              "RelativeToolTip": "XUMHUB\\ViewModel\\LoginViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-30T12:17:19.516Z"
+              "WhenOpened": "2024-08-30T11:48:10.793Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
-              "Title": "NavigationStore.cs",
-              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Stores\\NavigationStore.cs",
-              "RelativeDocumentMoniker": "XUMHUB\\Stores\\NavigationStore.cs",
-              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Stores\\NavigationStore.cs",
-              "RelativeToolTip": "XUMHUB\\Stores\\NavigationStore.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 3,
+              "Title": "DashboardModel.cs",
+              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Model\\DashboardModel.cs",
+              "RelativeDocumentMoniker": "XUMHUB\\Model\\DashboardModel.cs",
+              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Model\\DashboardModel.cs",
+              "RelativeToolTip": "XUMHUB\\Model\\DashboardModel.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAkwC0AAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-30T12:09:12.376Z"
+              "WhenOpened": "2024-10-17T17:27:59.653Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "ToolsViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\ViewModel\\ToolsViewModel.cs",
-              "RelativeDocumentMoniker": "XUMHUB\\ViewModel\\ToolsViewModel.cs",
-              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\ViewModel\\ToolsViewModel.cs",
-              "RelativeToolTip": "XUMHUB\\ViewModel\\ToolsViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABTAAAA",
+              "DocumentIndex": 11,
+              "Title": "RepairEditViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\ViewModel\\RepairEditViewModel.cs",
+              "RelativeDocumentMoniker": "XUMHUB\\ViewModel\\RepairEditViewModel.cs",
+              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\ViewModel\\RepairEditViewModel.cs",
+              "RelativeToolTip": "XUMHUB\\ViewModel\\RepairEditViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-30T12:12:58.779Z"
+              "WhenOpened": "2024-08-27T20:04:44.102Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "DashboardView.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\View\\DashboardView.xaml.cs",
-              "RelativeDocumentMoniker": "XUMHUB\\View\\DashboardView.xaml.cs",
-              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\View\\DashboardView.xaml.cs",
-              "RelativeToolTip": "XUMHUB\\View\\DashboardView.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAiAAAA",
+              "DocumentIndex": 9,
+              "Title": "DatabaseHistoryProvider.cs",
+              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Services\\HistoryProvider\\DatabaseHistoryProvider.cs",
+              "RelativeDocumentMoniker": "XUMHUB\\Services\\HistoryProvider\\DatabaseHistoryProvider.cs",
+              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Services\\HistoryProvider\\DatabaseHistoryProvider.cs",
+              "RelativeToolTip": "XUMHUB\\Services\\HistoryProvider\\DatabaseHistoryProvider.cs",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAAAGYAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-30T12:14:45.098Z"
+              "WhenOpened": "2024-07-25T18:33:41.026Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 13,
+              "Title": "DatabaseToLaptopInfoModel.cs",
+              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Services\\LaptopModelsService\\DatabaseToLaptopInfoModel.cs",
+              "RelativeDocumentMoniker": "XUMHUB\\Services\\LaptopModelsService\\DatabaseToLaptopInfoModel.cs",
+              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Services\\LaptopModelsService\\DatabaseToLaptopInfoModel.cs",
+              "RelativeToolTip": "XUMHUB\\Services\\LaptopModelsService\\DatabaseToLaptopInfoModel.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAkwBoAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T18:29:30.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DatabaseToRepairDataModel.cs",
+              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Services\\RepairDataService\\DatabaseToRepairDataModel.cs",
+              "RelativeDocumentMoniker": "XUMHUB\\Services\\RepairDataService\\DatabaseToRepairDataModel.cs",
+              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Services\\RepairDataService\\DatabaseToRepairDataModel.cs",
+              "RelativeToolTip": "XUMHUB\\Services\\RepairDataService\\DatabaseToRepairDataModel.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAAEUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T19:43:17.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IHistoryProvider.cs",
+              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Services\\HistoryProvider\\IHistoryProvider.cs",
+              "RelativeDocumentMoniker": "XUMHUB\\Services\\HistoryProvider\\IHistoryProvider.cs",
+              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Services\\HistoryProvider\\IHistoryProvider.cs",
+              "RelativeToolTip": "XUMHUB\\Services\\HistoryProvider\\IHistoryProvider.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T18:32:22.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ReturnsView.xaml",
+              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\View\\ReturnsView.xaml",
+              "RelativeDocumentMoniker": "XUMHUB\\View\\ReturnsView.xaml",
+              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\View\\ReturnsView.xaml",
+              "RelativeToolTip": "XUMHUB\\View\\ReturnsView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-21T19:23:09.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "FaultsView.xaml",
+              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\View\\FaultsView.xaml",
+              "RelativeDocumentMoniker": "XUMHUB\\View\\FaultsView.xaml",
+              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\View\\FaultsView.xaml",
+              "RelativeToolTip": "XUMHUB\\View\\FaultsView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-28T09:32:43.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "RepairEditView.xaml",
               "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\View\\RepairEditView.xaml",
               "RelativeDocumentMoniker": "XUMHUB\\View\\RepairEditView.xaml",
               "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\View\\RepairEditView.xaml",
               "RelativeToolTip": "XUMHUB\\View\\RepairEditView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-08-21T19:23:01.367Z"
+              "WhenOpened": "2024-08-21T19:23:01.367Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 17,
+              "Title": "RepairView.xaml",
+              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\View\\RepairView.xaml",
+              "RelativeDocumentMoniker": "XUMHUB\\View\\RepairView.xaml",
+              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\View\\RepairView.xaml",
+              "RelativeToolTip": "XUMHUB\\View\\RepairView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-21T19:23:04.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\App.xaml",
               "RelativeDocumentMoniker": "XUMHUB\\App.xaml",
@@ -1025,7 +592,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 58,
               "Title": "AgentModel.cs",
               "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Model\\AgentModel.cs",
               "RelativeDocumentMoniker": "XUMHUB\\Model\\AgentModel.cs",
@@ -1037,7 +604,139 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "CheckBoxBehaviour.cs",
+              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Behaviours\\CheckBoxBehaviour.cs",
+              "RelativeDocumentMoniker": "XUMHUB\\Behaviours\\CheckBoxBehaviour.cs",
+              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Behaviours\\CheckBoxBehaviour.cs",
+              "RelativeToolTip": "XUMHUB\\Behaviours\\CheckBoxBehaviour.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAC4AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T18:28:35.998Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "UpdateFaultCheckBoxCommand.cs",
+              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Commands\\UpdateFaultCheckBoxCommand.cs",
+              "RelativeDocumentMoniker": "XUMHUB\\Commands\\UpdateFaultCheckBoxCommand.cs",
+              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Commands\\UpdateFaultCheckBoxCommand.cs",
+              "RelativeToolTip": "XUMHUB\\Commands\\UpdateFaultCheckBoxCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T12:40:59.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "FaultViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\ViewModel\\FaultViewModel.cs",
+              "RelativeDocumentMoniker": "XUMHUB\\ViewModel\\FaultViewModel.cs",
+              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\ViewModel\\FaultViewModel.cs",
+              "RelativeToolTip": "XUMHUB\\ViewModel\\FaultViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T17:46:25.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "IDatabaseToRepairDataModel.cs",
+              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Services\\RepairDataService\\IDatabaseToRepairDataModel.cs",
+              "RelativeDocumentMoniker": "XUMHUB\\Services\\RepairDataService\\IDatabaseToRepairDataModel.cs",
+              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Services\\RepairDataService\\IDatabaseToRepairDataModel.cs",
+              "RelativeToolTip": "XUMHUB\\Services\\RepairDataService\\IDatabaseToRepairDataModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T19:42:29.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "ReturnsListingViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\ViewModel\\ReturnsListingViewModel.cs",
+              "RelativeDocumentMoniker": "XUMHUB\\ViewModel\\ReturnsListingViewModel.cs",
+              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\ViewModel\\ReturnsListingViewModel.cs",
+              "RelativeToolTip": "XUMHUB\\ViewModel\\ReturnsListingViewModel.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAswEMAAABVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T20:05:38.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "XUMHUB\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\MainWindow.xaml.cs",
+              "RelativeToolTip": "XUMHUB\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T12:01:42.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CreateFaultCommand.cs",
+              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Commands\\CreateFaultCommand.cs",
+              "RelativeDocumentMoniker": "XUMHUB\\Commands\\CreateFaultCommand.cs",
+              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Commands\\CreateFaultCommand.cs",
+              "RelativeToolTip": "XUMHUB\\Commands\\CreateFaultCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T17:18:50.896Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "LoggedInToEnabledConverter.cs",
+              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Behaviours\\LoggedInToEnabledConverter.cs",
+              "RelativeDocumentMoniker": "XUMHUB\\Behaviours\\LoggedInToEnabledConverter.cs",
+              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Behaviours\\LoggedInToEnabledConverter.cs",
+              "RelativeToolTip": "XUMHUB\\Behaviours\\LoggedInToEnabledConverter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T12:17:19.516Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 53,
+              "Title": "NavigationStore.cs",
+              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Stores\\NavigationStore.cs",
+              "RelativeDocumentMoniker": "XUMHUB\\Stores\\NavigationStore.cs",
+              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Stores\\NavigationStore.cs",
+              "RelativeToolTip": "XUMHUB\\Stores\\NavigationStore.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T12:09:12.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "ToolsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\ViewModel\\ToolsViewModel.cs",
+              "RelativeDocumentMoniker": "XUMHUB\\ViewModel\\ToolsViewModel.cs",
+              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\ViewModel\\ToolsViewModel.cs",
+              "RelativeToolTip": "XUMHUB\\ViewModel\\ToolsViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T12:12:58.779Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "DashboardView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\View\\DashboardView.xaml.cs",
+              "RelativeDocumentMoniker": "XUMHUB\\View\\DashboardView.xaml.cs",
+              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\View\\DashboardView.xaml.cs",
+              "RelativeToolTip": "XUMHUB\\View\\DashboardView.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T12:14:45.098Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
               "Title": "RepairDatum.cs",
               "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\DTOS\\RepairDatum.cs",
               "RelativeDocumentMoniker": "XUMHUB\\DTOS\\RepairDatum.cs",
@@ -1049,7 +748,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 55,
               "Title": "LaptopModels.cs",
               "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\DTOS\\LaptopModels.cs",
               "RelativeDocumentMoniker": "XUMHUB\\DTOS\\LaptopModels.cs",
@@ -1061,7 +760,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 57,
               "Title": "ReturnsInfo.cs",
               "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\DTOS\\ReturnsInfo.cs",
               "RelativeDocumentMoniker": "XUMHUB\\DTOS\\ReturnsInfo.cs",
@@ -1073,7 +772,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 59,
               "Title": "TaskCommand.cs",
               "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Core\\TaskCommand.cs",
               "RelativeDocumentMoniker": "XUMHUB\\Core\\TaskCommand.cs",
@@ -1085,7 +784,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 60,
               "Title": "RepairDataModel.cs",
               "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Model\\RepairDataModel.cs",
               "RelativeDocumentMoniker": "XUMHUB\\Model\\RepairDataModel.cs",
@@ -1097,51 +796,367 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
-              "Title": "RepairView.xaml",
-              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\View\\RepairView.xaml",
-              "RelativeDocumentMoniker": "XUMHUB\\View\\RepairView.xaml",
-              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\View\\RepairView.xaml",
-              "RelativeToolTip": "XUMHUB\\View\\RepairView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-08-21T19:23:04.963Z"
+              "DocumentIndex": 22,
+              "Title": "IDatabaseToAgent.cs",
+              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Services\\AgentService\\IDatabaseToAgent.cs",
+              "RelativeDocumentMoniker": "XUMHUB\\Services\\AgentService\\IDatabaseToAgent.cs",
+              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Services\\AgentService\\IDatabaseToAgent.cs",
+              "RelativeToolTip": "XUMHUB\\Services\\AgentService\\IDatabaseToAgent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T17:36:15.305Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
-              "Title": "ReturnsView.xaml",
-              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\View\\ReturnsView.xaml",
-              "RelativeDocumentMoniker": "XUMHUB\\View\\ReturnsView.xaml",
-              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\View\\ReturnsView.xaml",
-              "RelativeToolTip": "XUMHUB\\View\\ReturnsView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-08-21T19:23:09.804Z"
+              "DocumentIndex": 61,
+              "Title": "NavigateCommand.cs",
+              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Commands\\NavigateCommand.cs",
+              "RelativeDocumentMoniker": "XUMHUB\\Commands\\NavigateCommand.cs",
+              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Commands\\NavigateCommand.cs",
+              "RelativeToolTip": "XUMHUB\\Commands\\NavigateCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T18:11:04.481Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 65,
+              "Title": "IIssueLogToDB.cs",
+              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Services\\IssueLogService\\IIssueLogToDB.cs",
+              "RelativeDocumentMoniker": "XUMHUB\\Services\\IssueLogService\\IIssueLogToDB.cs",
+              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Services\\IssueLogService\\IIssueLogToDB.cs",
+              "RelativeToolTip": "XUMHUB\\Services\\IssueLogService\\IIssueLogToDB.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T19:57:28.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "CommandBase.cs",
+              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Commands\\CommandBase.cs",
+              "RelativeDocumentMoniker": "XUMHUB\\Commands\\CommandBase.cs",
+              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Commands\\CommandBase.cs",
+              "RelativeToolTip": "XUMHUB\\Commands\\CommandBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T17:18:17.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "DabatabaseCustomerInfoProvider.cs",
+              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Services\\CustomerInfoProvider\\DabatabaseCustomerInfoProvider.cs",
+              "RelativeDocumentMoniker": "XUMHUB\\Services\\CustomerInfoProvider\\DabatabaseCustomerInfoProvider.cs",
+              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Services\\CustomerInfoProvider\\DabatabaseCustomerInfoProvider.cs",
+              "RelativeToolTip": "XUMHUB\\Services\\CustomerInfoProvider\\DabatabaseCustomerInfoProvider.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T13:58:18.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "IssuesToDb.cs",
+              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Services\\IssueLogService\\IssuesToDb.cs",
+              "RelativeDocumentMoniker": "XUMHUB\\Services\\IssueLogService\\IssuesToDb.cs",
+              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Services\\IssueLogService\\IssuesToDb.cs",
+              "RelativeToolTip": "XUMHUB\\Services\\IssueLogService\\IssuesToDb.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T19:58:24.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "DatabaseToAgent.cs",
+              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Services\\AgentService\\DatabaseToAgent.cs",
+              "RelativeDocumentMoniker": "XUMHUB\\Services\\AgentService\\DatabaseToAgent.cs",
+              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Services\\AgentService\\DatabaseToAgent.cs",
+              "RelativeToolTip": "XUMHUB\\Services\\AgentService\\DatabaseToAgent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T13:58:26.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "AsyncCommandBase.cs",
+              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Commands\\AsyncCommandBase.cs",
+              "RelativeDocumentMoniker": "XUMHUB\\Commands\\AsyncCommandBase.cs",
+              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Commands\\AsyncCommandBase.cs",
+              "RelativeToolTip": "XUMHUB\\Commands\\AsyncCommandBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T08:41:54.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IDatabaseToIssueFault.cs",
+              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Services\\IssuesService\\IDatabaseToIssueFault.cs",
+              "RelativeDocumentMoniker": "XUMHUB\\Services\\IssuesService\\IDatabaseToIssueFault.cs",
+              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Services\\IssuesService\\IDatabaseToIssueFault.cs",
+              "RelativeToolTip": "XUMHUB\\Services\\IssuesService\\IDatabaseToIssueFault.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T08:55:15.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "DBContext.cs",
+              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\DTOS\\DBContext.cs",
+              "RelativeDocumentMoniker": "XUMHUB\\DTOS\\DBContext.cs",
+              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\DTOS\\DBContext.cs",
+              "RelativeToolTip": "XUMHUB\\DTOS\\DBContext.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAAFIAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T17:13:01.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "DatabaseReturnsInfoProvider.cs",
+              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Services\\ReturnsProvider\\DatabaseReturnsInfoProvider.cs",
+              "RelativeDocumentMoniker": "XUMHUB\\Services\\ReturnsProvider\\DatabaseReturnsInfoProvider.cs",
+              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Services\\ReturnsProvider\\DatabaseReturnsInfoProvider.cs",
+              "RelativeToolTip": "XUMHUB\\Services\\ReturnsProvider\\DatabaseReturnsInfoProvider.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T13:57:54.163Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Fault.cs",
+              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\DTOS\\Fault.cs",
+              "RelativeDocumentMoniker": "XUMHUB\\DTOS\\Fault.cs",
+              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\DTOS\\Fault.cs",
+              "RelativeToolTip": "XUMHUB\\DTOS\\Fault.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T12:42:32.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "FaultSelectionViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\ViewModel\\FaultSelectionViewModel.cs",
+              "RelativeDocumentMoniker": "XUMHUB\\ViewModel\\FaultSelectionViewModel.cs",
+              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\ViewModel\\FaultSelectionViewModel.cs",
+              "RelativeToolTip": "XUMHUB\\ViewModel\\FaultSelectionViewModel.cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAcwGgAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T08:37:50.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "UpdateIssueCommand.cs",
+              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Commands\\UpdateIssueCommand.cs",
+              "RelativeDocumentMoniker": "XUMHUB\\Commands\\UpdateIssueCommand.cs",
+              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Commands\\UpdateIssueCommand.cs",
+              "RelativeToolTip": "XUMHUB\\Commands\\UpdateIssueCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T08:53:26.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "DatabaseToIssueLog.cs",
+              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Services\\IssuesService\\DatabaseToIssueLog.cs",
+              "RelativeDocumentMoniker": "XUMHUB\\Services\\IssuesService\\DatabaseToIssueLog.cs",
+              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Services\\IssuesService\\DatabaseToIssueLog.cs",
+              "RelativeToolTip": "XUMHUB\\Services\\IssuesService\\DatabaseToIssueLog.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T08:55:41.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "BaseViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\ViewModel\\BaseViewModel.cs",
+              "RelativeDocumentMoniker": "XUMHUB\\ViewModel\\BaseViewModel.cs",
+              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\ViewModel\\BaseViewModel.cs",
+              "RelativeToolTip": "XUMHUB\\ViewModel\\BaseViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T19:31:44.998Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "BooleanToVisibilityConverter.cs",
+              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Behaviours\\BooleanToVisibilityConverter.cs",
+              "RelativeDocumentMoniker": "XUMHUB\\Behaviours\\BooleanToVisibilityConverter.cs",
+              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Behaviours\\BooleanToVisibilityConverter.cs",
+              "RelativeToolTip": "XUMHUB\\Behaviours\\BooleanToVisibilityConverter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T20:33:06.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "FaultModel.cs",
+              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Model\\FaultModel.cs",
+              "RelativeDocumentMoniker": "XUMHUB\\Model\\FaultModel.cs",
+              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Model\\FaultModel.cs",
+              "RelativeToolTip": "XUMHUB\\Model\\FaultModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T18:16:53.404Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "DatabaseToFaults.cs",
+              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Services\\FaultsService\\DatabaseToFaults.cs",
+              "RelativeDocumentMoniker": "XUMHUB\\Services\\FaultsService\\DatabaseToFaults.cs",
+              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Services\\FaultsService\\DatabaseToFaults.cs",
+              "RelativeToolTip": "XUMHUB\\Services\\FaultsService\\DatabaseToFaults.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAcwBwAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T17:13:56.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ToolsView.xaml",
+              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\View\\ToolsView.xaml",
+              "RelativeDocumentMoniker": "XUMHUB\\View\\ToolsView.xaml",
+              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\View\\ToolsView.xaml",
+              "RelativeToolTip": "XUMHUB\\View\\ToolsView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-20T18:53:03.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "FaultsViewmodel.cs",
+              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\ViewModel\\FaultsViewmodel.cs",
+              "RelativeDocumentMoniker": "XUMHUB\\ViewModel\\FaultsViewmodel.cs",
+              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\ViewModel\\FaultsViewmodel.cs",
+              "RelativeToolTip": "XUMHUB\\ViewModel\\FaultsViewmodel.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACwAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T14:45:29.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "AgentStore.cs",
+              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Stores\\AgentStore.cs",
+              "RelativeDocumentMoniker": "XUMHUB\\Stores\\AgentStore.cs",
+              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Stores\\AgentStore.cs",
+              "RelativeToolTip": "XUMHUB\\Stores\\AgentStore.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T12:09:10.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "CreateRepairEntryCommand.cs",
+              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Commands\\CreateRepairEntryCommand.cs",
+              "RelativeDocumentMoniker": "XUMHUB\\Commands\\CreateRepairEntryCommand.cs",
+              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Commands\\CreateRepairEntryCommand.cs",
+              "RelativeToolTip": "XUMHUB\\Commands\\CreateRepairEntryCommand.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAkwBUAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T20:22:24.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "LaptopLoggingViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\ViewModel\\LaptopLoggingViewModel.cs",
+              "RelativeDocumentMoniker": "XUMHUB\\ViewModel\\LaptopLoggingViewModel.cs",
+              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\ViewModel\\LaptopLoggingViewModel.cs",
+              "RelativeToolTip": "XUMHUB\\ViewModel\\LaptopLoggingViewModel.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAcwCoAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T12:27:52.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Core\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "XUMHUB\\Core\\RelayCommand.cs",
+              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Core\\RelayCommand.cs",
+              "RelativeToolTip": "XUMHUB\\Core\\RelayCommand.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAcwBkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T17:53:07.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "IDatabaseToFaults.cs",
+              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Services\\FaultsService\\IDatabaseToFaults.cs",
+              "RelativeDocumentMoniker": "XUMHUB\\Services\\FaultsService\\IDatabaseToFaults.cs",
+              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Services\\FaultsService\\IDatabaseToFaults.cs",
+              "RelativeToolTip": "XUMHUB\\Services\\FaultsService\\IDatabaseToFaults.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T17:13:41.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "RepairViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\ViewModel\\RepairViewModel.cs",
+              "RelativeDocumentMoniker": "XUMHUB\\ViewModel\\RepairViewModel.cs",
+              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\ViewModel\\RepairViewModel.cs",
+              "RelativeToolTip": "XUMHUB\\ViewModel\\RepairViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T19:06:59.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "ReturnsInfoViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\ViewModel\\ReturnsInfoViewModel.cs",
+              "RelativeDocumentMoniker": "XUMHUB\\ViewModel\\ReturnsInfoViewModel.cs",
+              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\ViewModel\\ReturnsInfoViewModel.cs",
+              "RelativeToolTip": "XUMHUB\\ViewModel\\ReturnsInfoViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T20:05:36.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
               "Title": "CSVUploadView.xaml",
               "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\View\\CSVUploadView.xaml",
               "RelativeDocumentMoniker": "XUMHUB\\View\\CSVUploadView.xaml",
               "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\View\\CSVUploadView.xaml",
               "RelativeToolTip": "XUMHUB\\View\\CSVUploadView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-08-21T19:22:32.658Z"
+              "WhenOpened": "2024-08-21T19:22:32.658Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 66,
               "Title": "CustomerView.xaml",
               "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\View\\CustomerView.xaml",
               "RelativeDocumentMoniker": "XUMHUB\\View\\CustomerView.xaml",
               "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\View\\CustomerView.xaml",
               "RelativeToolTip": "XUMHUB\\View\\CustomerView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-08-21T19:22:43.632Z"
+              "WhenOpened": "2024-08-21T19:22:43.632Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 68,
               "Title": "RepairView.xaml.cs",
               "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\View\\RepairView.xaml.cs",
               "RelativeDocumentMoniker": "XUMHUB\\View\\RepairView.xaml.cs",
@@ -1153,7 +1168,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 74,
               "Title": "IssueLog.cs",
               "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\DTOS\\IssueLog.cs",
               "RelativeDocumentMoniker": "XUMHUB\\DTOS\\IssueLog.cs",
@@ -1165,7 +1180,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 73,
               "Title": "EnterKeyBehavior.cs",
               "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Behaviours\\EnterKeyBehavior.cs",
               "RelativeDocumentMoniker": "XUMHUB\\Behaviours\\EnterKeyBehavior.cs",
@@ -1177,7 +1192,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 75,
               "Title": "History.cs",
               "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\DTOS\\History.cs",
               "RelativeDocumentMoniker": "XUMHUB\\DTOS\\History.cs",
@@ -1189,7 +1204,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 72,
               "Title": "CSVUploadViewModel.cs",
               "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\ViewModel\\CSVUploadViewModel.cs",
               "RelativeDocumentMoniker": "XUMHUB\\ViewModel\\CSVUploadViewModel.cs",
@@ -1202,7 +1217,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 70,
               "Title": "HistoryModel.cs",
               "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Model\\HistoryModel.cs",
               "RelativeDocumentMoniker": "XUMHUB\\Model\\HistoryModel.cs",
@@ -1214,7 +1229,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 69,
               "Title": "IDatabaseToLaptopInfoModel.cs",
               "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Services\\LaptopModelsService\\IDatabaseToLaptopInfoModel.cs",
               "RelativeDocumentMoniker": "XUMHUB\\Services\\LaptopModelsService\\IDatabaseToLaptopInfoModel.cs",
@@ -1226,7 +1241,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 71,
               "Title": "CSVService.cs",
               "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Services\\CSVService.cs",
               "RelativeDocumentMoniker": "XUMHUB\\Services\\CSVService.cs",
@@ -1238,7 +1253,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 77,
+              "DocumentIndex": 78,
               "Title": "ReplacedPart.cs",
               "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\DTOS\\ReplacedPart.cs",
               "RelativeDocumentMoniker": "XUMHUB\\DTOS\\ReplacedPart.cs",
@@ -1250,7 +1265,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 76,
               "Title": "Styles.xaml",
               "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Resources\\Styles.xaml",
               "RelativeDocumentMoniker": "XUMHUB\\Resources\\Styles.xaml",
@@ -1262,7 +1277,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 78,
+              "DocumentIndex": 79,
               "Title": "Item.cs",
               "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Model\\Item.cs",
               "RelativeDocumentMoniker": "XUMHUB\\Model\\Item.cs",
@@ -1274,7 +1289,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 79,
+              "DocumentIndex": 80,
               "Title": "POModel.cs",
               "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Model\\POModel.cs",
               "RelativeDocumentMoniker": "XUMHUB\\Model\\POModel.cs",
@@ -1286,7 +1301,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 76,
+              "DocumentIndex": 77,
               "Title": "LaptopModel.cs",
               "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\Model\\LaptopModel.cs",
               "RelativeDocumentMoniker": "XUMHUB\\Model\\LaptopModel.cs",
@@ -1295,6 +1310,39 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-25T18:15:20.417Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "b08b7f93-31b9-4af4-9370-b663cd705aab",
+        "Display": 1,
+        "X": 517,
+        "Y": 196,
+        "Width": 1611,
+        "Height": 771,
+        "WindowState": 2
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DashboardView.xaml",
+              "DocumentMoniker": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\View\\DashboardView.xaml",
+              "RelativeDocumentMoniker": "XUMHUB\\View\\DashboardView.xaml",
+              "ToolTip": "C:\\Users\\artel\\source\\repos\\XUMHUB\\XUMHUB\\View\\DashboardView.xaml",
+              "RelativeToolTip": "XUMHUB\\View\\DashboardView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-31T20:50:19.386Z",
+              "EditorCaption": ""
             }
           ]
         }
